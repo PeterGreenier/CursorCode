@@ -1,0 +1,18 @@
+date: 2026-06-23
+problem: longest_substring
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+滑动窗口 + 哈希表记录字符最近出现位置。
+
+用 `[left, right]` 维护当前无重复子串的窗口。右指针逐字符扩展时：
+- 若字符在窗口内已出现，将 `left` 跳到该字符上次位置的下一位
+- 更新最长长度 `max_len`
+
+## 复杂度
+
+- 时间复杂度：O(n)，每个字符最多被左右指针各访问一次
+- 空间复杂度：O(min(n, m))，m 为字符集大小

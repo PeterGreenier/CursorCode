@@ -1,0 +1,20 @@
+date: 2026-06-23
+problem: climbing_stairs
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+动态规划：定义 `dp[i]` 为爬到第 i 阶的方法数。
+
+状态转移：`dp[i] = dp[i-1] + dp[i-2]`
+- 从 i-1 阶爬 1 步
+- 从 i-2 阶爬 2 步
+
+边界：`dp[1] = 1`，`dp[2] = 2`。本质为斐波那契数列。
+
+## 复杂度
+
+- 时间复杂度：O(n)
+- 空间复杂度：O(n)，可优化为 O(1)

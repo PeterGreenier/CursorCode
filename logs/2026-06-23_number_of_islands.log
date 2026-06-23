@@ -1,0 +1,16 @@
+date: 2026-06-23
+problem: number_of_islands
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+DFS 遍历二维网格，统计连通块（岛屿）数量。
+
+遍历每个格子，遇到 '1' 时计数 +1，并从该格子出发 DFS 将四向连通的陆地全部标记为已访问（置为 '0'），避免额外 visited 数组。
+
+## 复杂度
+
+- 时间复杂度：O(m × n)，每个格子最多访问一次
+- 空间复杂度：O(m × n)，递归栈最坏情况
