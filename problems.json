@@ -1,0 +1,92 @@
+[
+  {
+    "id": "two_sum",
+    "title": "两数之和",
+    "difficulty": "easy",
+    "prompt": "实现 LeetCode 1. 两数之和。给定整数数组 nums 和目标值 target，返回和为目标值的两个数的下标。用 Python 实现，写到 solutions/two_sum.py，并附带 if __name__ == \"__main__\" 的简单测试。"
+  },
+  {
+    "id": "reverse_linked_list",
+    "title": "反转链表",
+    "difficulty": "easy",
+    "prompt": "实现 LeetCode 206. 反转链表。用 Python 实现单链表反转，写到 solutions/reverse_linked_list.py，包含 ListNode 定义和测试用例。"
+  },
+  {
+    "id": "valid_parentheses",
+    "title": "有效的括号",
+    "difficulty": "easy",
+    "prompt": "实现 LeetCode 20. 有效的括号。用栈判断括号是否匹配，写到 solutions/valid_parentheses.py，附带测试。"
+  },
+  {
+    "id": "binary_search",
+    "title": "二分查找",
+    "difficulty": "easy",
+    "prompt": "实现经典二分查找（在有序数组中查找 target 的下标，不存在返回 -1）。写到 solutions/binary_search.py，附带边界测试。"
+  },
+  {
+    "id": "merge_sorted_arrays",
+    "title": "合并两个有序数组",
+    "difficulty": "easy",
+    "prompt": "实现 LeetCode 88. 合并两个有序数组（原地合并到 nums1）。写到 solutions/merge_sorted_arrays.py。"
+  },
+  {
+    "id": "max_subarray",
+    "title": "最大子数组和",
+    "difficulty": "medium",
+    "prompt": "实现 LeetCode 53. 最大子数组和（Kadane 算法）。写到 solutions/max_subarray.py，附带正负数混合的测试。"
+  },
+  {
+    "id": "climbing_stairs",
+    "title": "爬楼梯",
+    "difficulty": "easy",
+    "prompt": "实现 LeetCode 70. 爬楼梯。每次可爬 1 或 2 阶，求爬到第 n 阶的方法数。用动态规划，写到 solutions/climbing_stairs.py。"
+  },
+  {
+    "id": "longest_substring",
+    "title": "无重复字符的最长子串",
+    "difficulty": "medium",
+    "prompt": "实现 LeetCode 3. 无重复字符的最长子串。滑动窗口解法，写到 solutions/longest_substring.py。"
+  },
+  {
+    "id": "level_order_traversal",
+    "title": "二叉树的层序遍历",
+    "difficulty": "medium",
+    "prompt": "实现 LeetCode 102. 二叉树的层序遍历。BFS 实现，写到 solutions/level_order_traversal.py，包含 TreeNode 定义。"
+  },
+  {
+    "id": "coin_change",
+    "title": "零钱兑换",
+    "difficulty": "medium",
+    "prompt": "实现 LeetCode 322. 零钱兑换。给定硬币面额和目标金额，求最少硬币数。DP 解法，写到 solutions/coin_change.py。"
+  },
+  {
+    "id": "quick_sort",
+    "title": "快速排序",
+    "difficulty": "medium",
+    "prompt": "手写快速排序（原地 partition + 递归）。写到 solutions/quick_sort.py，附带随机数组测试并验证结果有序。"
+  },
+  {
+    "id": "lru_cache",
+    "title": "LRU 缓存",
+    "difficulty": "medium",
+    "prompt": "实现 LeetCode 146. LRU 缓存。用 OrderedDict 或双向链表+哈希表，写到 solutions/lru_cache.py，附带 get/put 测试。"
+  },
+  {
+    "id": "top_k_frequent",
+    "title": "前 K 个高频元素",
+    "difficulty": "medium",
+    "prompt": "实现 LeetCode 347. 前 K 个高频元素。可用堆或桶排序，写到 solutions/top_k_frequent.py。"
+  },
+  {
+    "id": "number_of_islands",
+    "title": "岛屿数量",
+    "difficulty": "medium",
+    "prompt": "实现 LeetCode 200. 岛屿数量。DFS/BFS 遍历二维网格，写到 solutions/number_of_islands.py。"
+  },
+  {
+    "id": "palindrome_linked_list",
+    "title": "回文链表",
+    "difficulty": "easy",
+    "prompt": "实现 LeetCode 234. 回文链表。O(n) 时间 O(1) 额外空间（快慢指针+反转），写到 solutions/palindrome_linked_list.py。"
+  }
+]
