@@ -1,0 +1,20 @@
+date: 2026-06-23
+problem: climbing_stairs
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+动态规划：爬到第 i 阶的方法数等于从 i-1 阶爬 1 步与从 i-2 阶爬 2 步之和，即斐波那契递推 `dp[i] = dp[i-1] + dp[i-2]`。
+
+边界：`n <= 2` 时直接返回 n。
+
+## 复杂度
+
+- 时间复杂度：O(n)
+- 空间复杂度：O(n)，可优化为 O(1) 滚动变量
+
+## 测试
+
+所有内置测试用例通过。
