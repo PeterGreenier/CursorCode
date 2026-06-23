@@ -1,0 +1,18 @@
+date: 2026-06-23
+problem: quick_sort
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+原地快速排序：Lomuto 分区方案，以 `arr[high]` 为枢轴，将区间划分为「小于等于枢轴」与「大于枢轴」两部分，递归排序左右子区间。
+
+## 复杂度
+
+- 时间复杂度：平均 O(n log n)，最坏 O(n²)（已有序时）
+- 空间复杂度：O(log n) 递归栈空间
+
+## 测试
+
+固定用例、边界用例（空数组、单元素、已有序、逆序、全相同）及随机数组测试均通过。
