@@ -1,0 +1,26 @@
+date: 2026-06-23
+problem: max_subarray
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+实现 LeetCode 53「最大子数组和」，使用 Kadane 算法（动态规划）。
+
+### 思路
+
+维护 `current_sum` 表示以当前元素结尾的最大子数组和。每步二选一：
+- 把当前元素接在前面的子数组后面（`current_sum + num`）
+- 从当前元素重新开始（`num`）
+
+取两者较大值更新 `current_sum`，同时用 `max_sum` 记录全局最大值。
+
+### 复杂度
+
+- 时间复杂度：O(n)，单次遍历数组
+- 空间复杂度：O(1)，仅使用常数额外变量
+
+### 测试
+
+覆盖正负数混合、全正、全负、单元素、前缀为负需丢弃等边界情况，全部通过。
