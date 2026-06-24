@@ -1,0 +1,13 @@
+date: 2026-06-24
+problem: longest_substring
+model: default
+source: automation
+status: finished
+
+解题思路：
+滑动窗口 + 哈希表。右指针扩展窗口，哈希表记录字符最近出现位置。
+若当前字符在窗口内重复，左指针跳到重复字符上次位置的下一位。
+每步更新窗口长度最大值。
+
+时间复杂度：O(n)，每个字符最多进出窗口各一次
+空间复杂度：O(min(n, 字符集大小))
