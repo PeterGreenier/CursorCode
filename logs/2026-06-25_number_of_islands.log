@@ -1,0 +1,14 @@
+date: 2026-06-25
+problem: number_of_islands
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+DFS 遍历网格统计连通块。遇到 '1' 时岛屿计数 +1，DFS 将四向连通的陆地全部标记为 '0' 防止重复计数。
+
+## 复杂度
+
+- 时间：O(m × n)
+- 空间：O(m × n) 最坏递归栈深度
