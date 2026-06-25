@@ -1,0 +1,14 @@
+date: 2026-06-25
+problem: level_order_traversal
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+BFS 层序遍历。用队列存放待访问节点，每轮循环开始时记录队列长度作为当前层大小，依次出队访问并将子节点入队，自然按层分组。
+
+## 复杂度
+
+- 时间：O(n)，每个节点入队出队各一次
+- 空间：O(n)，队列最多存放一层节点
