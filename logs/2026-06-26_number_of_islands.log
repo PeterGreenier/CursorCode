@@ -1,0 +1,9 @@
+date: 2026-06-26
+problem: number_of_islands
+model: default
+source: automation
+status: finished
+解题思路：DFS 淹没法。遍历网格，遇到 '1' 时计数 +1 并 DFS 将整块陆地标记为 '0'，避免重复计数。
+
+时间复杂度：O(m * n)，每个格子最多访问一次。
+空间复杂度：O(m * n) 最坏递归栈。
