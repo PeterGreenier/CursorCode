@@ -1,0 +1,7 @@
+date: 2026-06-27
+problem: lru_cache
+model: default
+source: automation
+status: finished
+
+OrderedDict实现：get/put时move_to_end标记最近使用，超容时popitem(last=False)淘汰最旧。get/put均O(1)。

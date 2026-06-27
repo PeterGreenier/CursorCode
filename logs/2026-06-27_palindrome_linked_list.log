@@ -1,0 +1,7 @@
+date: 2026-06-27
+problem: palindrome_linked_list
+model: default
+source: automation
+status: finished
+
+快慢指针找中点，反转后半段逐节点比较，再恢复链表。O(n)时间O(1)空间。

@@ -1,0 +1,7 @@
+date: 2026-06-27
+problem: reverse_linked_list
+model: default
+source: automation
+status: finished
+
+迭代三指针prev/curr/next反转指向。时间O(n)，空间O(1)。
