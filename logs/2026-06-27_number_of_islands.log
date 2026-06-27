@@ -1,0 +1,7 @@
+date: 2026-06-27
+problem: number_of_islands
+model: default
+source: automation
+status: finished
+
+DFS四向扩散，遇'1'计数并淹没连通块。时间O(m×n)，空间O(m×n)递归栈。

@@ -1,0 +1,7 @@
+date: 2026-06-27
+problem: top_k_frequent
+model: default
+source: automation
+status: finished
+
+Counter统计频率，桶排序按频率分桶，从高到低收集k个。时间O(n)，空间O(n)。

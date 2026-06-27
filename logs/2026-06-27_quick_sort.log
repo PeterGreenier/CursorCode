@@ -1,0 +1,7 @@
+date: 2026-06-27
+problem: quick_sort
+model: default
+source: automation
+status: finished
+
+Lomuto分区+递归。partition以枢轴划分左右区，递归排序子区间。平均O(n log n)时间O(log n)栈空间，最坏O(n²)。

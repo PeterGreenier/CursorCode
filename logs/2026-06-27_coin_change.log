@@ -1,0 +1,7 @@
+date: 2026-06-27
+problem: coin_change
+model: default
+source: automation
+status: finished
+
+动态规划完全背包。dp[i]=凑成金额i的最少硬币数，对每种硬币尝试转移。时间O(amount×|coins|)，空间O(amount)。
