@@ -1,0 +1,14 @@
+date: 2026-06-28
+problem: top_k_frequent
+model: default
+source: automation
+status: finished
+
+解题说明：
+桶排序解法。先用 Counter 统计各元素频率，再建立频率桶 buckets[i] 存放出现 i 次的所有元素，从最高频率桶向低遍历，依次取出直到凑满 k 个。另提供最小堆备选实现用于对比验证。
+
+复杂度分析：
+- 时间：O(n)，n 为数组长度；统计 O(n)，桶填充 O(n)，收集最多 O(n)。
+- 空间：O(n)，频率桶与哈希表。
+
+测试：LeetCode 示例及堆解法交叉验证均已通过。
