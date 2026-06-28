@@ -1,0 +1,14 @@
+date: 2026-06-28
+problem: two_sum
+model: default
+source: automation
+status: finished
+
+解题说明：
+哈希表一次遍历。对每个 nums[i] 计算补数 complement = target - nums[i]，若 complement 已在哈希表中则返回两个下标；否则将当前值及下标存入表供后续查找。
+
+复杂度分析：
+- 时间：O(n)，单次遍历。
+- 空间：O(n)，哈希表最多存 n 个元素。
+
+测试：LeetCode 三个示例、两元素数组、含负数、正负混合均已通过。

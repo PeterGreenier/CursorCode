@@ -1,0 +1,14 @@
+date: 2026-06-28
+problem: number_of_islands
+model: default
+source: automation
+status: finished
+
+解题说明：
+DFS 遍历二维网格。遇到 '1' 时岛屿计数 +1，并从该格四向扩散 DFS，将连通陆地标记为 '0'（已访问），避免额外 visited 数组和重复计数。
+
+复杂度分析：
+- 时间：O(m × n)，每个格子最多访问一次。
+- 空间：O(m × n) 最坏递归栈（整块陆地），原地修改网格不计入额外空间。
+
+测试：LeetCode 两个示例、空网格、全水、全陆、单行等边界均已通过。
