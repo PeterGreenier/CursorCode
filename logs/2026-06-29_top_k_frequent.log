@@ -1,0 +1,12 @@
+date: 2026-06-29
+problem: top_k_frequent
+model: default
+source: automation
+status: finished
+
+解题说明：
+先用 Counter 统计频率，再建立频率桶 buckets[i] 存放出现 i 次的元素。
+从高频率桶向低频率桶遍历，依次取出元素直到凑满 k 个。
+
+时间复杂度：O(n)
+空间复杂度：O(n)

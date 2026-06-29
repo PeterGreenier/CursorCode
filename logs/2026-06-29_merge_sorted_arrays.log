@@ -1,0 +1,12 @@
+date: 2026-06-29
+problem: merge_sorted_arrays
+model: default
+source: automation
+status: finished
+
+解题说明：
+从 nums1 末尾向前填充，三指针分别指向 nums1 有效末尾、nums2 末尾、合并后末尾。
+比较较大元素先放入合并位置，避免覆盖未处理数据。
+
+时间复杂度：O(m+n)
+空间复杂度：O(1)

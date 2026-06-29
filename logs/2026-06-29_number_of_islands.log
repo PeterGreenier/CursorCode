@@ -1,0 +1,12 @@
+date: 2026-06-29
+problem: number_of_islands
+model: default
+source: automation
+status: finished
+
+解题说明：
+遍历网格，遇到 '1' 时岛屿计数+1，DFS 将连通陆地全部置为 '0' 避免重复访问。
+四向 DFS 淹没整块陆地。
+
+时间复杂度：O(m*n)
+空间复杂度：O(m*n) 递归栈最坏情况

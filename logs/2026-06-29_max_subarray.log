@@ -1,0 +1,12 @@
+date: 2026-06-29
+problem: max_subarray
+model: default
+source: automation
+status: finished
+
+解题说明：
+Kadane 算法：维护当前子数组和 current_sum 与全局最大 max_sum。
+若 current_sum 变负则重置为 0，继续累加。
+
+时间复杂度：O(n)
+空间复杂度：O(1)

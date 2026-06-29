@@ -1,0 +1,12 @@
+date: 2026-06-29
+problem: binary_search
+model: default
+source: automation
+status: finished
+
+解题说明：
+经典二分查找，维护 left/right 指针，mid = (left+right)//2。
+根据 nums[mid] 与 target 比较缩小搜索区间。
+
+时间复杂度：O(log n)
+空间复杂度：O(1)
