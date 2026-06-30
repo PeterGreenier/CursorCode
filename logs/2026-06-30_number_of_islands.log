@@ -1,0 +1,11 @@
+date: 2026-06-30
+problem: number_of_islands
+model: default
+source: automation
+status: finished
+
+解法：DFS 遍历网格。遍历每个格子，遇到 '1' 时岛屿计数 +1，并从该格出发 DFS 将四向连通的陆地全部标记为 '0'（已访问），避免重复计数。
+
+时间复杂度 O(m×n)，空间复杂度 O(m×n)（递归栈最坏情况）。m、n 为网格行列数。
+
+测试全部通过。

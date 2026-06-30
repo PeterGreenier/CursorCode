@@ -1,0 +1,11 @@
+date: 2026-06-30
+problem: climbing_stairs
+model: default
+source: automation
+status: finished
+
+解法：动态规划。dp[i] 为爬到第 i 阶的方法数，dp[i] = dp[i-1] + dp[i-2]（最后一步从 i-1 爬 1 步或从 i-2 爬 2 步）。边界 dp[1]=1，dp[2]=2。
+
+时间复杂度 O(n)，空间复杂度 O(n)。可优化为 O(1) 空间只保留前两项。
+
+测试全部通过。
