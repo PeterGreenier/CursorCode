@@ -1,0 +1,11 @@
+date: 2026-06-30
+problem: reverse_linked_list
+model: default
+source: automation
+status: finished
+
+解法：迭代反转。维护 prev、curr、next_node 三指针，每次将 curr.next 指向 prev，三指针同步前移，直到 curr 为 None，返回 prev 作为新头节点。
+
+时间复杂度 O(n)，空间复杂度 O(1)。n 为链表节点数。
+
+测试全部通过。
