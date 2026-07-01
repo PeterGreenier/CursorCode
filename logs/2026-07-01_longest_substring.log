@@ -1,0 +1,13 @@
+date: 2026-07-01
+problem: longest_substring
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+滑动窗口+哈希表记录字符最近位置，重复时收缩左边界。时间 O(n)，空间 O(min(n,字符集))。
+
+## 测试
+
+运行 `python3 solutions/longest_substring.py`，全部断言通过。

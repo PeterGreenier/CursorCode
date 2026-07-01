@@ -1,0 +1,13 @@
+date: 2026-07-01
+problem: merge_sorted_arrays
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+从尾部双指针合并，避免覆盖 nums1 未处理元素。时间 O(m+n)，空间 O(1)。
+
+## 测试
+
+运行 `python3 solutions/merge_sorted_arrays.py`，全部断言通过。

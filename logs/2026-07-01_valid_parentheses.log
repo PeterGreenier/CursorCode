@@ -1,0 +1,13 @@
+date: 2026-07-01
+problem: valid_parentheses
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+栈匹配括号，右括号时校验栈顶。时间 O(n)，空间 O(n)。
+
+## 测试
+
+运行 `python3 solutions/valid_parentheses.py`，全部断言通过。
