@@ -1,0 +1,13 @@
+date: 2026-07-01
+problem: palindrome_linked_list
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+快慢指针找中点，反转后半段逐节点比较，再恢复链表。时间 O(n)，空间 O(1)。
+
+## 测试
+
+运行 `python3 solutions/palindrome_linked_list.py`，全部断言通过。
