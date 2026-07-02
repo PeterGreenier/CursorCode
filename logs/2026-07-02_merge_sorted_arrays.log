@@ -1,0 +1,7 @@
+date: 2026-07-02
+problem: merge_sorted_arrays
+model: default
+source: automation
+status: finished
+
+从尾部向前双指针合并，避免覆盖 nums1 未处理元素。时间 O(m+n)，空间 O(1)。

@@ -1,0 +1,7 @@
+date: 2026-07-02
+problem: max_subarray
+model: default
+source: automation
+status: finished
+
+Kadane 算法：维护以当前元素结尾的最大子数组和。时间 O(n)，空间 O(1)。
