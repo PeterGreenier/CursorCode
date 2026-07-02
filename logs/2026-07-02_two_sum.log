@@ -1,0 +1,7 @@
+date: 2026-07-02
+problem: two_sum
+model: default
+source: automation
+status: finished
+
+哈希表一次遍历，对每个元素查找补数 target-num。时间 O(n)，空间 O(n)。
