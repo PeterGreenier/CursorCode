@@ -1,0 +1,19 @@
+date: 2026-07-04
+problem: valid_parentheses
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+使用栈匹配括号。遇到左括号入栈，遇到右括号时检查栈顶是否为对应左括号。
+遍历结束后栈为空则有效。
+
+## 复杂度
+
+- 时间复杂度：O(n)
+- 空间复杂度：O(n)，最坏情况下栈存储所有左括号
+
+## 测试
+
+运行 solutions/valid_parentheses.py，全部用例通过。
