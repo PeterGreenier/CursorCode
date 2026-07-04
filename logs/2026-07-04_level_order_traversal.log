@@ -1,0 +1,19 @@
+date: 2026-07-04
+problem: level_order_traversal
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+BFS 层序遍历。用队列存放待访问节点，每轮按当前队列长度处理一层，
+依次访问节点并将左右孩子入队，自然按层分组。
+
+## 复杂度
+
+- 时间复杂度：O(n)
+- 空间复杂度：O(n)，队列最多存储一层节点
+
+## 测试
+
+运行 solutions/level_order_traversal.py，全部用例通过。
