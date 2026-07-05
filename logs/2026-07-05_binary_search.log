@@ -1,0 +1,18 @@
+date: 2026-07-05
+problem: binary_search
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+经典二分查找，维护闭区间 [left, right]，每次取中点比较 target，缩小搜索范围。
+
+## 复杂度
+
+- 时间复杂度：O(log n)
+- 空间复杂度：O(1)
+
+## 测试
+
+`solutions/binary_search.py` 全部测试通过。
