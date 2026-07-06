@@ -1,0 +1,17 @@
+date: 2026-07-06
+problem: coin_change
+model: default
+source: automation
+status: finished
+
+## 题目
+零钱兑换
+
+## 解法
+完全背包 DP：dp[i] = min(dp[i], dp[i-coin]+1)，遍历金额与硬币。
+
+## 复杂度
+时间 O(amount * len(coins))，空间 O(amount)
+
+## 测试
+所有内置测试用例通过。
