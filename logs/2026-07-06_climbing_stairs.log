@@ -1,0 +1,17 @@
+date: 2026-07-06
+problem: climbing_stairs
+model: default
+source: automation
+status: finished
+
+## 题目
+爬楼梯
+
+## 解法
+DP：dp[i] = dp[i-1] + dp[i-2]，即斐波那契递推。
+
+## 复杂度
+时间 O(n)，空间 O(n)，可优化至 O(1)
+
+## 测试
+所有内置测试用例通过。
