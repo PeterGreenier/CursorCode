@@ -1,0 +1,12 @@
+date: 2026-07-07
+problem: climbing_stairs
+model: default
+source: automation
+status: finished
+
+解题思路：
+动态规划。爬到第 i 阶的方法数 dp[i] = dp[i-1] + dp[i-2]，
+即最后一步从 i-1 爬 1 阶或从 i-2 爬 2 阶，本质是斐波那契数列。
+
+时间复杂度：O(n)。
+空间复杂度：O(n)，可用滚动变量优化为 O(1)。
