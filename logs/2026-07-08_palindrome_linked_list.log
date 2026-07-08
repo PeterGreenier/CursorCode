@@ -1,0 +1,11 @@
+date: 2026-07-08
+problem: palindrome_linked_list
+model: default
+source: automation
+status: finished
+
+解题说明：
+- 题目：回文链表
+- 解法：快慢指针+反转后半段，O(n) 时间 O(1) 空间
+- 解答文件：solutions/palindrome_linked_list.py
+- 所有内置测试用例均已通过。
