@@ -1,0 +1,11 @@
+date: 2026-07-08
+problem: climbing_stairs
+model: default
+source: automation
+status: finished
+
+解题说明：
+- 题目：爬楼梯
+- 解法：动态规划/斐波那契，O(n) 时间 O(n) 空间
+- 解答文件：solutions/climbing_stairs.py
+- 所有内置测试用例均已通过。
