@@ -1,0 +1,15 @@
+date: 2026-07-09
+problem: climbing_stairs
+model: default
+source: automation
+status: finished
+
+解题说明：
+使用动态规划，dp[i] 表示爬到第 i 阶的方法数。状态转移方程为 dp[i] = dp[i-1] + dp[i-2]，
+即最后一步从 i-1 爬 1 阶或从 i-2 爬 2 阶。边界条件 dp[1]=1, dp[2]=2。
+
+复杂度分析：
+- 时间复杂度：O(n)，遍历 3 到 n 计算每个状态
+- 空间复杂度：O(n)，dp 数组；可优化为 O(1) 仅保留前两项
+
+测试：全部通过。

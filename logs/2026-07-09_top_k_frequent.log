@@ -1,0 +1,15 @@
+date: 2026-07-09
+problem: top_k_frequent
+model: default
+source: automation
+status: finished
+
+解题说明：
+桶排序解法。先用 Counter 统计频率，建立频率桶 buckets[i] 存放出现 i 次的元素，
+从高频率向低频率遍历桶，依次取出元素直到凑满 k 个。
+
+复杂度分析：
+- 时间复杂度：O(n)，统计 + 桶遍历
+- 空间复杂度：O(n)，频率桶与哈希表
+
+测试：桶排序与堆解法结果一致，全部通过。
