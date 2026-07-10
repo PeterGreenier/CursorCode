@@ -1,0 +1,18 @@
+date: 2026-07-10
+problem: coin_change
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+LeetCode 322. 零钱兑换。完全背包 DP：dp[i] 表示凑成金额 i 所需的最少硬币数。对每个金额尝试每种硬币，取 dp[i - coin] + 1 的最小值。无法凑成时返回 -1。
+
+## 复杂度
+
+- 时间复杂度：O(amount × len(coins))
+- 空间复杂度：O(amount)
+
+## 测试结果
+
+全部内置测试通过。

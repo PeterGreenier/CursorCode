@@ -1,0 +1,18 @@
+date: 2026-07-10
+problem: reverse_linked_list
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+LeetCode 206. 反转链表。迭代法维护 prev、curr、next_node 三指针，每次将 curr.next 指向 prev 并同步前移，最终 prev 即为新头节点。
+
+## 复杂度
+
+- 时间复杂度：O(n)
+- 空间复杂度：O(1)
+
+## 测试结果
+
+全部内置测试通过。
