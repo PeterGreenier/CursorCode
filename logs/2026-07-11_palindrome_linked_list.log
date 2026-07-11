@@ -1,0 +1,10 @@
+date: 2026-07-11
+problem: palindrome_linked_list
+model: default
+source: automation
+status: finished
+
+解题思路：快慢指针找中点，反转后半段，再逐节点比较前后两半是否相等，最后恢复链表。
+
+时间复杂度：O(n)。
+空间复杂度：O(1) 额外空间。

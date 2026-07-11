@@ -1,0 +1,10 @@
+date: 2026-07-11
+problem: number_of_islands
+model: default
+source: automation
+status: finished
+
+解题思路：遍历网格，遇到 '1' 时岛屿数 +1，并用 DFS 将相连陆地标记为已访问（置 '0'）。
+
+时间复杂度：O(m × n)。
+空间复杂度：O(m × n) 最坏递归栈。
