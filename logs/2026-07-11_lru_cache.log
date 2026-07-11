@@ -1,0 +1,10 @@
+date: 2026-07-11
+problem: lru_cache
+model: default
+source: automation
+status: finished
+
+解题思路：OrderedDict 实现 LRU。get 时将键移到末尾表示最近使用；put 时插入或更新并移到末尾，超出容量时弹出最久未使用的项（队首）。
+
+时间复杂度：get/put 均为 O(1)。
+空间复杂度：O(capacity)。

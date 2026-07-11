@@ -1,0 +1,10 @@
+date: 2026-07-11
+problem: top_k_frequent
+model: default
+source: automation
+status: finished
+
+解题思路：哈希表统计频次，用最小堆维护前 K 个高频元素（堆大小为 k，堆顶为第 K 大）。
+
+时间复杂度：O(n log k)。
+空间复杂度：O(n + k)。

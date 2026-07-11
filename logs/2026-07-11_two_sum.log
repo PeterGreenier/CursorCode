@@ -1,0 +1,10 @@
+date: 2026-07-11
+problem: two_sum
+model: default
+source: automation
+status: finished
+
+解题思路：哈希表一次遍历。遍历时检查 target - num 是否已在表中，有则返回两数下标，否则将当前数及下标存入表。
+
+时间复杂度：O(n)。
+空间复杂度：O(n) 哈希表。
