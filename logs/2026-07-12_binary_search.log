@@ -1,0 +1,23 @@
+date: 2026-07-12
+problem: binary_search
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+经典二分查找（闭区间 [left, right]）：
+
+1. 取中点 `mid = left + (right - left) // 2`；
+2. 与 target 比较，相等返回 mid；
+3. target 更小则 `left = mid + 1`，更大则 `right = mid - 1`；
+4. 区间为空返回 -1。
+
+## 复杂度
+
+- 时间复杂度：O(log n)
+- 空间复杂度：O(1)
+
+## 测试结果
+
+LeetCode 示例、空数组、单元素、首尾元素、越界 target 等边界测试全部通过。

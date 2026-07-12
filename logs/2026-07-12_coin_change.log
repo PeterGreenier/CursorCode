@@ -1,0 +1,23 @@
+date: 2026-07-12
+problem: coin_change
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+使用完全背包动态规划求解最少硬币数。
+
+- 定义 `dp[i]` 为凑成金额 `i` 所需的最少硬币数；
+- 初始 `dp[0] = 0`，其余为无穷大；
+- 对每个金额 `i` 和每种硬币 `coin`，若 `coin <= i`，则 `dp[i] = min(dp[i], dp[i - coin] + 1)`；
+- 最终 `dp[amount]` 若为无穷大则返回 -1。
+
+## 复杂度
+
+- 时间复杂度：O(amount × len(coins))
+- 空间复杂度：O(amount)
+
+## 测试结果
+
+所有内置测试用例通过。
