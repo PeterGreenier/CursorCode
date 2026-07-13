@@ -1,0 +1,22 @@
+date: 2026-07-13
+problem: quick_sort
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+实现原地快速排序：Lomuto 分区 + 递归。
+
+1. `partition` 以 `arr[high]` 为枢轴，将区间划分为「≤ 枢轴」与「> 枢轴」两部分，返回枢轴最终位置。
+2. `quick_sort` 对左右子区间递归排序。
+3. `quick_sort_inplace` 作为整数组入口。
+
+## 复杂度
+
+- 时间：平均 O(n log n)，最坏 O(n²)（已有序且枢轴选末尾时）；随机数据下表现良好。
+- 空间：O(log n) 递归栈深度。
+
+## 测试
+
+覆盖固定用例、空/单元素、已有序/逆序/全相同，以及多组随机数组验证有序性。全部通过。

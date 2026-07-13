@@ -1,0 +1,22 @@
+date: 2026-07-13
+problem: merge_sorted_arrays
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+从尾部向前原地合并：
+
+1. 指针 i、j、k 分别指向 nums1 有效末尾、nums2 末尾、合并后末尾。
+2. 每次取较大者写入 k，避免覆盖 nums1 未处理元素。
+3. nums2 若有剩余，拷贝到 nums1 前部。
+
+## 复杂度
+
+- 时间：O(m + n)。
+- 空间：O(1)。
+
+## 测试
+
+覆盖 LeetCode 三个示例及 nums2 全部大于 nums1 有效部分的情况。全部通过。

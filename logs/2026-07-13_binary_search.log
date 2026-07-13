@@ -1,0 +1,22 @@
+date: 2026-07-13
+problem: binary_search
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+经典二分查找（闭区间 `[left, right]`）：
+
+1. 取中点 `mid = left + (right - left) // 2` 防溢出。
+2. 相等返回 mid；target 更小收缩右边界，更大收缩左边界。
+3. 区间为空返回 -1。
+
+## 复杂度
+
+- 时间：O(log n)。
+- 空间：O(1)。
+
+## 测试
+
+覆盖命中/未命中、空数组、单元素、首尾元素、越界 target、两元素数组等边界。全部通过。
