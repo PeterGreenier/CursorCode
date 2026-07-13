@@ -1,0 +1,24 @@
+date: 2026-07-13
+problem: top_k_frequent
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+桶排序解法：
+
+1. `Counter` 统计各元素频率。
+2. 建立频率桶 `buckets[i]`，存放出现 i 次的所有元素。
+3. 从高频率向低频率遍历桶，收集元素直到凑满 k 个。
+
+另提供最小堆备选实现 `top_k_frequent_heap` 用于对照。
+
+## 复杂度
+
+- 桶排序：时间 O(n)，空间 O(n)。
+- 堆解法：时间 O(n log k)，空间 O(n)。
+
+## 测试
+
+LeetCode 示例及堆解法一致性验证。全部通过。
