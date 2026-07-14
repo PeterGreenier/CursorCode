@@ -1,0 +1,24 @@
+date: 2026-07-14
+problem: two_sum
+model: default
+source: automation
+status: finished
+
+## 解题思路
+
+哈希表一次遍历：
+
+1. 遍历数组，对每个元素计算补数 `complement = target - nums[i]`；
+2. 若 complement 已在哈希表中，返回两个下标；
+3. 否则将当前值及其下标存入哈希表。
+
+只需一次遍历：当遍历到 j 时，nums[i]（i < j）已作为 complement 存入表中。
+
+## 复杂度
+
+- 时间复杂度：O(n)
+- 空间复杂度：O(n)
+
+## 测试结果
+
+所有内置测试用例通过，包括负数、正负混合等边界情况。

@@ -1,0 +1,24 @@
+date: 2026-07-14
+problem: merge_sorted_arrays
+model: default
+source: automation
+status: finished
+
+## 解题思路
+
+原地合并，从尾部向前填充：
+
+1. 三个指针 i、j、k 分别指向 nums1 有效末尾、nums2 末尾、合并后末尾；
+2. 每次取 i、j 处较大者写入 k，并左移对应指针；
+3. 若 nums2 仍有剩余，拷贝到 nums1 前部。
+
+从后向前可避免覆盖 nums1 中尚未处理的元素。
+
+## 复杂度
+
+- 时间复杂度：O(m + n)
+- 空间复杂度：O(1)
+
+## 测试结果
+
+所有内置测试用例通过，包括 nums2 全部大于 nums1 有效部分等边界情况。
