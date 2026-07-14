@@ -1,0 +1,24 @@
+date: 2026-07-14
+problem: max_subarray
+model: default
+source: automation
+status: finished
+
+## 解题思路
+
+Kadane 算法（动态规划）：
+
+1. 维护 `current_sum`：以当前元素结尾的最大子数组和；
+2. 每步二选一——要么把当前元素接在前面的子数组后面，要么从当前元素重新开始；
+3. 用 `max_sum` 记录遍历过程中的全局最大值。
+
+状态转移：`current_sum = max(nums[i], current_sum + nums[i])`
+
+## 复杂度
+
+- 时间复杂度：O(n)
+- 空间复杂度：O(1)
+
+## 测试结果
+
+所有内置测试用例通过，包括全负数、正负交替、大负数夹在正数之间等边界情况。

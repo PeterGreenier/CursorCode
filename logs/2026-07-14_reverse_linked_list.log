@@ -1,0 +1,23 @@
+date: 2026-07-14
+problem: reverse_linked_list
+model: default
+source: automation
+status: finished
+
+## 解题思路
+
+迭代法反转单链表：
+
+1. 维护三个指针：prev（已反转部分的头）、curr（当前待处理节点）、next_node（暂存后继）；
+2. 每次将 curr.next 指向 prev，完成当前节点的反转；
+3. 三个指针同步前移，直到 curr 为 None；
+4. 返回 prev，即新链表头。
+
+## 复杂度
+
+- 时间复杂度：O(n)
+- 空间复杂度：O(1)
+
+## 测试结果
+
+所有内置测试用例通过，包括空链表、单节点、含重复值等边界情况。

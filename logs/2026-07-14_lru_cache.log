@@ -1,0 +1,21 @@
+date: 2026-07-14
+problem: lru_cache
+model: default
+source: automation
+status: finished
+
+## 解题思路
+
+使用 `collections.OrderedDict` 实现 LRU 缓存。OrderedDict 内部维护双向链表 + 哈希表，支持 O(1) 的 get/put 操作。
+
+- `get(key)`：若键不存在返回 -1；否则将键移到末尾（标记为最近使用）并返回值。
+- `put(key, value)`：写入或更新键值；若超出容量，用 `popitem(last=False)` 弹出头部（最久未使用）的项。
+
+## 复杂度
+
+- 时间复杂度：get 和 put 均为 O(1)
+- 空间复杂度：O(capacity)
+
+## 测试结果
+
+所有内置测试用例通过，包括容量为 1、更新已存在键、连续 get 等边界情况。
