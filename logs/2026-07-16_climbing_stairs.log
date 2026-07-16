@@ -1,0 +1,10 @@
+date: 2026-07-16
+problem: climbing_stairs
+model: default
+source: automation
+status: finished
+
+解题思路：动态规划。dp[i] = dp[i-1] + dp[i-2]，表示到达第 i 阶的方法数（斐波那契）。
+
+时间复杂度：O(n)。
+空间复杂度：O(n)，dp 数组；可优化为 O(1)。
