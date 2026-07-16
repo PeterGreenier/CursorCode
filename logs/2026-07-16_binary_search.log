@@ -1,0 +1,10 @@
+date: 2026-07-16
+problem: binary_search
+model: default
+source: automation
+status: finished
+
+解题思路：闭区间 [left, right] 二分。取中点与 target 比较，收缩左或右边界，区间为空返回 -1。
+
+时间复杂度：O(log n)。
+空间复杂度：O(1)。
