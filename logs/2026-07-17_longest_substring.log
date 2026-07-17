@@ -1,0 +1,20 @@
+date: 2026-07-17
+problem: longest_substring
+model: default
+source: automation
+status: finished
+
+## 题目
+LeetCode 3. 无重复字符的最长子串 — 求不含重复字符的最长子串长度。
+
+## 解法
+滑动窗口 + 哈希集合记录窗口内字符。
+
+右指针扩展窗口，若遇到重复字符则左指针收缩直至无重复，同时更新最大长度。
+
+## 复杂度
+- 时间复杂度：O(n)；
+- 空间复杂度：O(min(n, 字符集大小))。
+
+## 测试结果
+全部测试用例通过。

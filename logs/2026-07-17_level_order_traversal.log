@@ -1,0 +1,18 @@
+date: 2026-07-17
+problem: level_order_traversal
+model: default
+source: automation
+status: finished
+
+## 题目
+LeetCode 102. 二叉树的层序遍历 — 按层返回节点值。
+
+## 解法
+BFS 队列：每层循环处理当前队列长度个节点，将子节点入队。
+
+## 复杂度
+- 时间复杂度：O(n)；
+- 空间复杂度：O(n)，队列最多存储一层节点。
+
+## 测试结果
+全部测试用例通过。

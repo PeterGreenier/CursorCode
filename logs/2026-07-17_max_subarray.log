@@ -1,0 +1,20 @@
+date: 2026-07-17
+problem: max_subarray
+model: default
+source: automation
+status: finished
+
+## 题目
+LeetCode 53. 最大子数组和 — 找连续子数组的最大和（Kadane 算法）。
+
+## 解法
+动态规划 / Kadane：维护当前子数组和 current 与全局最大 max_sum。
+
+遍历每个元素：current = max(nums[i], current + nums[i])，max_sum = max(max_sum, current)。
+
+## 复杂度
+- 时间复杂度：O(n)；
+- 空间复杂度：O(1)。
+
+## 测试结果
+全部测试用例通过（含正负数混合）。

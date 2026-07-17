@@ -1,0 +1,24 @@
+date: 2026-07-17
+problem: reverse_linked_list
+model: default
+source: automation
+status: finished
+
+## 题目
+LeetCode 206. 反转链表 — 给定单链表的头节点 head，反转链表并返回反转后的头节点。
+
+## 解法
+迭代三指针法。
+
+维护 prev（已反转部分的头）、curr（当前待处理节点）、next_node（暂存后继）：
+1. 保存 curr.next 到 next_node，避免断链；
+2. 将 curr.next 指向 prev，完成当前节点反转；
+3. prev 和 curr 同步前移，直到 curr 为 None；
+4. 返回 prev 作为新链表头。
+
+## 复杂度
+- 时间复杂度：O(n)，每个节点访问一次；
+- 空间复杂度：O(1)，仅使用常数个指针。
+
+## 测试结果
+全部测试用例通过（空链表、单节点、多节点、含重复值）。
