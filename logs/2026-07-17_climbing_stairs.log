@@ -1,0 +1,20 @@
+date: 2026-07-17
+problem: climbing_stairs
+model: default
+source: automation
+status: finished
+
+## 题目
+LeetCode 70. 爬楼梯 — 每次可爬 1 或 2 阶，求爬到第 n 阶的方法数。
+
+## 解法
+动态规划：dp[i] = dp[i-1] + dp[i-2]，等价于斐波那契数列。
+
+可用两个变量滚动优化空间。
+
+## 复杂度
+- 时间复杂度：O(n)；
+- 空间复杂度：O(1)。
+
+## 测试结果
+全部测试用例通过。

@@ -32,6 +32,83 @@
       "started_at": "2026-07-17T10:03:01+00:00",
       "finished_at": "2026-07-17T10:03:07+00:00",
       "log_file": "logs/2026-07-17_reverse_linked_list.log"
+    },
+    {
+      "date": "2026-07-17",
+      "problem_id": "merge_sorted_arrays",
+      "title": "合并两个有序数组",
+      "model": "default",
+      "source": "automation",
+      "status": "finished",
+      "started_at": "2026-07-17T10:03:08+00:00",
+      "finished_at": "2026-07-17T10:03:20+00:00",
+      "log_file": "logs/2026-07-17_merge_sorted_arrays.log"
+    },
+    {
+      "date": "2026-07-17",
+      "problem_id": "max_subarray",
+      "title": "最大子数组和",
+      "model": "default",
+      "source": "automation",
+      "status": "finished",
+      "started_at": "2026-07-17T10:03:21+00:00",
+      "finished_at": "2026-07-17T10:03:30+00:00",
+      "log_file": "logs/2026-07-17_max_subarray.log"
+    },
+    {
+      "date": "2026-07-17",
+      "problem_id": "climbing_stairs",
+      "title": "爬楼梯",
+      "model": "default",
+      "source": "automation",
+      "status": "finished",
+      "started_at": "2026-07-17T10:03:31+00:00",
+      "finished_at": "2026-07-17T10:03:38+00:00",
+      "log_file": "logs/2026-07-17_climbing_stairs.log"
+    },
+    {
+      "date": "2026-07-17",
+      "problem_id": "longest_substring",
+      "title": "无重复字符的最长子串",
+      "model": "default",
+      "source": "automation",
+      "status": "finished",
+      "started_at": "2026-07-17T10:03:39+00:00",
+      "finished_at": "2026-07-17T10:03:50+00:00",
+      "log_file": "logs/2026-07-17_longest_substring.log"
+    },
+    {
+      "date": "2026-07-17",
+      "problem_id": "level_order_traversal",
+      "title": "二叉树的层序遍历",
+      "model": "default",
+      "source": "automation",
+      "status": "finished",
+      "started_at": "2026-07-17T10:03:51+00:00",
+      "finished_at": "2026-07-17T10:04:02+00:00",
+      "log_file": "logs/2026-07-17_level_order_traversal.log"
+    },
+    {
+      "date": "2026-07-17",
+      "problem_id": "coin_change",
+      "title": "零钱兑换",
+      "model": "default",
+      "source": "automation",
+      "status": "finished",
+      "started_at": "2026-07-17T10:04:03+00:00",
+      "finished_at": "2026-07-17T10:04:15+00:00",
+      "log_file": "logs/2026-07-17_coin_change.log"
+    },
+    {
+      "date": "2026-07-17",
+      "problem_id": "quick_sort",
+      "title": "快速排序",
+      "model": "default",
+      "source": "automation",
+      "status": "finished",
+      "started_at": "2026-07-17T10:04:16+00:00",
+      "finished_at": "2026-07-17T10:04:25+00:00",
+      "log_file": "logs/2026-07-17_quick_sort.log"
     }
   ]
 }
