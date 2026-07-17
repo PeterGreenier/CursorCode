@@ -1,0 +1,37 @@
+{
+  "runs": [
+    {
+      "date": "2026-07-17",
+      "problem_id": "palindrome_linked_list",
+      "title": "回文链表",
+      "model": "default",
+      "source": "automation",
+      "status": "finished",
+      "started_at": "2026-07-17T10:02:30+00:00",
+      "finished_at": "2026-07-17T10:02:50+00:00",
+      "log_file": "logs/2026-07-17_palindrome_linked_list.log"
+    },
+    {
+      "date": "2026-07-17",
+      "problem_id": "two_sum",
+      "title": "两数之和",
+      "model": "default",
+      "source": "automation",
+      "status": "finished",
+      "started_at": "2026-07-17T10:02:51+00:00",
+      "finished_at": "2026-07-17T10:03:00+00:00",
+      "log_file": "logs/2026-07-17_two_sum.log"
+    },
+    {
+      "date": "2026-07-17",
+      "problem_id": "reverse_linked_list",
+      "title": "反转链表",
+      "model": "default",
+      "source": "automation",
+      "status": "finished",
+      "started_at": "2026-07-17T10:03:01+00:00",
+      "finished_at": "2026-07-17T10:03:07+00:00",
+      "log_file": "logs/2026-07-17_reverse_linked_list.log"
+    }
+  ]
+}

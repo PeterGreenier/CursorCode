@@ -1,0 +1,24 @@
+date: 2026-07-17
+problem: two_sum
+model: default
+source: automation
+status: finished
+
+## 题目
+LeetCode 1. 两数之和 — 给定整数数组 nums 和目标值 target，返回和为 target 的两个数的下标。
+
+## 解法
+哈希表一次遍历。
+
+遍历数组时，对每个元素 nums[i] 计算补数 complement = target - nums[i]：
+- 若 complement 已在哈希表中，返回 [seen[complement], i]；
+- 否则将当前值及其下标存入哈希表。
+
+只需一次遍历：当遍历到 j 时，配对元素 nums[i]（i < j）已作为 complement 存入表中。
+
+## 复杂度
+- 时间复杂度：O(n)，单次遍历数组；
+- 空间复杂度：O(n)，哈希表最多存储 n 个元素。
+
+## 测试结果
+全部测试用例通过（含负数、重复元素、两元素数组等边界情况）。
