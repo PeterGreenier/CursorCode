@@ -1,0 +1,13 @@
+date: 2026-07-18
+problem: max_subarray
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+Kadane 算法动态规划。时间 O(n)，空间 O(1)。
+
+## 测试
+
+运行 `python3 solutions/max_subarray.py`，所有测试通过。

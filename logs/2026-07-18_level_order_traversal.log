@@ -1,0 +1,13 @@
+date: 2026-07-18
+problem: level_order_traversal
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+BFS 按层遍历。时间 O(n)，空间 O(n)。
+
+## 测试
+
+运行 `python3 solutions/level_order_traversal.py`，所有测试通过。

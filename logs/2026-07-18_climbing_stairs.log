@@ -1,0 +1,13 @@
+date: 2026-07-18
+problem: climbing_stairs
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+斐波那契 DP。时间 O(n)，空间 O(n)，可优化至 O(1)。
+
+## 测试
+
+运行 `python3 solutions/climbing_stairs.py`，所有测试通过。

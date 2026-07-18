@@ -1,0 +1,13 @@
+date: 2026-07-18
+problem: reverse_linked_list
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+迭代三指针反转链表。时间 O(n)，空间 O(1)。
+
+## 测试
+
+运行 `python3 solutions/reverse_linked_list.py`，所有测试通过。

@@ -1,0 +1,13 @@
+date: 2026-07-18
+problem: longest_substring
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+滑动窗口+哈希表。时间 O(n)，空间 O(min(n,字符集))。
+
+## 测试
+
+运行 `python3 solutions/longest_substring.py`，所有测试通过。

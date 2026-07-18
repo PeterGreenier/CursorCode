@@ -1,0 +1,13 @@
+date: 2026-07-18
+problem: binary_search
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+闭区间二分查找。时间 O(log n)，空间 O(1)。
+
+## 测试
+
+运行 `python3 solutions/binary_search.py`，所有测试通过。

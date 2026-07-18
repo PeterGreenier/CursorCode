@@ -1,0 +1,13 @@
+date: 2026-07-18
+problem: coin_change
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+完全背包 DP 求最少硬币。时间 O(amount×|coins|)，空间 O(amount)。
+
+## 测试
+
+运行 `python3 solutions/coin_change.py`，所有测试通过。
