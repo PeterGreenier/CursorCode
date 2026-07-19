@@ -1,0 +1,21 @@
+date: 2026-07-19
+problem: binary_search
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+经典二分查找，维护闭区间 [left, right]。
+每次取中点 mid 与 target 比较，相等返回下标；
+target 更小则收缩右边界，更大则收缩左边界。
+区间为空时返回 -1。
+
+## 复杂度
+
+- 时间复杂度：O(log n)
+- 空间复杂度：O(1)
+
+## 测试结果
+
+所有边界测试通过（空数组、单元素、首尾元素、不存在目标等）。
