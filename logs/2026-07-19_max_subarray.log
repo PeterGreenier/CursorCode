@@ -1,0 +1,20 @@
+date: 2026-07-19
+problem: max_subarray
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+Kadane 算法（动态规划）。维护 current_sum 表示以当前元素结尾的最大子数组和。
+每步二选一：接在前面的子数组后面，或从当前元素重新开始。
+用 max_sum 记录全局最大值。
+
+## 复杂度
+
+- 时间复杂度：O(n)
+- 空间复杂度：O(1)
+
+## 测试结果
+
+所有测试用例通过（正负数混合、全正数、全负数、前缀为负应丢弃等）。

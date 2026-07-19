@@ -1,0 +1,20 @@
+date: 2026-07-19
+problem: merge_sorted_arrays
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+从尾部向前填充，避免覆盖 nums1 中尚未处理的元素。
+用三个指针 i、j、k 分别指向 nums1 有效末尾、nums2 末尾、合并后末尾。
+每次取较大值写入 k 位置，若 nums2 仍有剩余则拷贝到前部。
+
+## 复杂度
+
+- 时间复杂度：O(m + n)
+- 空间复杂度：O(1)，原地合并
+
+## 测试结果
+
+所有测试用例通过（标准合并、nums2 为空、nums1 为空、nums2 全部更大等）。
