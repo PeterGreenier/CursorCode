@@ -1,0 +1,7 @@
+date: 2026-07-20
+problem: climbing_stairs
+model: default
+source: automation
+status: finished
+
+DP：dp[i]=dp[i-1]+dp[i-2]，即到第 i 阶的方法数。时间 O(n)，空间 O(1)。

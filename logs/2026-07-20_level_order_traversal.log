@@ -1,0 +1,7 @@
+date: 2026-07-20
+problem: level_order_traversal
+model: default
+source: automation
+status: finished
+
+BFS 队列按层出队入队，每层收集节点值。时间 O(n)，空间 O(n)。

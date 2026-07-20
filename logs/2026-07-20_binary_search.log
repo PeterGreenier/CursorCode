@@ -1,0 +1,7 @@
+date: 2026-07-20
+problem: binary_search
+model: default
+source: automation
+status: finished
+
+闭区间 [left,right] 二分，mid 比较后收缩边界。时间 O(log n)，空间 O(1)。

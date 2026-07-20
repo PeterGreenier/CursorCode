@@ -1,0 +1,7 @@
+date: 2026-07-20
+problem: longest_substring
+model: default
+source: automation
+status: finished
+
+滑动窗口+哈希记录字符最后位置，遇重复收缩左边界。时间 O(n)，空间 O(min(n,字符集))。
