@@ -1,0 +1,12 @@
+date: 2026-07-21
+problem: climbing_stairs
+model: default
+source: automation
+status: finished
+
+解题说明：动态规划 f(n)=f(n-1)+f(n-2)，可用滚动变量只保留前两阶状态。
+
+时间复杂度：O(n)。
+空间复杂度：O(1)（滚动优化后）。
+
+自动化验证：solutions/climbing_stairs.py 内置测试全部通过。

@@ -1,0 +1,12 @@
+date: 2026-07-21
+problem: level_order_traversal
+model: default
+source: automation
+status: finished
+
+解题说明：BFS 用队列按层入队出队，每层收集节点值为一行结果。
+
+时间复杂度：O(n)，访问每个节点一次。
+空间复杂度：O(n)，队列最坏存储约一层节点。
+
+自动化验证：solutions/level_order_traversal.py 内置测试全部通过。
