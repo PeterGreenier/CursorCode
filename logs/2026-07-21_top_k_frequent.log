@@ -1,0 +1,12 @@
+date: 2026-07-21
+problem: top_k_frequent
+model: default
+source: automation
+status: finished
+
+解题说明：统计频次后用小顶堆维护大小为 k 的堆，或桶排序按频次分桶。
+
+时间复杂度：O(n log k)（堆解法）。
+空间复杂度：O(n)。
+
+自动化验证：solutions/top_k_frequent.py 内置测试全部通过。

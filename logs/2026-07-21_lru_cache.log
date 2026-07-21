@@ -1,0 +1,12 @@
+date: 2026-07-21
+problem: lru_cache
+model: default
+source: automation
+status: finished
+
+解题说明：OrderedDict 或双向链表+哈希表实现 O(1) get/put，访问时移到最近使用端，超容量淘汰最久未用。
+
+时间复杂度：get/put 均为 O(1)。
+空间复杂度：O(capacity)。
+
+自动化验证：solutions/lru_cache.py 内置 get/put 测试全部通过。

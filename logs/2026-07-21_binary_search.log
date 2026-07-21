@@ -1,0 +1,12 @@
+date: 2026-07-21
+problem: binary_search
+model: default
+source: automation
+status: finished
+
+解题说明：在有序数组上使用闭区间 [left, right] 二分，每次取 mid 与 target 比较并收缩区间。
+
+时间复杂度：O(log n)，每次将搜索范围减半。
+空间复杂度：O(1)，仅使用常数个指针变量。
+
+自动化验证：solutions/binary_search.py 内置测试全部通过。
