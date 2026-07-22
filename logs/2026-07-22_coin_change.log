@@ -1,0 +1,18 @@
+date: 2026-07-22
+problem: coin_change
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+LeetCode 322 零钱兑换：完全背包 DP，`dp[i]` 为凑金额 i 的最少硬币数，枚举每种硬币转移 `dp[i] = min(dp[i], dp[i-coin]+1)`，不可达保持 inf 返回 -1。
+
+## 复杂度
+
+- 时间：O(amount × len(coins))
+- 空间：O(amount)
+
+## 验证
+
+示例与无解、amount=0 用例通过。

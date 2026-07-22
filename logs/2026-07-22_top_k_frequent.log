@@ -1,0 +1,18 @@
+date: 2026-07-22
+problem: top_k_frequent
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+LeetCode 347 前 K 个高频元素：`Counter` 统计频率后建桶 `buckets[count]`，从高频率向低频率收集直至 k 个；另附最小堆备选实现用于对照。
+
+## 复杂度
+
+- 桶排序：时间 O(n)，空间 O(n)
+- 堆解法：时间 O(n log k)
+
+## 验证
+
+示例与 k=1 用例通过，两种实现结果一致。

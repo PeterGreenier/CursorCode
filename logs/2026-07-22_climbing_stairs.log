@@ -1,0 +1,18 @@
+date: 2026-07-22
+problem: climbing_stairs
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+LeetCode 70 爬楼梯：`dp[i] = dp[i-1] + dp[i-2]`，到达第 i 阶可从 i-1 爬 1 步或从 i-2 爬 2 步，等价斐波那契递推。
+
+## 复杂度
+
+- 时间：O(n)
+- 空间：O(n)（可压缩为 O(1) 滚动变量，当前实现用数组便于理解）
+
+## 验证
+
+n=1..10 边界与示例断言通过。

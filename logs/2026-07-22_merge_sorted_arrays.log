@@ -1,0 +1,18 @@
+date: 2026-07-22
+problem: merge_sorted_arrays
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+LeetCode 88 合并两个有序数组：从 `nums1` 尾部向前双指针合并 `nums2`，避免覆盖尚未处理的 `nums1` 元素；若 `nums2` 仍有剩余则拷贝到前部。
+
+## 复杂度
+
+- 时间：O(m + n)，每个元素至多移动一次
+- 空间：O(1)，原地操作
+
+## 验证
+
+`solutions/merge_sorted_arrays.py` 内置用例全部通过。
