@@ -1,0 +1,19 @@
+date: 2026-07-24
+problem: longest_substring
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+滑动窗口+哈希表记录字符位置，时间O(n)空间O(min(n,字符集))
+
+## 实现要点
+
+- 解答文件: solutions/longest_substring.py
+- 包含清晰注释与 `if __name__ == "__main__"` 测试
+- 所有测试用例通过
+
+## 复杂度
+
+时间O(n)空间O(min(n,字符集))

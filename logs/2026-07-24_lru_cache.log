@@ -1,0 +1,19 @@
+date: 2026-07-24
+problem: lru_cache
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+OrderedDict维护访问顺序，get/put均O(1)
+
+## 实现要点
+
+- 解答文件: solutions/lru_cache.py
+- 包含清晰注释与 `if __name__ == "__main__"` 测试
+- 所有测试用例通过
+
+## 复杂度
+
+get/put均O(1)

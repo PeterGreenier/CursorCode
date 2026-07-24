@@ -1,0 +1,19 @@
+date: 2026-07-24
+problem: climbing_stairs
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+动态规划，dp[i]=dp[i-1]+dp[i-2]，时间O(n)空间O(n)
+
+## 实现要点
+
+- 解答文件: solutions/climbing_stairs.py
+- 包含清晰注释与 `if __name__ == "__main__"` 测试
+- 所有测试用例通过
+
+## 复杂度
+
+时间O(n)空间O(n)
