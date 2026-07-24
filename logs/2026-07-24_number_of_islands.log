@@ -1,0 +1,19 @@
+date: 2026-07-24
+problem: number_of_islands
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+DFS淹没连通陆地，时间O(m*n)空间O(m*n)递归栈
+
+## 实现要点
+
+- 解答文件: solutions/number_of_islands.py
+- 包含清晰注释与 `if __name__ == "__main__"` 测试
+- 所有测试用例通过
+
+## 复杂度
+
+时间O(m*n)空间O(m*n)递归栈
