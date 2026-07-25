@@ -1,0 +1,16 @@
+date: 2026-07-25
+problem: number_of_islands
+model: default
+source: automation
+status: finished
+
+题目：LeetCode 200. 岛屿数量
+
+解法：DFS 遍历网格
+- 遇到 '1' 时岛屿计数 +1，DFS 将连通陆地全部标记为 '0'
+- 四向扩散，原地标记避免额外 visited 数组
+
+时间复杂度：O(m × n)，每个格子最多访问一次
+空间复杂度：O(m × n) 最坏递归栈
+
+测试：全部通过

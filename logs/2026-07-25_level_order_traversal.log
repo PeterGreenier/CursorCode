@@ -1,0 +1,17 @@
+date: 2026-07-25
+problem: level_order_traversal
+model: default
+source: automation
+status: finished
+
+题目：LeetCode 102. 二叉树的层序遍历
+
+解法：BFS 广度优先搜索
+- 用队列存放待访问节点，初始放入根节点
+- 每轮记录队列长度作为当前层大小，依次出队并把孩子入队
+- 自然按层分组输出
+
+时间复杂度：O(n)，每个节点入队出队各一次
+空间复杂度：O(n)，队列最多存储一层节点
+
+测试：全部通过

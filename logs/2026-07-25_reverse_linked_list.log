@@ -1,0 +1,17 @@
+date: 2026-07-25
+problem: reverse_linked_list
+model: default
+source: automation
+status: finished
+
+题目：LeetCode 206. 反转链表
+
+解法：迭代法三指针反转
+- 维护 prev、curr、next_node 三个指针
+- 每次将 curr.next 指向 prev，三个指针同步前移
+- 返回 prev 作为新链表头
+
+时间复杂度：O(n)
+空间复杂度：O(1)
+
+测试：全部通过
