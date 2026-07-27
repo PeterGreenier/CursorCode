@@ -1,0 +1,18 @@
+date: 2026-07-27
+problem: number_of_islands
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+DFS 遍历网格：遇到 `'1'` 时岛屿计数 +1，并从该格四向扩散将连通陆地标记为 `'0'`（已访问），避免额外 visited 数组。
+
+## 复杂度
+
+- 时间：O(rows × cols)
+- 空间：O(rows × cols) 递归栈最坏情况
+
+## 测试结果
+
+全部断言通过。

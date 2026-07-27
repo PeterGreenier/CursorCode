@@ -1,0 +1,18 @@
+date: 2026-07-27
+problem: lru_cache
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+使用 `OrderedDict` 实现 LRU：`get`/`put` 时将键 `move_to_end` 标记为最近使用；容量超限时 `popitem(last=False)` 淘汰最久未用项。哈希表 + 双向链表保证 O(1) 操作。
+
+## 复杂度
+
+- 时间：get/put 均为 O(1)
+- 空间：O(capacity)
+
+## 测试结果
+
+全部断言通过。
