@@ -1,0 +1,18 @@
+date: 2026-07-27
+problem: top_k_frequent
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+桶排序解法：先用 `Counter` 统计频率，再建立频率桶 `buckets[i]` 存放出现 `i` 次的元素，从高频率向低频率收集直到凑满 `k` 个。另附最小堆备选实现。
+
+## 复杂度
+
+- 时间：O(n)（桶排序主解法）
+- 空间：O(n)
+
+## 测试结果
+
+全部断言通过。
