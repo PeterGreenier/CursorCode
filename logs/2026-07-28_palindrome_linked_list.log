@@ -1,0 +1,22 @@
+date: 2026-07-28
+problem: palindrome_linked_list
+model: default
+source: automation
+status: finished
+
+## 解题思路
+
+快慢指针 + 反转后半段：
+1. 快指针走 2 步、慢指针走 1 步定位中点；
+2. 反转后半段链表；
+3. 前后半段逐节点比较；
+4. 恢复链表结构。
+
+## 复杂度
+
+- 时间：O(n)
+- 空间：O(1)
+
+## 测试
+
+偶数/奇数长度回文与非回文、空链表、单节点均通过。

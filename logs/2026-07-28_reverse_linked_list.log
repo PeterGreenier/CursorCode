@@ -1,0 +1,20 @@
+date: 2026-07-28
+problem: reverse_linked_list
+model: default
+source: automation
+status: finished
+
+## 解题思路
+
+迭代三指针反转：
+- prev、curr、next_node 同步前移；
+- 每次将 curr.next 指向 prev，完成当前节点反转。
+
+## 复杂度
+
+- 时间：O(n)
+- 空间：O(1)
+
+## 测试
+
+多节点、两节点、空链表、单节点、重复值均通过。

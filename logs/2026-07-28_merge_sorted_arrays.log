@@ -1,0 +1,21 @@
+date: 2026-07-28
+problem: merge_sorted_arrays
+model: default
+source: automation
+status: finished
+
+## 解题思路
+
+从尾部向前填充：
+- 三指针 i（nums1 有效末尾）、j（nums2 末尾）、k（写入位置）；
+- 取较大者写入 k，左移对应指针；
+- nums2 剩余元素直接拷贝到前部。
+
+## 复杂度
+
+- 时间：O(m + n)
+- 空间：O(1)
+
+## 测试
+
+LeetCode 三示例及 nums2 全大于 nums1 场景均通过。
