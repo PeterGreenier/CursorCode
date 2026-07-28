@@ -1,0 +1,20 @@
+date: 2026-07-28
+problem: two_sum
+model: default
+source: automation
+status: finished
+
+## 解题思路
+
+哈希表一次遍历：
+- 对每个 nums[i]，查找 complement = target - nums[i] 是否已在表中；
+- 命中则返回两下标，否则将当前值及下标存入表。
+
+## 复杂度
+
+- 时间：O(n)
+- 空间：O(n)
+
+## 测试
+
+LeetCode 三示例、两元素、负数、正负混合均通过。
