@@ -1,0 +1,13 @@
+date: 2026-07-30
+problem: binary_search
+model: default
+source: automation
+status: finished
+
+解题思路：经典二分查找（闭区间）。
+1. 维护 [left, right] 搜索区间；
+2. 取中点比较，收缩边界；
+3. 区间为空返回 -1。
+
+时间复杂度 O(log n)，空间复杂度 O(1)。
+测试全部通过。

@@ -1,0 +1,13 @@
+date: 2026-07-30
+problem: valid_parentheses
+model: default
+source: automation
+status: finished
+
+解题思路：栈匹配括号。
+1. 左括号入栈；
+2. 右括号检查栈顶是否匹配；
+3. 遍历结束栈应为空。
+
+时间复杂度 O(n)，空间复杂度 O(n)。
+测试全部通过。

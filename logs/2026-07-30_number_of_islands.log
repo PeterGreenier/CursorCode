@@ -1,0 +1,13 @@
+date: 2026-07-30
+problem: number_of_islands
+model: default
+source: automation
+status: finished
+
+解题思路：DFS 淹没连通块。
+1. 遍历网格，遇到 '1' 时岛屿计数 +1；
+2. DFS 将四向连通的陆地全部置为 '0'；
+3. 无需额外 visited 数组。
+
+时间复杂度 O(m*n)，空间复杂度 O(m*n) 递归栈。
+测试全部通过。

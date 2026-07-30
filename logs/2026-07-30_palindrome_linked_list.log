@@ -1,0 +1,14 @@
+date: 2026-07-30
+problem: palindrome_linked_list
+model: default
+source: automation
+status: finished
+
+解题思路：快慢指针 + 反转后半段。
+1. 快慢指针找中点；
+2. 反转后半段链表；
+3. 前后半段逐节点比较；
+4. 恢复链表结构。
+
+时间复杂度 O(n)，空间复杂度 O(1)。
+测试全部通过。
