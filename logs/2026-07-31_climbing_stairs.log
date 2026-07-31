@@ -1,0 +1,18 @@
+date: 2026-07-31
+problem: climbing_stairs
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+动态规划：dp[i] = dp[i-1] + dp[i-2]，即爬到第 i 阶的方法数等于从 i-1 爬 1 步与从 i-2 爬 2 步之和（斐波那契数列）。
+
+## 复杂度
+
+- 时间复杂度：O(n)
+- 空间复杂度：O(n)，可优化为 O(1)
+
+## 测试
+
+所有内置测试通过。
