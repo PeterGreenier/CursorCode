@@ -1,0 +1,9 @@
+date: 2026-08-01
+problem: climbing_stairs
+model: default
+source: automation
+status: finished
+
+LeetCode 70 爬楼梯。动态规划 dp[i] = dp[i-1] + dp[i-2]，等价于斐波那契数列。
+
+时间复杂度 O(n)，空间复杂度 O(n)（可优化至 O(1)）。所有内置测试通过。
