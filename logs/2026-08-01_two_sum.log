@@ -1,0 +1,9 @@
+date: 2026-08-01
+problem: two_sum
+model: default
+source: automation
+status: finished
+
+LeetCode 1 两数之和。一次遍历数组，用哈希表存储已见元素下标，对每个元素查找补数 target - num。
+
+时间复杂度 O(n)，空间复杂度 O(n)。所有内置测试通过。

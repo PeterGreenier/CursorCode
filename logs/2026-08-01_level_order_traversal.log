@@ -1,0 +1,9 @@
+date: 2026-08-01
+problem: level_order_traversal
+model: default
+source: automation
+status: finished
+
+LeetCode 102 二叉树的层序遍历。BFS 队列，每轮按当前层节点数批量出队并把孩子入队。
+
+时间复杂度 O(n)，空间复杂度 O(n)。所有内置测试通过。

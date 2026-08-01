@@ -1,0 +1,9 @@
+date: 2026-08-01
+problem: reverse_linked_list
+model: default
+source: automation
+status: finished
+
+LeetCode 206 反转链表。迭代法维护 prev/curr 指针，逐个反转节点指向。
+
+时间复杂度 O(n)，空间复杂度 O(1)。所有内置测试通过。

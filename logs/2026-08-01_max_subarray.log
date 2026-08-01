@@ -1,0 +1,9 @@
+date: 2026-08-01
+problem: max_subarray
+model: default
+source: automation
+status: finished
+
+LeetCode 53 最大子数组和。Kadane 算法：维护以当前元素结尾的最大子数组和 current_sum，每步取 max(num, current_sum + num)。
+
+时间复杂度 O(n)，空间复杂度 O(1)。所有内置测试通过。
