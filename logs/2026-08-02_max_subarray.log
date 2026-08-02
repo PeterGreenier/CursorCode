@@ -1,0 +1,18 @@
+date: 2026-08-02
+problem: max_subarray
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+Kadane 算法。维护 current_sum（以当前元素结尾的最大子数组和）和 max_sum（全局最大）。每步 current_sum = max(nums[i], current_sum + nums[i])。
+
+## 复杂度
+
+- 时间复杂度：O(n)
+- 空间复杂度：O(1)
+
+## 测试结果
+
+全部测试用例通过，含正负数混合、全负数等场景。
