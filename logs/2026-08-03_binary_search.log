@@ -1,0 +1,15 @@
+date: 2026-08-03
+problem: binary_search
+model: default
+source: automation
+status: finished
+
+LeetCode 704. 二分查找
+
+解题思路：
+维护闭区间 [left, right]，每次取中点 mid 与 target 比较，根据大小关系收缩边界，直到找到目标或区间为空。
+
+时间复杂度：O(log n)。
+空间复杂度：O(1)。
+
+边界测试（空数组、单元素、首尾元素）全部通过。

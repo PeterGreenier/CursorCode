@@ -1,0 +1,15 @@
+date: 2026-08-03
+problem: climbing_stairs
+model: default
+source: automation
+status: finished
+
+LeetCode 70. 爬楼梯
+
+解题思路：
+动态规划，dp[i] = dp[i-1] + dp[i-2]。到达第 i 阶可从 i-1 爬 1 步或从 i-2 爬 2 步，即斐波那契数列。
+
+时间复杂度：O(n)。
+空间复杂度：O(n)，可优化为 O(1)。
+
+测试全部通过。
