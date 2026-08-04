@@ -1,0 +1,7 @@
+date: 2026-08-04
+problem: max_subarray
+model: default
+source: automation
+status: finished
+
+Kadane 算法：current_sum = max(num, current_sum+num)。时间 O(n)，空间 O(1)。
