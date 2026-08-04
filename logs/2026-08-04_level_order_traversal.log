@@ -1,0 +1,7 @@
+date: 2026-08-04
+problem: level_order_traversal
+model: default
+source: automation
+status: finished
+
+BFS 队列，每轮处理当前层 level_size 个节点。时间 O(n)，空间 O(n)。

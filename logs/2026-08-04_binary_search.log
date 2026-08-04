@@ -1,0 +1,7 @@
+date: 2026-08-04
+problem: binary_search
+model: default
+source: automation
+status: finished
+
+闭区间二分查找，mid = left + (right-left)//2 防溢出。时间 O(log n)，空间 O(1)。
