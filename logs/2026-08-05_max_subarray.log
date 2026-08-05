@@ -1,0 +1,16 @@
+date: 2026-08-05
+problem: max_subarray
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+Kadane 算法：维护 current_sum（以当前元素结尾的最大子数组和）和 max_sum（全局最大值）。
+每步二选一——将当前元素接在前面的子数组后面，或从当前元素重新开始：
+`current_sum = max(nums[i], current_sum + nums[i])`。
+
+## 复杂度
+
+- 时间复杂度：O(n)，单次遍历
+- 空间复杂度：O(1)

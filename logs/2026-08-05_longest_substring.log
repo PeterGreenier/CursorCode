@@ -1,0 +1,15 @@
+date: 2026-08-05
+problem: longest_substring
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+滑动窗口 + 哈希表：用 [left, right] 维护当前无重复子串窗口，哈希表记录每个字符最近出现位置。
+右指针扩展时，若字符在窗口内重复，将 left 跳到该字符上次位置的下一位；每步更新 max_len。
+
+## 复杂度
+
+- 时间复杂度：O(n)，每个字符最多被访问两次
+- 空间复杂度：O(min(m, n))，m 为字符集大小
