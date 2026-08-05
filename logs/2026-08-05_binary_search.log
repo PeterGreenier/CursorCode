@@ -1,0 +1,17 @@
+date: 2026-08-05
+problem: binary_search
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+在有序数组中使用经典二分查找：维护闭区间 [left, right]，每次取中点 mid 与 target 比较，
+相等则返回下标；target 更小则收缩右边界，更大则收缩左边界；区间为空时返回 -1。
+
+使用 `left + (right - left) // 2` 计算中点，避免 `(left + right)` 在极端情况下溢出。
+
+## 复杂度
+
+- 时间复杂度：O(log n)，每次将搜索区间减半
+- 空间复杂度：O(1)，仅使用常数个指针变量
