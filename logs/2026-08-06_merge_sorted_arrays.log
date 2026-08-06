@@ -1,0 +1,10 @@
+date: 2026-08-06
+problem: merge_sorted_arrays
+model: default
+source: automation
+status: finished
+
+解题说明：
+从尾部双指针原地合并，O(m+n) 时间 O(1) 空间
+
+所有内置测试用例均已通过。

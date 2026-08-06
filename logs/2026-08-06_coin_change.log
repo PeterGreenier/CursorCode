@@ -1,0 +1,10 @@
+date: 2026-08-06
+problem: coin_change
+model: default
+source: automation
+status: finished
+
+解题说明：
+完全背包 DP，O(amount*len(coins)) 时间 O(amount) 空间
+
+所有内置测试用例均已通过。

@@ -1,0 +1,10 @@
+date: 2026-08-06
+problem: quick_sort
+model: default
+source: automation
+status: finished
+
+解题说明：
+原地 partition+递归，平均 O(n log n) 时间 O(log n) 栈空间
+
+所有内置测试用例均已通过。

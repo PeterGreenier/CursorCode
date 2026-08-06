@@ -1,0 +1,10 @@
+date: 2026-08-06
+problem: number_of_islands
+model: default
+source: automation
+status: finished
+
+解题说明：
+DFS 淹没陆地，O(m*n) 时间 O(m*n) 栈空间
+
+所有内置测试用例均已通过。

@@ -1,0 +1,10 @@
+date: 2026-08-06
+problem: level_order_traversal
+model: default
+source: automation
+status: finished
+
+解题说明：
+BFS 按层处理，O(n) 时间 O(n) 空间
+
+所有内置测试用例均已通过。
