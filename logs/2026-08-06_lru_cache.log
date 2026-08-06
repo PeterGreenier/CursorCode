@@ -1,0 +1,10 @@
+date: 2026-08-06
+problem: lru_cache
+model: default
+source: automation
+status: finished
+
+解题说明：
+OrderedDict，get/put 均 O(1)
+
+所有内置测试用例均已通过。

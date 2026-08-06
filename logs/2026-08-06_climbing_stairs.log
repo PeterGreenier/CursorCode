@@ -1,0 +1,10 @@
+date: 2026-08-06
+problem: climbing_stairs
+model: default
+source: automation
+status: finished
+
+解题说明：
+DP/斐波那契，O(n) 时间 O(n) 空间（可优化到 O(1)）
+
+所有内置测试用例均已通过。

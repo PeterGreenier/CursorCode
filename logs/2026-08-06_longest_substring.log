@@ -1,0 +1,10 @@
+date: 2026-08-06
+problem: longest_substring
+model: default
+source: automation
+status: finished
+
+解题说明：
+滑动窗口+哈希表，O(n) 时间 O(min(n,字符集)) 空间
+
+所有内置测试用例均已通过。
