@@ -1,0 +1,8 @@
+date: 2026-08-08
+problem: two_sum
+model: default
+source: automation
+status: finished
+
+哈希表一次遍历，查找补数。
+时间复杂度 O(n)，空间复杂度 O(n)。

@@ -1,0 +1,8 @@
+date: 2026-08-08
+problem: coin_change
+model: default
+source: automation
+status: finished
+
+完全背包 DP，dp[i]=min(dp[i], dp[i-coin]+1)。
+时间复杂度 O(amount * len(coins))，空间复杂度 O(amount)。

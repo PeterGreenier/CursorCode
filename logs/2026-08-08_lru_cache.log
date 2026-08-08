@@ -1,0 +1,8 @@
+date: 2026-08-08
+problem: lru_cache
+model: default
+source: automation
+status: finished
+
+OrderedDict 实现双向链表 + 哈希表，get/put 均 O(1)。
+时间复杂度 O(1) 每次操作，空间复杂度 O(capacity)。
