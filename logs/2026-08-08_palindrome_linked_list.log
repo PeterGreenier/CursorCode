@@ -1,0 +1,8 @@
+date: 2026-08-08
+problem: palindrome_linked_list
+model: default
+source: automation
+status: finished
+
+快慢指针找中点，反转后半段，逐节点比较。
+时间复杂度 O(n)，空间复杂度 O(1)。

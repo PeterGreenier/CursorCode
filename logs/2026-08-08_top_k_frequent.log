@@ -1,0 +1,8 @@
+date: 2026-08-08
+problem: top_k_frequent
+model: default
+source: automation
+status: finished
+
+Counter 统计频率 + 桶排序，从高频率桶向下取 k 个。
+时间复杂度 O(n)，空间复杂度 O(n)。

@@ -1,0 +1,8 @@
+date: 2026-08-08
+problem: level_order_traversal
+model: default
+source: automation
+status: finished
+
+BFS 队列遍历，每层按队列长度批量处理节点。
+时间复杂度 O(n)，空间复杂度 O(n)（队列最多存一层节点）。
