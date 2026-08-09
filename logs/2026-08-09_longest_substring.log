@@ -1,0 +1,20 @@
+date: 2026-08-09
+problem: longest_substring
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+使用滑动窗口 + 哈希表记录每个字符最近出现的下标。
+
+维护窗口 [left, right]，右指针逐字符扩展；若当前字符在窗口内重复出现，将 left 跳到该字符上次位置的下一位。每步更新窗口长度并取全局最大值。
+
+## 复杂度
+
+- 时间：O(n)，每个字符最多被左右指针各访问一次
+- 空间：O(min(n, |字符集|))，哈希表存储字符位置
+
+## 测试
+
+本地 `python3 solutions/longest_substring.py` 全部通过。

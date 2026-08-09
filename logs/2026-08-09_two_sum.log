@@ -1,0 +1,18 @@
+date: 2026-08-09
+problem: two_sum
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+哈希表一次遍历：对每个 nums[i]，若 target-nums[i] 已在表中则返回两下标；否则将当前值及下标存入表。
+
+## 复杂度
+
+- 时间：O(n)
+- 空间：O(n)
+
+## 测试
+
+本地 `python3 solutions/two_sum.py` 全部通过。
