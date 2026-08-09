@@ -1,0 +1,18 @@
+date: 2026-08-09
+problem: level_order_traversal
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+BFS 层序遍历：用队列按层推进。每轮先记录当前层节点数，依次出队、收集值、将非空子节点入队，形成一层的结果列表。
+
+## 复杂度
+
+- 时间：O(n)，每个节点入队出队各一次
+- 空间：O(n)，队列最多存储约一层节点
+
+## 测试
+
+本地 `python3 solutions/level_order_traversal.py` 全部通过。

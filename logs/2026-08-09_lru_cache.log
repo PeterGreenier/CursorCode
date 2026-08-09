@@ -1,0 +1,18 @@
+date: 2026-08-09
+problem: lru_cache
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+使用 OrderedDict：get 时将键移到末尾表示最近使用；put 时插入或更新并移到末尾，超出容量时 popitem(last=False) 淘汰最久未用项。均摊 O(1)。
+
+## 复杂度
+
+- get/put：O(1) 均摊
+- 空间：O(capacity)
+
+## 测试
+
+本地 `python3 solutions/lru_cache.py` 全部通过。
