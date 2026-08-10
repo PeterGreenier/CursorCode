@@ -1,0 +1,14 @@
+date: 2026-08-10
+problem: reverse_linked_list
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+迭代反转单链表。维护 prev、curr、next_node 三个指针，每次将 curr.next 指向 prev 完成当前节点反转，三个指针同步前移。
+
+## 复杂度
+
+- 时间复杂度：O(n)
+- 空间复杂度：O(1)
