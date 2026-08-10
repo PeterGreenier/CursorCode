@@ -1,0 +1,14 @@
+date: 2026-08-10
+problem: quick_sort
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+原地快速排序，采用 Lomuto 分区方案。以区间末尾元素为枢轴，将小于等于枢轴的元素交换到左侧，再将枢轴放到正确位置，递归排序左右子区间。
+
+## 复杂度
+
+- 时间复杂度：平均 O(n log n)，最坏 O(n²)
+- 空间复杂度：O(log n) 递归栈深度

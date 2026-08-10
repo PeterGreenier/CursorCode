@@ -1,0 +1,14 @@
+date: 2026-08-10
+problem: number_of_islands
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+DFS 遍历二维网格。遇到 '1' 时岛屿计数 +1，并从该格子四向扩散 DFS，将连通陆地标记为 '0' 防止重复计数。
+
+## 复杂度
+
+- 时间复杂度：O(m × n)
+- 空间复杂度：O(m × n) 最坏递归栈深度

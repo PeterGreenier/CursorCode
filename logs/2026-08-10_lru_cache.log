@@ -1,0 +1,14 @@
+date: 2026-08-10
+problem: lru_cache
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+使用 OrderedDict 实现 LRU 缓存。哈希表提供 O(1) 查找，双向链表维护访问顺序。get/put 时将键移到尾部标记为最近使用，超出容量时 popitem(last=False) 淘汰最久未使用的键。
+
+## 复杂度
+
+- get/put 时间复杂度：O(1)
+- 空间复杂度：O(capacity)

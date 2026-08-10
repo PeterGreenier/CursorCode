@@ -1,0 +1,14 @@
+date: 2026-08-10
+problem: level_order_traversal
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+使用 BFS 层序遍历二叉树。用队列存放待访问节点，每轮循环开始时记录当前队列长度作为本层节点数，依次出队访问并将左右子节点入队，自然按层分组。
+
+## 复杂度
+
+- 时间复杂度：O(n)，每个节点入队出队各一次
+- 空间复杂度：O(n)，队列最多存放一层节点（最坏情况为 n/2）
