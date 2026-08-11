@@ -1,0 +1,10 @@
+date: 2026-08-11
+problem: reverse_linked_list
+model: default
+source: automation
+status: finished
+
+解题说明：
+迭代三指针反转。时间O(n)，空间O(1)。
+
+已通过 solutions/reverse_linked_list.py 中 if __name__ == "__main__" 测试。

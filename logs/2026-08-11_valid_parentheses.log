@@ -1,0 +1,10 @@
+date: 2026-08-11
+problem: valid_parentheses
+model: default
+source: automation
+status: finished
+
+解题说明：
+栈匹配左右括号。时间O(n)，空间O(n)。
+
+已通过 solutions/valid_parentheses.py 中 if __name__ == "__main__" 测试。
