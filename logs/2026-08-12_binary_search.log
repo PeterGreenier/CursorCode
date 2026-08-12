@@ -1,0 +1,19 @@
+date: 2026-08-12
+problem: binary_search
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+经典二分查找（闭区间 [left, right]）：
+1. 取中点 mid 与 target 比较；
+2. 相等返回 mid；target 更小则收缩右边界，更大则收缩左边界；
+3. 区间为空时返回 -1。
+
+使用 `left + (right - left) // 2` 避免整数溢出。
+
+## 复杂度
+
+- 时间：O(log n)
+- 空间：O(1)

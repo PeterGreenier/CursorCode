@@ -1,0 +1,17 @@
+date: 2026-08-12
+problem: number_of_islands
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+DFS 遍历二维网格统计连通块：
+1. 遍历每个格子，遇到 '1' 时岛屿计数 +1；
+2. 从该格子出发 DFS，四向扩散并将陆地标记为 '0'（已访问）；
+3. 原地修改避免额外 visited 数组。
+
+## 复杂度
+
+- 时间：O(m × n)，m、n 为网格行列数
+- 空间：O(m × n) 最坏递归栈深度
