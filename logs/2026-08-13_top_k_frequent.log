@@ -1,0 +1,18 @@
+date: 2026-08-13
+problem: top_k_frequent
+model: default
+source: automation
+status: finished
+
+LeetCode 347. 前 K 个高频元素
+
+解题思路：
+1. 用 Counter 统计各元素频率；
+2. 建立频率桶 buckets[i]，存放出现 i 次的所有元素；
+3. 从高频率向低频率遍历桶，收集元素直到凑满 k 个。
+
+复杂度：
+- 时间复杂度：O(n)，n 为数组长度
+- 空间复杂度：O(n)
+
+测试结果：全部通过。

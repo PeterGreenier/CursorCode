@@ -1,0 +1,16 @@
+date: 2026-08-13
+problem: two_sum
+model: default
+source: automation
+status: finished
+
+LeetCode 1. 两数之和
+
+解题思路：
+一次遍历数组，用哈希表存储已见过的值及其下标。对每个元素计算补数 complement = target - num，若补数已在表中则返回两个下标。
+
+复杂度：
+- 时间复杂度：O(n)
+- 空间复杂度：O(n)
+
+测试结果：全部通过。

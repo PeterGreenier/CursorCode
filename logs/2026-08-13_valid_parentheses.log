@@ -1,0 +1,16 @@
+date: 2026-08-13
+problem: valid_parentheses
+model: default
+source: automation
+status: finished
+
+LeetCode 20. 有效的括号
+
+解题思路：
+用栈匹配括号。遇到左括号入栈，遇到右括号时检查栈顶是否为对应左括号，不匹配或栈空则返回 False，最终栈应为空。
+
+复杂度：
+- 时间复杂度：O(n)
+- 空间复杂度：O(n)
+
+测试结果：全部通过。
