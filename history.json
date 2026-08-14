@@ -1,0 +1,114 @@
+{
+  "runs": [
+    {
+      "date": "2026-08-14",
+      "problem_id": "top_k_frequent",
+      "title": "前 K 个高频元素",
+      "model": "default",
+      "source": "automation",
+      "status": "finished",
+      "started_at": "2026-08-14T10:10:20",
+      "finished_at": "2026-08-14T10:10:35",
+      "log_file": "logs/2026-08-14_top_k_frequent.log"
+    },
+    {
+      "date": "2026-08-14",
+      "problem_id": "number_of_islands",
+      "title": "岛屿数量",
+      "model": "default",
+      "source": "automation",
+      "status": "finished",
+      "started_at": "2026-08-14T10:10:36",
+      "finished_at": "2026-08-14T10:10:50",
+      "log_file": "logs/2026-08-14_number_of_islands.log"
+    },
+    {
+      "date": "2026-08-14",
+      "problem_id": "palindrome_linked_list",
+      "title": "回文链表",
+      "model": "default",
+      "source": "automation",
+      "status": "finished",
+      "started_at": "2026-08-14T10:10:51",
+      "finished_at": "2026-08-14T10:11:05",
+      "log_file": "logs/2026-08-14_palindrome_linked_list.log"
+    },
+    {
+      "date": "2026-08-14",
+      "problem_id": "two_sum",
+      "title": "两数之和",
+      "model": "default",
+      "source": "automation",
+      "status": "finished",
+      "started_at": "2026-08-14T10:11:06",
+      "finished_at": "2026-08-14T10:11:18",
+      "log_file": "logs/2026-08-14_two_sum.log"
+    },
+    {
+      "date": "2026-08-14",
+      "problem_id": "reverse_linked_list",
+      "title": "反转链表",
+      "model": "default",
+      "source": "automation",
+      "status": "finished",
+      "started_at": "2026-08-14T10:11:19",
+      "finished_at": "2026-08-14T10:11:32",
+      "log_file": "logs/2026-08-14_reverse_linked_list.log"
+    },
+    {
+      "date": "2026-08-14",
+      "problem_id": "valid_parentheses",
+      "title": "有效的括号",
+      "model": "default",
+      "source": "automation",
+      "status": "finished",
+      "started_at": "2026-08-14T10:11:33",
+      "finished_at": "2026-08-14T10:11:45",
+      "log_file": "logs/2026-08-14_valid_parentheses.log"
+    },
+    {
+      "date": "2026-08-14",
+      "problem_id": "binary_search",
+      "title": "二分查找",
+      "model": "default",
+      "source": "automation",
+      "status": "finished",
+      "started_at": "2026-08-14T10:11:46",
+      "finished_at": "2026-08-14T10:11:58",
+      "log_file": "logs/2026-08-14_binary_search.log"
+    },
+    {
+      "date": "2026-08-14",
+      "problem_id": "merge_sorted_arrays",
+      "title": "合并两个有序数组",
+      "model": "default",
+      "source": "automation",
+      "status": "finished",
+      "started_at": "2026-08-14T10:11:59",
+      "finished_at": "2026-08-14T10:12:12",
+      "log_file": "logs/2026-08-14_merge_sorted_arrays.log"
+    },
+    {
+      "date": "2026-08-14",
+      "problem_id": "max_subarray",
+      "title": "最大子数组和",
+      "model": "default",
+      "source": "automation",
+      "status": "finished",
+      "started_at": "2026-08-14T10:12:13",
+      "finished_at": "2026-08-14T10:12:26",
+      "log_file": "logs/2026-08-14_max_subarray.log"
+    },
+    {
+      "date": "2026-08-14",
+      "problem_id": "climbing_stairs",
+      "title": "爬楼梯",
+      "model": "default",
+      "source": "automation",
+      "status": "finished",
+      "started_at": "2026-08-14T10:12:27",
+      "finished_at": "2026-08-14T10:12:40",
+      "log_file": "logs/2026-08-14_climbing_stairs.log"
+    }
+  ]
+}

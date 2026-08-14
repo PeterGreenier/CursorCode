@@ -1,0 +1,18 @@
+date: 2026-08-14
+problem: binary_search
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+经典二分查找。维护闭区间 [left, right]，取中点比较 target，收缩边界直至找到或区间为空。
+
+## 复杂度
+
+- 时间复杂度：O(log n)
+- 空间复杂度：O(1)
+
+## 测试结果
+
+全部断言通过。

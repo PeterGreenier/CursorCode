@@ -1,0 +1,20 @@
+date: 2026-08-14
+problem: top_k_frequent
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+LeetCode 347 前 K 个高频元素。使用桶排序：先 Counter 统计频率，再按频率建桶，从高频率向低频率收集 k 个元素。
+
+备选实现为大小为 k 的最小堆，时间 O(n log k)。
+
+## 复杂度
+
+- 时间复杂度：O(n)，n 为数组长度
+- 空间复杂度：O(n)，频率表与桶
+
+## 测试结果
+
+全部断言通过。
