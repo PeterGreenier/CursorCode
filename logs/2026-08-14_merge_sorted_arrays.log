@@ -1,0 +1,18 @@
+date: 2026-08-14
+problem: merge_sorted_arrays
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+LeetCode 88 合并两个有序数组。从尾部向前填充，比较 nums1 与 nums2 末尾元素，避免覆盖 nums1 未处理部分。
+
+## 复杂度
+
+- 时间复杂度：O(m + n)
+- 空间复杂度：O(1)
+
+## 测试结果
+
+全部断言通过。
