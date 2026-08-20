@@ -1,0 +1,11 @@
+date: 2026-08-20
+problem: quick_sort
+model: default
+source: automation
+status: finished
+
+解题思路：Lomuto 分区 + 递归，随机枢轴避免最坏情况。
+
+复杂度：平均 O(n log n) 时间，O(log n) 递归栈空间
+
+测试：solutions/quick_sort.py 全部通过。

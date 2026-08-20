@@ -1,0 +1,11 @@
+date: 2026-08-20
+problem: lru_cache
+model: default
+source: automation
+status: finished
+
+解题思路：OrderedDict 实现双向链表+哈希表，get/put 均 O(1)。
+
+复杂度：O(1) get/put，O(capacity) 空间
+
+测试：solutions/lru_cache.py 全部通过。

@@ -1,0 +1,11 @@
+date: 2026-08-20
+problem: climbing_stairs
+model: default
+source: automation
+status: finished
+
+解题思路：动态规划，dp[i] = dp[i-1] + dp[i-2]，斐波那契递推。
+
+复杂度：O(n) 时间，O(n) 空间（可优化为 O(1)）
+
+测试：solutions/climbing_stairs.py 全部通过。
