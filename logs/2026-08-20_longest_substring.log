@@ -1,0 +1,11 @@
+date: 2026-08-20
+problem: longest_substring
+model: default
+source: automation
+status: finished
+
+解题思路：滑动窗口 + 哈希表记录字符最近出现位置，遇重复则收缩左边界。
+
+复杂度：O(n) 时间，O(min(m,n)) 空间
+
+测试：solutions/longest_substring.py 全部通过。

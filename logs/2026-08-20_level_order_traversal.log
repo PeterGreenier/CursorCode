@@ -1,0 +1,11 @@
+date: 2026-08-20
+problem: level_order_traversal
+model: default
+source: automation
+status: finished
+
+解题思路：BFS 队列，每轮按当前层节点数批量处理，自然分层。
+
+复杂度：O(n) 时间，O(n) 空间
+
+测试：solutions/level_order_traversal.py 全部通过。

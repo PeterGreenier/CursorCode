@@ -1,0 +1,11 @@
+date: 2026-08-20
+problem: binary_search
+model: default
+source: automation
+status: finished
+
+解题思路：经典二分查找，闭区间 [left, right]，每次取中点比较并收缩边界。
+
+复杂度：O(log n) 时间，O(1) 空间
+
+测试：solutions/binary_search.py 全部通过。
