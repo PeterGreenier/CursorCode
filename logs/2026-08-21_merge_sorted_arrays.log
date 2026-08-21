@@ -1,0 +1,18 @@
+date: 2026-08-21
+problem: merge_sorted_arrays
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+LeetCode 88 合并两个有序数组。采用从尾部向前填充的双指针策略：指针 i、j 分别指向 nums1 有效末尾和 nums2 末尾，指针 k 指向合并后数组的末尾。每次比较 nums1[i] 与 nums2[j]，将较大者写入 nums1[k]，并左移对应指针。若 nums2 仍有剩余元素，直接拷贝到 nums1 前部。
+
+## 复杂度
+
+- 时间复杂度：O(m + n)，m、n 分别为两个数组长度
+- 空间复杂度：O(1)，原地合并
+
+## 测试结果
+
+所有内置测试用例通过。
