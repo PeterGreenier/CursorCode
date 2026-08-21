@@ -1,0 +1,18 @@
+date: 2026-08-21
+problem: climbing_stairs
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+LeetCode 70 爬楼梯。动态规划：dp[i] 表示爬到第 i 阶的方法数，状态转移 dp[i] = dp[i-1] + dp[i-2]，即斐波那契数列。边界条件 dp[1]=1, dp[2]=2。
+
+## 复杂度
+
+- 时间复杂度：O(n)
+- 空间复杂度：O(n)，可优化为 O(1)
+
+## 测试结果
+
+所有内置测试用例通过。

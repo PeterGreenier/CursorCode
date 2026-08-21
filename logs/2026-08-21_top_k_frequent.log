@@ -1,0 +1,18 @@
+date: 2026-08-21
+problem: top_k_frequent
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+LeetCode 347 前 K 个高频元素。桶排序解法：先用 Counter 统计频率，建立频率桶 buckets[i] 存放出现 i 次的元素，从最高频率桶向低遍历收集 k 个元素。
+
+## 复杂度
+
+- 时间复杂度：O(n)
+- 空间复杂度：O(n)
+
+## 测试结果
+
+所有内置测试用例通过。
