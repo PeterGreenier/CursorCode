@@ -1,0 +1,9 @@
+date: 2026-08-22
+problem: longest_substring
+model: default
+source: automation
+status: finished
+
+滑动窗口 + 哈希表记录字符最近位置。右指针扩展，遇重复则移动左边界。时间 O(n)，空间 O(min(n, 字符集大小))。
+
+所有内置测试用例通过。
