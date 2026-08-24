@@ -1,0 +1,9 @@
+date: 2026-08-24
+problem: lru_cache
+model: default
+source: automation
+status: finished
+
+OrderedDict 维护访问顺序，get/put 均 O(1)。空间 O(capacity)。
+
+所有内置测试通过。

@@ -1,0 +1,9 @@
+date: 2026-08-24
+problem: two_sum
+model: default
+source: automation
+status: finished
+
+哈希表一次遍历查找补数。时间 O(n)，空间 O(n)。
+
+所有内置测试通过。
