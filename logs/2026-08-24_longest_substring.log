@@ -1,0 +1,9 @@
+date: 2026-08-24
+problem: longest_substring
+model: default
+source: automation
+status: finished
+
+滑动窗口 + 哈希表记录字符最近出现位置。时间 O(n)，空间 O(min(m,n))，m 为字符集大小。
+
+所有内置测试通过。

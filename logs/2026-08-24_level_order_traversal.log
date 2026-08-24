@@ -1,0 +1,9 @@
+date: 2026-08-24
+problem: level_order_traversal
+model: default
+source: automation
+status: finished
+
+BFS 队列按层遍历，每层先记录队列长度再批量处理。时间 O(n)，空间 O(n)。
+
+所有内置测试通过。
