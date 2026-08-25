@@ -1,0 +1,14 @@
+date: 2026-08-25
+problem: coin_change
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+动态规划（完全背包求最小值）。定义 dp[i] 为凑成金额 i 所需的最少硬币数，对每个金额尝试使用每种硬币更新 dp[i] = min(dp[i], dp[i-coin]+1)。
+
+## 复杂度
+
+- 时间复杂度：O(amount × len(coins))
+- 空间复杂度：O(amount)
