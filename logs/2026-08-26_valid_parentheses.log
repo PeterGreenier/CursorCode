@@ -1,0 +1,15 @@
+date: 2026-08-26
+problem: valid_parentheses
+model: default
+source: automation
+status: finished
+
+解题说明：
+栈匹配括号。左括号入栈，右括号时检查栈顶是否为对应左括号；
+遍历结束栈空则有效。
+
+复杂度：
+- 时间 O(n)
+- 空间 O(n)
+
+测试：嵌套、多种括号、顺序错误、空串等用例均通过。
