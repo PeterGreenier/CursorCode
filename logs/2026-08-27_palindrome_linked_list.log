@@ -1,0 +1,11 @@
+date: 2026-08-27
+problem: palindrome_linked_list
+model: default
+source: automation
+status: finished
+
+题目: 回文链表 (easy)
+解法: 快慢指针找中点，反转后半段，逐节点比较后恢复链表。
+复杂度: O(n) 时间，O(1) 额外空间。
+
+测试: python3 solutions/palindrome_linked_list.py — All tests passed.
