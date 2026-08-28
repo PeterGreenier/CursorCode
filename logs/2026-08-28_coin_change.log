@@ -1,0 +1,18 @@
+date: 2026-08-28
+problem: coin_change
+model: default
+source: automation
+status: finished
+
+## 题目
+LeetCode 322. 零钱兑换 — 给定硬币面额与总金额，求最少硬币数。
+
+## 解题思路
+完全背包 DP：`dp[i]` 为凑成金额 i 的最少硬币数，对每个金额尝试每种硬币更新 `dp[i] = min(dp[i], dp[i-coin]+1)`。
+
+## 复杂度
+- 时间：O(amount × len(coins))
+- 空间：O(amount)
+
+## 测试
+覆盖 LeetCode 示例、amount=0、无法凑成等边界，全部通过。

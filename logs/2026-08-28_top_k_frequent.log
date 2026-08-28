@@ -1,0 +1,23 @@
+date: 2026-08-28
+problem: top_k_frequent
+model: default
+source: automation
+status: finished
+
+## 题目
+LeetCode 347. 前 K 个高频元素 — 给定整数数组 nums 和 k，返回出现频率前 k 高的元素。
+
+## 解题思路
+主解法采用桶排序：
+1. 用 `Counter` 统计每个元素的出现频率；
+2. 建立频率桶 `buckets[i]`，存放所有出现 i 次的元素；
+3. 从最高频率桶向低频率桶遍历，依次取出元素直到凑满 k 个。
+
+另提供最小堆备选实现：维护大小为 k 的堆，堆顶为当前 Top-K 中频率最低的元素。
+
+## 复杂度
+- 桶排序：时间 O(n)，空间 O(n)
+- 堆解法：时间 O(n log k)，空间 O(n)
+
+## 测试
+覆盖 LeetCode 示例及单元素数组，桶排序与堆解法结果一致，全部通过。
