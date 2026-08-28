@@ -1,0 +1,18 @@
+date: 2026-08-28
+problem: two_sum
+model: default
+source: automation
+status: finished
+
+## 题目
+LeetCode 1. 两数之和 — 返回和为 target 的两个数的下标。
+
+## 解题思路
+哈希表一次遍历：对每个元素查找补数 `target - num`，命中则返回两个下标。
+
+## 复杂度
+- 时间：O(n)
+- 空间：O(n)
+
+## 测试
+覆盖 LeetCode 示例及边界用例，全部通过。

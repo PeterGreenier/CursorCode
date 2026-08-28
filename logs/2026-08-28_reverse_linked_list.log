@@ -1,0 +1,18 @@
+date: 2026-08-28
+problem: reverse_linked_list
+model: default
+source: automation
+status: finished
+
+## 题目
+LeetCode 206. 反转链表 — 迭代反转单链表并返回新头节点。
+
+## 解题思路
+维护 prev/curr 指针，每次将 curr.next 指向 prev 并前移，最终 prev 为新头。
+
+## 复杂度
+- 时间：O(n)
+- 空间：O(1)
+
+## 测试
+覆盖 LeetCode 示例、空链表、单节点等用例，全部通过。

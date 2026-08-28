@@ -1,0 +1,22 @@
+date: 2026-08-28
+problem: lru_cache
+model: default
+source: automation
+status: finished
+
+## 题目
+LeetCode 146. LRU 缓存 — 设计并实现 LRU（最近最少使用）缓存，支持 get 和 put，均要求 O(1) 时间复杂度。
+
+## 解题思路
+使用 `collections.OrderedDict` 同时满足哈希查找与顺序维护：
+- 哈希表提供 O(1) 按键查找；
+- 内部双向链表维护访问顺序（左侧最久未用，右侧最近使用）；
+- `get` 命中后将键 `move_to_end`，标记为最近使用；
+- `put` 写入后若超出容量，用 `popitem(last=False)` 淘汰头部 LRU 项。
+
+## 复杂度
+- 时间：get / put 均为 O(1)
+- 空间：O(capacity)
+
+## 测试
+覆盖 LeetCode 示例、容量为 1、更新已存在键、连续 get 等边界情况，全部通过。
