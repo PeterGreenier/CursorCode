@@ -1,0 +1,11 @@
+date: 2026-08-29
+problem: binary_search
+model: default
+source: automation
+status: finished
+
+二分查找 — 解题说明
+
+闭区间二分收缩边界，时间 O(log n)，空间 O(1)
+
+所有内置测试用例均已通过。

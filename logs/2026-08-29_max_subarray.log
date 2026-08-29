@@ -1,0 +1,11 @@
+date: 2026-08-29
+problem: max_subarray
+model: default
+source: automation
+status: finished
+
+最大子数组和 — 解题说明
+
+Kadane 动态规划，时间 O(n)，空间 O(1)
+
+所有内置测试用例均已通过。
