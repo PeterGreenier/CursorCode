@@ -1,0 +1,11 @@
+date: 2026-08-29
+problem: number_of_islands
+model: default
+source: automation
+status: finished
+
+岛屿数量 — 解题说明
+
+DFS 四向淹没连通陆地，时间 O(mn)，空间 O(mn) 递归栈
+
+所有内置测试用例均已通过。

@@ -1,0 +1,11 @@
+date: 2026-08-29
+problem: palindrome_linked_list
+model: default
+source: automation
+status: finished
+
+回文链表 — 解题说明
+
+快慢指针找中点+反转后半段比较，时间 O(n)，空间 O(1)
+
+所有内置测试用例均已通过。

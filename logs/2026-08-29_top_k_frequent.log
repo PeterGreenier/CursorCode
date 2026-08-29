@@ -1,0 +1,11 @@
+date: 2026-08-29
+problem: top_k_frequent
+model: default
+source: automation
+status: finished
+
+前 K 个高频元素 — 解题说明
+
+桶排序统计频率后从高到低收集，时间 O(n)，空间 O(n)
+
+所有内置测试用例均已通过。
