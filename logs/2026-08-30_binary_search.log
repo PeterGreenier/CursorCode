@@ -1,0 +1,14 @@
+date: 2026-08-30
+problem: binary_search
+model: default
+source: automation
+status: finished
+
+解题说明：
+在有序数组上维护闭区间 [left, right]，取中点与 target 比较，逐步收缩搜索范围。
+
+复杂度分析：
+- 时间复杂度 O(log n)
+- 空间复杂度 O(1)
+
+测试结果：All tests passed.
