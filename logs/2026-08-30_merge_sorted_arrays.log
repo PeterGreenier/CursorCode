@@ -1,0 +1,14 @@
+date: 2026-08-30
+problem: merge_sorted_arrays
+model: default
+source: automation
+status: finished
+
+解题说明：
+从尾部向前填充，比较 nums1 和 nums2 末尾元素，取较大者写入合并位置，避免覆盖 nums1 未处理元素。
+
+复杂度分析：
+- 时间复杂度 O(m + n)
+- 空间复杂度 O(1)，原地合并
+
+测试结果：All tests passed.
