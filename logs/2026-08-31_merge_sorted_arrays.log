@@ -1,0 +1,21 @@
+date: 2026-08-31
+problem: merge_sorted_arrays
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+LeetCode 88 合并两个有序数组。从尾部向前填充，避免覆盖 nums1 中尚未处理的元素。
+
+### 算法步骤
+1. 三个指针 i、j、k 分别指向 nums1 有效末尾、nums2 末尾、合并后末尾；
+2. 每次取较大者写入 k 位置；
+3. 若 nums2 仍有剩余，拷贝到 nums1 前部。
+
+### 复杂度
+- 时间复杂度：O(m + n)
+- 空间复杂度：O(1)，原地合并
+
+### 测试结果
+全部测试用例通过。

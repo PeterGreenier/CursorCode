@@ -1,0 +1,22 @@
+date: 2026-08-31
+problem: binary_search
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+经典二分查找。在有序数组中使用闭区间 [left, right] 搜索目标值。
+
+### 算法步骤
+1. 取中点 mid = left + (right - left) // 2；
+2. 若 nums[mid] == target 返回 mid；
+3. 若 nums[mid] < target，收缩左边界；否则收缩右边界；
+4. 区间为空时返回 -1。
+
+### 复杂度
+- 时间复杂度：O(log n)
+- 空间复杂度：O(1)
+
+### 测试结果
+全部测试用例通过。
