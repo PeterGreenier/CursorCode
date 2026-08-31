@@ -1,0 +1,21 @@
+date: 2026-08-31
+problem: two_sum
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+LeetCode 1 两数之和。使用哈希表一次遍历，对每个元素查找其补数是否已存在。
+
+### 算法步骤
+1. 遍历数组，对每个元素 nums[i]，计算 complement = target - nums[i]；
+2. 若 complement 已在哈希表中，返回两个下标；
+3. 否则将当前值及其下标存入哈希表。
+
+### 复杂度
+- 时间复杂度：O(n)
+- 空间复杂度：O(n)，哈希表存储
+
+### 测试结果
+全部测试用例通过。
