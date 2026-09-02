@@ -1,0 +1,11 @@
+date: 2026-09-02
+problem: binary_search
+model: default
+source: automation
+status: finished
+
+解题说明：
+在有序数组上使用闭区间 [left, right] 二分查找。取 mid 与 target 比较，收缩搜索区间直至找到或区间为空。
+
+时间复杂度：O(log n)。
+空间复杂度：O(1)。

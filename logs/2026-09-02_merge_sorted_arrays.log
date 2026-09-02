@@ -1,0 +1,11 @@
+date: 2026-09-02
+problem: merge_sorted_arrays
+model: default
+source: automation
+status: finished
+
+解题说明：
+从 nums1 和 nums2 尾部向前比较，将较大值写入合并后的尾部位置，避免覆盖 nums1 未处理元素。nums2 剩余元素直接拷贝到前部。
+
+时间复杂度：O(m + n)。
+空间复杂度：O(1)，原地合并。
