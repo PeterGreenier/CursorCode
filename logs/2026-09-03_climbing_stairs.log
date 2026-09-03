@@ -1,0 +1,9 @@
+date: 2026-09-03
+problem: climbing_stairs
+model: default
+source: automation
+status: finished
+
+DP：dp[i]=dp[i-1]+dp[i-2]，斐波那契递推。时间 O(n)，空间 O(n)（可优化为 O(1)）。
+
+所有单元测试通过。
