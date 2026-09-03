@@ -1,0 +1,9 @@
+date: 2026-09-03
+problem: binary_search
+model: default
+source: automation
+status: finished
+
+维护闭区间 [left, right]，每次取中点比较并收缩区间。时间 O(log n)，空间 O(1)。
+
+所有单元测试通过。

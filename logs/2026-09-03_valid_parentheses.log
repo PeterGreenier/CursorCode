@@ -1,0 +1,9 @@
+date: 2026-09-03
+problem: valid_parentheses
+model: default
+source: automation
+status: finished
+
+栈匹配括号。遇到左括号入栈，遇到右括号检查栈顶是否配对。时间 O(n)，空间 O(n)。
+
+所有单元测试通过。
