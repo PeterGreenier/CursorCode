@@ -1,0 +1,9 @@
+date: 2026-09-04
+problem: binary_search
+model: default
+source: automation
+status: finished
+
+经典二分查找，闭区间 [left, right]。时间 O(log n)，空间 O(1)。
+
+所有内置测试通过。
