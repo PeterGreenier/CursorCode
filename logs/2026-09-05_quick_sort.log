@@ -1,0 +1,9 @@
+date: 2026-09-05
+problem: quick_sort
+model: default
+source: automation
+status: finished
+
+Lomuto 分区+递归，随机测试验证有序。平均时间 O(n log n)，最坏 O(n²)，空间 O(log n) 栈。
+
+所有内置测试用例均已通过。

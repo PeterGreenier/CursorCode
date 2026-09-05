@@ -1,0 +1,9 @@
+date: 2026-09-05
+problem: level_order_traversal
+model: default
+source: automation
+status: finished
+
+BFS 队列，每轮按当前层大小批量处理节点。时间 O(n)，空间 O(n)。
+
+所有内置测试用例均已通过。
