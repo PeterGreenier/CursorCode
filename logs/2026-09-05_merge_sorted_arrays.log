@@ -1,0 +1,9 @@
+date: 2026-09-05
+problem: merge_sorted_arrays
+model: default
+source: automation
+status: finished
+
+从 nums1 与 nums2 尾部向前比较填充，避免覆盖未处理元素。时间 O(m+n)，空间 O(1)。
+
+所有内置测试用例均已通过。

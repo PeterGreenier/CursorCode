@@ -1,0 +1,9 @@
+date: 2026-09-05
+problem: number_of_islands
+model: default
+source: automation
+status: finished
+
+DFS 淹没连通陆地并计数。时间 O(m*n)，空间 O(m*n) 递归栈。
+
+所有内置测试用例均已通过。
