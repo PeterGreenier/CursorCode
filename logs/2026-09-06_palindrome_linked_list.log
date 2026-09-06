@@ -1,0 +1,15 @@
+date: 2026-09-06
+problem: palindrome_linked_list
+model: default
+source: automation
+status: finished
+
+题目：LeetCode 234. 回文链表
+
+解法：快慢指针找中点 + 反转后半段 + 逐节点比较。
+快指针走 2 步、慢指针走 1 步定位中点，反转后半段后与前半段一一比较，最后恢复链表结构。
+
+时间复杂度：O(n)。
+空间复杂度：O(1)，满足题目要求。
+
+测试：[1,2,2,1]、[1,2]、空链表、单节点、奇数/偶数长度回文与非回文用例全部通过。

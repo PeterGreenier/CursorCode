@@ -1,0 +1,16 @@
+date: 2026-09-06
+problem: longest_substring
+model: default
+source: automation
+status: finished
+
+题目：LeetCode 3. 无重复字符的最长子串
+
+解法：滑动窗口 + 哈希表。
+用 [left, right] 维护无重复子串窗口，哈希表记录每个字符最近出现位置。
+遇到重复字符且落在窗口内时，将 left 跳到该字符上次位置的下一位。
+
+时间复杂度：O(n)，每个字符最多被访问两次。
+空间复杂度：O(min(n, m))，m 为字符集大小。
+
+测试：abcabcbb、bbbbb、pwwkew、空串、abba 等用例全部通过。
