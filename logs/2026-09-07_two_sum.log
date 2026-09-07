@@ -1,0 +1,12 @@
+date: 2026-09-07
+problem: two_sum
+model: default
+source: automation
+status: finished
+
+解题说明：
+哈希表一次遍历。对每个 nums[i]，查 complement = target - nums[i] 是否已在 seen 中；否则存入 seen。
+
+复杂度：
+- 时间 O(n)
+- 空间 O(n)

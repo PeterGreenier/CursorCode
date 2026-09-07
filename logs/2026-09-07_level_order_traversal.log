@@ -1,0 +1,12 @@
+date: 2026-09-07
+problem: level_order_traversal
+model: default
+source: automation
+status: finished
+
+解题说明：
+BFS 层序遍历。队列初始放入根节点；每轮记录 queue 长度作为当前层大小，依次出队、收集值、将孩子入队。
+
+复杂度：
+- 时间 O(n)：每个节点入队出队各一次
+- 空间 O(n)：队列最多存一层节点，最坏 O(n)
