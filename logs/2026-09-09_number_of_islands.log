@@ -1,0 +1,12 @@
+date: 2026-09-09
+problem: number_of_islands
+model: default
+source: automation
+status: finished
+
+解题思路：
+DFS 遍历网格。遇到 '1' 时岛屿计数 +1，并从该格出发 DFS
+将连通陆地标记为 '0'（已访问），避免重复计数。
+
+时间复杂度：O(m * n)。
+空间复杂度：O(m * n) 最坏递归栈。
