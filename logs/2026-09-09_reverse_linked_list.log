@@ -1,0 +1,12 @@
+date: 2026-09-09
+problem: reverse_linked_list
+model: default
+source: automation
+status: finished
+
+解题思路：
+迭代反转。维护 prev、curr、next 三指针，每次将 curr.next 指向 prev，
+然后三指针同步前移，最终 prev 为新头节点。
+
+时间复杂度：O(n)。
+空间复杂度：O(1)。

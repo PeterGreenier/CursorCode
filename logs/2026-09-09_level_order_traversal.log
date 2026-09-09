@@ -1,0 +1,12 @@
+date: 2026-09-09
+problem: level_order_traversal
+model: default
+source: automation
+status: finished
+
+解题思路：
+使用 BFS 队列逐层遍历二叉树。每轮循环开始时记录当前队列长度作为层大小，
+依次弹出该层所有节点，将其值加入当前层结果，并把左右孩子入队。
+
+时间复杂度：O(n)，每个节点入队出队各一次。
+空间复杂度：O(n)，队列最多存放约 n/2 个节点（最后一层）。
