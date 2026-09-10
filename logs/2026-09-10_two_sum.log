@@ -1,0 +1,12 @@
+date: 2026-09-10
+problem: two_sum
+model: default
+source: automation
+status: finished
+
+两数之和（LeetCode 1）— 哈希表一次遍历。
+
+思路：遍历数组，对每个元素计算补数 complement = target - nums[i]，
+若 complement 已在哈希表中则返回两个下标，否则将当前值及下标存入表中。
+
+时间复杂度 O(n)，空间复杂度 O(n)。

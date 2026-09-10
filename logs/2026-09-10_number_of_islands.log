@@ -1,0 +1,12 @@
+date: 2026-09-10
+problem: number_of_islands
+model: default
+source: automation
+status: finished
+
+岛屿数量（LeetCode 200）— DFS 淹没连通块。
+
+思路：遍历网格，遇到 '1' 时岛屿计数 +1，DFS 将四向连通的陆地全部标记为 '0'，
+避免重复计数且无需额外 visited 数组。
+
+时间复杂度 O(m × n)，空间复杂度 O(m × n)（递归栈最坏情况）。

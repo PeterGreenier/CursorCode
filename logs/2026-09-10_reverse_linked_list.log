@@ -1,0 +1,12 @@
+date: 2026-09-10
+problem: reverse_linked_list
+model: default
+source: automation
+status: finished
+
+反转链表（LeetCode 206）— 迭代三指针法。
+
+思路：维护 prev、curr、next_node 三个指针，每次将 curr.next 指向 prev 完成反转，
+三个指针同步前移，最终 prev 即为新头节点。
+
+时间复杂度 O(n)，空间复杂度 O(1)。
