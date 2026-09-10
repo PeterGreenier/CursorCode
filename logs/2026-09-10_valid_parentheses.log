@@ -1,0 +1,12 @@
+date: 2026-09-10
+problem: valid_parentheses
+model: default
+source: automation
+status: finished
+
+有效的括号（LeetCode 20）— 栈匹配。
+
+思路：左括号入栈，右括号时检查栈顶是否为对应左括号，不匹配或栈空则返回 False，
+遍历结束后栈应为空。
+
+时间复杂度 O(n)，空间复杂度 O(n)。
