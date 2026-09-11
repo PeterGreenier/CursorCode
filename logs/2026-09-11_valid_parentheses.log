@@ -1,0 +1,13 @@
+date: 2026-09-11
+problem: valid_parentheses
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+栈匹配括号，遇右括号弹栈比对，时间 O(n)，空间 O(n)。
+
+## 测试
+
+运行 `python3 solutions/valid_parentheses.py`，所有测试通过。
