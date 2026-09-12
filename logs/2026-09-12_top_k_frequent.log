@@ -1,0 +1,11 @@
+date: 2026-09-12
+problem: top_k_frequent
+model: default
+source: automation
+status: finished
+
+使用 Counter 统计频率，再用桶排序收集 Top-K。
+- buckets[i] 存放所有出现 i 次的元素
+- 从高频率桶向低频率桶遍历，直到凑满 k 个
+时间复杂度：O(n)，n 为数组长度
+空间复杂度：O(n)

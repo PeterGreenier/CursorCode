@@ -1,0 +1,12 @@
+date: 2026-09-12
+problem: palindrome_linked_list
+model: default
+source: automation
+status: finished
+
+快慢指针找中点 + 反转后半段 + 逐节点比较。
+- 快指针走 2 步、慢指针走 1 步定位后半段起点
+- 反转后半段后与前半段逐节点比较
+- 比较结束后恢复链表结构
+时间复杂度：O(n)
+空间复杂度：O(1)

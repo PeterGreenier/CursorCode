@@ -1,0 +1,11 @@
+date: 2026-09-12
+problem: binary_search
+model: default
+source: automation
+status: finished
+
+经典二分查找，在有序数组中查找 target。
+- 维护左右边界，每次取中点比较
+- target 小于中点则缩小右边界，否则缩小左边界
+时间复杂度：O(log n)
+空间复杂度：O(1)

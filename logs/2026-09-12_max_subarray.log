@@ -1,0 +1,11 @@
+date: 2026-09-12
+problem: max_subarray
+model: default
+source: automation
+status: finished
+
+Kadane 算法求最大子数组和。
+- 维护当前子数组和 cur 和全局最大值 best
+- cur 为负时重置为 0，重新开始累加
+时间复杂度：O(n)
+空间复杂度：O(1)

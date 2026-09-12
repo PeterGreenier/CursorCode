@@ -1,0 +1,11 @@
+date: 2026-09-12
+problem: number_of_islands
+model: default
+source: automation
+status: finished
+
+DFS 遍历二维网格统计连通块。
+- 遇到 '1' 时计数 +1，并从该格出发 DFS 将整块陆地标记为 '0'
+- 四向扩散淹没整块岛屿，避免额外 visited 数组
+时间复杂度：O(m × n)
+空间复杂度：O(m × n) 递归栈最坏情况

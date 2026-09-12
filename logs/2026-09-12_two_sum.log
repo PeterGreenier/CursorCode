@@ -1,0 +1,11 @@
+date: 2026-09-12
+problem: two_sum
+model: default
+source: automation
+status: finished
+
+使用哈希表存储已遍历元素的值与下标。
+- 遍历数组，对每个元素检查 target - nums[i] 是否在哈希表中
+- 存在则返回两个下标；否则将当前元素存入哈希表
+时间复杂度：O(n)
+空间复杂度：O(n)
