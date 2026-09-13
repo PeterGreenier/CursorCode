@@ -1,0 +1,11 @@
+date: 2026-09-13
+problem: merge_sorted_arrays
+model: default
+source: automation
+status: finished
+
+解题说明：
+从 nums1 末尾向前填充，比较 nums1 与 nums2 当前最大元素，较大者放入尾部。
+
+时间复杂度：O(m + n)
+空间复杂度：O(1) 原地合并

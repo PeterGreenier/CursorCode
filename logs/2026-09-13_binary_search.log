@@ -1,0 +1,11 @@
+date: 2026-09-13
+problem: binary_search
+model: default
+source: automation
+status: finished
+
+解题说明：
+在有序数组上维护 left/right 指针，每次取 mid 比较 target，缩小搜索区间。
+
+时间复杂度：O(log n)
+空间复杂度：O(1)
