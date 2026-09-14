@@ -1,0 +1,17 @@
+date: 2026-09-14
+problem: palindrome_linked_list
+model: default
+source: automation
+status: finished
+
+LeetCode 234. 回文链表 — 快慢指针 + 反转后半段。
+
+思路：
+1. 快指针走 2 步、慢指针走 1 步，定位后半段起点；
+2. 反转后半段链表；
+3. 前半段与反转后的后半段逐节点比较；
+4. 比较结束后恢复链表结构。
+
+时间复杂度 O(n)，空间复杂度 O(1)。
+
+测试：偶数/奇数长度回文与非回文、空链表、单节点等用例全部通过。

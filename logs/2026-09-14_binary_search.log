@@ -1,0 +1,13 @@
+date: 2026-09-14
+problem: binary_search
+model: default
+source: automation
+status: finished
+
+LeetCode 704. 二分查找 — 闭区间 [left, right]。
+
+思路：取中点 mid 与 target 比较，相等返回；target 更大则 left = mid + 1，更小则 right = mid - 1；区间为空返回 -1。
+
+时间复杂度 O(log n)，空间复杂度 O(1)。
+
+测试：命中/未命中、空数组、单元素、首尾元素、越界、两元素等边界用例全部通过。
