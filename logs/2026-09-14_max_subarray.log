@@ -1,0 +1,13 @@
+date: 2026-09-14
+problem: max_subarray
+model: default
+source: automation
+status: finished
+
+LeetCode 53. 最大子数组和 — Kadane 算法。
+
+思路：维护 current_sum（以当前元素结尾的最大子数组和），每步 current_sum = max(nums[i], current_sum + nums[i])，同步更新 max_sum。
+
+时间复杂度 O(n)，空间复杂度 O(1)。
+
+测试：正负混合、单元素、全正、全负、正负交替、大负数夹正等用例全部通过。
