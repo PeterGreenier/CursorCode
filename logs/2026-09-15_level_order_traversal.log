@@ -1,0 +1,12 @@
+date: 2026-09-15
+problem: level_order_traversal
+model: default
+source: automation
+status: finished
+
+解题思路：
+BFS 层序遍历。用队列存放待访问节点，每轮处理当前层全部节点
+（队列长度即为层大小），依次访问并将孩子入队。
+
+时间复杂度：O(n)，每个节点访问一次。
+空间复杂度：O(n)，队列最多存储一层节点。

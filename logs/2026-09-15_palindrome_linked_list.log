@@ -1,0 +1,12 @@
+date: 2026-09-15
+problem: palindrome_linked_list
+model: default
+source: automation
+status: finished
+
+解题思路：
+快慢指针找中点，反转后半段链表，再与前半段逐节点比较值是否相等。
+比较结束后将后半段再次反转，恢复链表原貌。
+
+时间复杂度：O(n)，遍历链表常数次。
+空间复杂度：O(1)，仅使用若干指针。
