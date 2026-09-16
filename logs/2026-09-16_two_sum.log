@@ -1,0 +1,10 @@
+date: 2026-09-16
+problem: two_sum
+model: default
+source: automation
+status: finished
+
+题目：两数之和
+解法：哈希表一次遍历，用 complement 查找配对元素。
+复杂度：时间 O(n)，空间 O(n)
+测试：solutions/two_sum.py 全部断言通过。
