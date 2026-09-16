@@ -1,0 +1,10 @@
+date: 2026-09-16
+problem: valid_parentheses
+model: default
+source: automation
+status: finished
+
+题目：有效的括号
+解法：栈匹配：左括号入栈，右括号与栈顶配对。
+复杂度：时间 O(n)，空间 O(n)
+测试：solutions/valid_parentheses.py 全部断言通过。
