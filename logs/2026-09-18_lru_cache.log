@@ -1,0 +1,10 @@
+date: 2026-09-18
+problem: lru_cache
+model: default
+source: automation
+status: finished
+
+OrderedDict 实现 O(1) get/put，move_to_end 标记最近使用，popitem(last=False) 淘汰 LRU。时间 O(1)，空间 O(capacity)。
+
+解法文件: solutions/lru_cache.py
+测试: python3 solutions/lru_cache.py — All tests passed.

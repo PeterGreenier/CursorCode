@@ -1,0 +1,10 @@
+date: 2026-09-18
+problem: coin_change
+model: default
+source: automation
+status: finished
+
+完全背包 DP，dp[i]=min(dp[i-coin]+1)。时间 O(amount×|coins|)，空间 O(amount)。
+
+解法文件: solutions/coin_change.py
+测试: python3 solutions/coin_change.py — All tests passed.
