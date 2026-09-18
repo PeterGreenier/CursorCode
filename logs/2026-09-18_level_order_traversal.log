@@ -1,0 +1,10 @@
+date: 2026-09-18
+problem: level_order_traversal
+model: default
+source: automation
+status: finished
+
+BFS 队列，每层按 queue 长度批量处理。时间 O(n)，空间 O(n)。
+
+解法文件: solutions/level_order_traversal.py
+测试: python3 solutions/level_order_traversal.py — All tests passed.

@@ -1,0 +1,10 @@
+date: 2026-09-18
+problem: climbing_stairs
+model: default
+source: automation
+status: finished
+
+DP：dp[i]=dp[i-1]+dp[i-2]，斐波那契递推。时间 O(n)，空间 O(n) 可优化至 O(1)。
+
+解法文件: solutions/climbing_stairs.py
+测试: python3 solutions/climbing_stairs.py — All tests passed.

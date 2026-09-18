@@ -1,0 +1,10 @@
+date: 2026-09-18
+problem: binary_search
+model: default
+source: automation
+status: finished
+
+闭区间二分，left/right 收缩至 target 或区间为空。时间 O(log n)，空间 O(1)。
+
+解法文件: solutions/binary_search.py
+测试: python3 solutions/binary_search.py — All tests passed.
