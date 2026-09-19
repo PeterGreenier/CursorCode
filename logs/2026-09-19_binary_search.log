@@ -1,0 +1,8 @@
+date: 2026-09-19
+problem: binary_search
+model: default
+source: automation
+status: finished
+
+闭区间二分查找，每次将搜索范围减半。
+时间复杂度 O(log n)，空间复杂度 O(1)。

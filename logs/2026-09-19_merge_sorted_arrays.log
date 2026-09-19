@@ -1,0 +1,8 @@
+date: 2026-09-19
+problem: merge_sorted_arrays
+model: default
+source: automation
+status: finished
+
+从数组尾部向前合并，避免覆盖 nums1 未处理元素。
+时间复杂度 O(m+n)，空间复杂度 O(1)。

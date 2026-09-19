@@ -1,0 +1,114 @@
+{
+  "runs": [
+    {
+      "date": "2026-09-19",
+      "problem_id": "binary_search",
+      "title": "二分查找",
+      "model": "default",
+      "source": "automation",
+      "status": "finished",
+      "started_at": "2026-09-19T10:00:23+08:00",
+      "finished_at": "2026-09-19T10:02:53+08:00",
+      "log_file": "logs/2026-09-19_binary_search.log"
+    },
+    {
+      "date": "2026-09-19",
+      "problem_id": "merge_sorted_arrays",
+      "title": "合并两个有序数组",
+      "model": "default",
+      "source": "automation",
+      "status": "finished",
+      "started_at": "2026-09-19T10:03:23+08:00",
+      "finished_at": "2026-09-19T10:05:53+08:00",
+      "log_file": "logs/2026-09-19_merge_sorted_arrays.log"
+    },
+    {
+      "date": "2026-09-19",
+      "problem_id": "max_subarray",
+      "title": "最大子数组和",
+      "model": "default",
+      "source": "automation",
+      "status": "finished",
+      "started_at": "2026-09-19T10:06:23+08:00",
+      "finished_at": "2026-09-19T10:08:53+08:00",
+      "log_file": "logs/2026-09-19_max_subarray.log"
+    },
+    {
+      "date": "2026-09-19",
+      "problem_id": "climbing_stairs",
+      "title": "爬楼梯",
+      "model": "default",
+      "source": "automation",
+      "status": "finished",
+      "started_at": "2026-09-19T10:09:23+08:00",
+      "finished_at": "2026-09-19T10:11:53+08:00",
+      "log_file": "logs/2026-09-19_climbing_stairs.log"
+    },
+    {
+      "date": "2026-09-19",
+      "problem_id": "longest_substring",
+      "title": "无重复字符的最长子串",
+      "model": "default",
+      "source": "automation",
+      "status": "finished",
+      "started_at": "2026-09-19T10:12:23+08:00",
+      "finished_at": "2026-09-19T10:14:53+08:00",
+      "log_file": "logs/2026-09-19_longest_substring.log"
+    },
+    {
+      "date": "2026-09-19",
+      "problem_id": "level_order_traversal",
+      "title": "二叉树的层序遍历",
+      "model": "default",
+      "source": "automation",
+      "status": "finished",
+      "started_at": "2026-09-19T10:15:23+08:00",
+      "finished_at": "2026-09-19T10:17:53+08:00",
+      "log_file": "logs/2026-09-19_level_order_traversal.log"
+    },
+    {
+      "date": "2026-09-19",
+      "problem_id": "coin_change",
+      "title": "零钱兑换",
+      "model": "default",
+      "source": "automation",
+      "status": "finished",
+      "started_at": "2026-09-19T10:18:23+08:00",
+      "finished_at": "2026-09-19T10:20:53+08:00",
+      "log_file": "logs/2026-09-19_coin_change.log"
+    },
+    {
+      "date": "2026-09-19",
+      "problem_id": "quick_sort",
+      "title": "快速排序",
+      "model": "default",
+      "source": "automation",
+      "status": "finished",
+      "started_at": "2026-09-19T10:21:23+08:00",
+      "finished_at": "2026-09-19T10:23:53+08:00",
+      "log_file": "logs/2026-09-19_quick_sort.log"
+    },
+    {
+      "date": "2026-09-19",
+      "problem_id": "lru_cache",
+      "title": "LRU 缓存",
+      "model": "default",
+      "source": "automation",
+      "status": "finished",
+      "started_at": "2026-09-19T10:24:23+08:00",
+      "finished_at": "2026-09-19T10:26:53+08:00",
+      "log_file": "logs/2026-09-19_lru_cache.log"
+    },
+    {
+      "date": "2026-09-19",
+      "problem_id": "top_k_frequent",
+      "title": "前 K 个高频元素",
+      "model": "default",
+      "source": "automation",
+      "status": "finished",
+      "started_at": "2026-09-19T10:27:23+08:00",
+      "finished_at": "2026-09-19T10:29:53+08:00",
+      "log_file": "logs/2026-09-19_top_k_frequent.log"
+    }
+  ]
+}
