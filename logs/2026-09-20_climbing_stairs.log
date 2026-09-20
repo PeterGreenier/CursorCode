@@ -1,0 +1,9 @@
+date: 2026-09-20
+problem: climbing_stairs
+model: default
+source: automation
+status: finished
+
+动态规划：到达第 i 阶的方法数为 dp[i-1]+dp[i-2]，可用两个变量滚动代替数组。
+
+时间复杂度 O(n)，空间复杂度 O(1)。

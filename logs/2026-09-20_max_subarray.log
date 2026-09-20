@@ -1,0 +1,9 @@
+date: 2026-09-20
+problem: max_subarray
+model: default
+source: automation
+status: finished
+
+Kadane 算法：维护以当前位置结尾的最大子数组和 current 与全局最大值 global_max；若 current 变负则归零重新起段。
+
+时间复杂度 O(n)，空间复杂度 O(1)。

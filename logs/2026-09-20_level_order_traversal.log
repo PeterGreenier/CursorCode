@@ -1,0 +1,9 @@
+date: 2026-09-20
+problem: level_order_traversal
+model: default
+source: automation
+status: finished
+
+BFS：队列按层入队子节点，每层循环处理当前队列长度，收集一层节点值。
+
+时间复杂度 O(n)，空间复杂度 O(n)（队列与结果）。

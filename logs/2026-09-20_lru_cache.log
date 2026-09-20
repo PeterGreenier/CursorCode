@@ -1,0 +1,9 @@
+date: 2026-09-20
+problem: lru_cache
+model: default
+source: automation
+status: finished
+
+OrderedDict：get 时 move_to_end 标记最近使用；put 时写入并移尾，超容量则 popitem(last=False) 淘汰最久未用。
+
+get/put 均摊 O(1) 时间，O(capacity) 空间。

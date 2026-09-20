@@ -1,0 +1,9 @@
+date: 2026-09-20
+problem: top_k_frequent
+model: default
+source: automation
+status: finished
+
+先 Counter 统计频次，再用大小为 k 的最小堆维护前 k 高频；或桶排序按频次分桶后从高到低取 k 个。
+
+时间复杂度 O(n log k)（堆）或 O(n)（桶），空间 O(n)。

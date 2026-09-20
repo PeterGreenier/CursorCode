@@ -1,0 +1,9 @@
+date: 2026-09-20
+problem: coin_change
+model: default
+source: automation
+status: finished
+
+完全背包 DP：dp[0]=0，对其余金额初始化为无穷；对每个硬币面额更新 dp[amount]=min(dp[amount], dp[amount-coin]+1)。
+
+时间复杂度 O(amount * len(coins))，空间复杂度 O(amount)。
