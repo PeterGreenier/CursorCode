@@ -1,0 +1,9 @@
+date: 2026-09-20
+problem: merge_sorted_arrays
+model: default
+source: automation
+status: finished
+
+从 nums1、nums2 尾部双指针比较，将较大值写入合并区末尾，避免覆盖 nums1 未处理元素；若 nums2 有剩余再拷贝到前部。
+
+时间复杂度 O(m+n)，空间复杂度 O(1)。

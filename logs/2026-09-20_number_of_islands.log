@@ -1,0 +1,9 @@
+date: 2026-09-20
+problem: number_of_islands
+model: default
+source: automation
+status: finished
+
+遍历网格，遇陆地 '1' 则岛屿数 +1 并用 DFS/BFS 将相连陆地标记为已访问（置 '0' 或 visited）。
+
+时间复杂度 O(m*n)，空间复杂度 O(m*n) 最坏递归/队列。
