@@ -1,0 +1,9 @@
+date: 2026-09-21
+problem: max_subarray
+model: default
+source: automation
+status: finished
+
+解题说明：使用 Kadane 算法，维护以当前元素结尾的最大子数组和 current_sum，每步在「接上前面子数组」与「从当前元素重新开始」之间取较大值，并同步更新全局 max_sum。
+
+复杂度：时间 O(n)，空间 O(1)。本地 `python3 solutions/max_subarray.py` 全部断言通过。

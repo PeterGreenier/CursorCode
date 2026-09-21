@@ -1,0 +1,9 @@
+date: 2026-09-21
+problem: quick_sort
+model: default
+source: automation
+status: finished
+
+解题说明：Lomuto 分区以 arr[high] 为枢轴，将区间划分为 ≤ pivot 与 > pivot 两部分，再对左右子区间递归排序；附带随机数组与边界用例验证有序性。
+
+复杂度：平均时间 O(n log n)，最坏 O(n²)；原地排序额外空间 O(log n) 递归栈。测试通过。
