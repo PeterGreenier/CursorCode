@@ -1,0 +1,9 @@
+date: 2026-09-21
+problem: longest_substring
+model: default
+source: automation
+status: finished
+
+解题说明：滑动窗口 [left, right]，哈希表记录各字符最近下标；右指针扩展时若字符在窗口内重复，将 left 跳到该字符上次位置的下一位，并更新最长长度。
+
+复杂度：时间 O(n)，空间 O(min(n, 字符集大小))。测试通过。

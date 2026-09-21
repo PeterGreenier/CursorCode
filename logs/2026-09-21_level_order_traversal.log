@@ -1,0 +1,9 @@
+date: 2026-09-21
+problem: level_order_traversal
+model: default
+source: automation
+status: finished
+
+解题说明：BFS 层序遍历，队列初始放入根节点；每轮先记录当前层节点数 level_size，再恰好处理这一批节点并将子节点入队，得到按层分组的结果。
+
+复杂度：时间 O(n)，空间 O(n)（队列最坏一层节点数）。测试通过。

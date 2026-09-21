@@ -1,0 +1,9 @@
+date: 2026-09-21
+problem: top_k_frequent
+model: default
+source: automation
+status: finished
+
+解题说明：Counter 统计频率后建立频率桶 buckets[count]，从高频率向低频率收集元素直至凑满 k 个；另提供最小堆备选实现。
+
+复杂度：桶排序 O(n)，堆解法 O(n log k)。测试通过。
