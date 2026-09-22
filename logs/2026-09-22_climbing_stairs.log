@@ -1,0 +1,10 @@
+date: 2026-09-22
+problem: climbing_stairs
+model: default
+source: automation
+status: finished
+
+动态规划：dp[i]=dp[i-1]+dp[i-2]，边界 n<=2 直接返回。
+时间复杂度 O(n)，空间复杂度 O(n)（可滚动数组优化为 O(1)）。
+
+本地测试：python3 solutions/climbing_stairs.py — All tests passed.

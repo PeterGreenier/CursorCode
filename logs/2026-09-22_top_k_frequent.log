@@ -1,0 +1,10 @@
+date: 2026-09-22
+problem: top_k_frequent
+model: default
+source: automation
+status: finished
+
+Counter 统计频次，最小堆维护 size=k 的高频元素。
+时间复杂度 O(n log k)，空间复杂度 O(n)。
+
+本地测试：python3 solutions/top_k_frequent.py — All tests passed.

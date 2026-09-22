@@ -1,0 +1,10 @@
+date: 2026-09-22
+problem: quick_sort
+model: default
+source: automation
+status: finished
+
+Lomuto 分区 + 递归；随机 pivot 降低最坏情况概率。
+平均时间 O(n log n)，最坏 O(n²)；递归栈 O(log n)，原地额外 O(1)。
+
+本地测试：python3 solutions/quick_sort.py — All tests passed.
