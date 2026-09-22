@@ -1,0 +1,10 @@
+date: 2026-09-22
+problem: number_of_islands
+model: default
+source: automation
+status: finished
+
+网格 DFS：遇 '1' 计数并淹没连通块。
+时间复杂度 O(m×n)，空间复杂度 O(m×n)（递归栈最坏）。
+
+本地测试：python3 solutions/number_of_islands.py — All tests passed.
