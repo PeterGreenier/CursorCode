@@ -1,0 +1,10 @@
+date: 2026-09-23
+problem: two_sum
+model: default
+source: automation
+status: finished
+
+解题说明：
+一次遍历，哈希表存已见值到下标，查 target - nums[i] 是否存在。
+
+复杂度：时间 O(n)，空间 O(n)。

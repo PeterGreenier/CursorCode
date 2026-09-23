@@ -1,0 +1,10 @@
+date: 2026-09-23
+problem: quick_sort
+model: default
+source: automation
+status: finished
+
+解题说明：
+原地 partition 将小于 pivot 的放左侧，再递归左右子数组。
+
+复杂度：平均 O(n log n) 时间、O(log n) 栈空间；最坏 O(n²)。

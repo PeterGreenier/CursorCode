@@ -1,0 +1,114 @@
+{
+  "runs": [
+    {
+      "date": "2026-09-23",
+      "problem_id": "longest_substring",
+      "title": "无重复字符的最长子串",
+      "model": "default",
+      "source": "automation",
+      "status": "finished",
+      "started_at": "2026-09-23T10:01:00+00:00",
+      "finished_at": "2026-09-23T10:03:30+00:00",
+      "log_file": "logs/2026-09-23_longest_substring.log"
+    },
+    {
+      "date": "2026-09-23",
+      "problem_id": "level_order_traversal",
+      "title": "二叉树的层序遍历",
+      "model": "default",
+      "source": "automation",
+      "status": "finished",
+      "started_at": "2026-09-23T10:04:00+00:00",
+      "finished_at": "2026-09-23T10:06:30+00:00",
+      "log_file": "logs/2026-09-23_level_order_traversal.log"
+    },
+    {
+      "date": "2026-09-23",
+      "problem_id": "coin_change",
+      "title": "零钱兑换",
+      "model": "default",
+      "source": "automation",
+      "status": "finished",
+      "started_at": "2026-09-23T10:07:00+00:00",
+      "finished_at": "2026-09-23T10:09:30+00:00",
+      "log_file": "logs/2026-09-23_coin_change.log"
+    },
+    {
+      "date": "2026-09-23",
+      "problem_id": "quick_sort",
+      "title": "快速排序",
+      "model": "default",
+      "source": "automation",
+      "status": "finished",
+      "started_at": "2026-09-23T10:10:00+00:00",
+      "finished_at": "2026-09-23T10:12:30+00:00",
+      "log_file": "logs/2026-09-23_quick_sort.log"
+    },
+    {
+      "date": "2026-09-23",
+      "problem_id": "lru_cache",
+      "title": "LRU 缓存",
+      "model": "default",
+      "source": "automation",
+      "status": "finished",
+      "started_at": "2026-09-23T10:13:00+00:00",
+      "finished_at": "2026-09-23T10:15:30+00:00",
+      "log_file": "logs/2026-09-23_lru_cache.log"
+    },
+    {
+      "date": "2026-09-23",
+      "problem_id": "top_k_frequent",
+      "title": "前 K 个高频元素",
+      "model": "default",
+      "source": "automation",
+      "status": "finished",
+      "started_at": "2026-09-23T10:16:00+00:00",
+      "finished_at": "2026-09-23T10:18:30+00:00",
+      "log_file": "logs/2026-09-23_top_k_frequent.log"
+    },
+    {
+      "date": "2026-09-23",
+      "problem_id": "number_of_islands",
+      "title": "岛屿数量",
+      "model": "default",
+      "source": "automation",
+      "status": "finished",
+      "started_at": "2026-09-23T10:19:00+00:00",
+      "finished_at": "2026-09-23T10:21:30+00:00",
+      "log_file": "logs/2026-09-23_number_of_islands.log"
+    },
+    {
+      "date": "2026-09-23",
+      "problem_id": "palindrome_linked_list",
+      "title": "回文链表",
+      "model": "default",
+      "source": "automation",
+      "status": "finished",
+      "started_at": "2026-09-23T10:22:00+00:00",
+      "finished_at": "2026-09-23T10:24:30+00:00",
+      "log_file": "logs/2026-09-23_palindrome_linked_list.log"
+    },
+    {
+      "date": "2026-09-23",
+      "problem_id": "two_sum",
+      "title": "两数之和",
+      "model": "default",
+      "source": "automation",
+      "status": "finished",
+      "started_at": "2026-09-23T10:25:00+00:00",
+      "finished_at": "2026-09-23T10:27:30+00:00",
+      "log_file": "logs/2026-09-23_two_sum.log"
+    },
+    {
+      "date": "2026-09-23",
+      "problem_id": "reverse_linked_list",
+      "title": "反转链表",
+      "model": "default",
+      "source": "automation",
+      "status": "finished",
+      "started_at": "2026-09-23T10:28:00+00:00",
+      "finished_at": "2026-09-23T10:30:30+00:00",
+      "log_file": "logs/2026-09-23_reverse_linked_list.log"
+    }
+  ]
+}
