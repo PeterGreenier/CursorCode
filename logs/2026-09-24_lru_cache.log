@@ -1,0 +1,11 @@
+date: 2026-09-24
+problem: lru_cache
+model: default
+source: automation
+status: finished
+
+解题说明：
+使用 OrderedDict：get 时 move_to_end；put 时写入并 move_to_end，超容量时 popitem(last=False) 淘汰最久未用。
+
+时间复杂度：get/put 均为 O(1)。
+空间复杂度：O(capacity)。

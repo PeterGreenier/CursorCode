@@ -1,0 +1,11 @@
+date: 2026-09-24
+problem: coin_change
+model: default
+source: automation
+status: finished
+
+解题说明：
+完全背包 DP：dp[i] 表示凑出金额 i 的最少硬币数。对每个硬币面额 c，从 c 到 amount 更新 dp[j] = min(dp[j], dp[j-c]+1)。
+
+时间复杂度：O(amount * len(coins))。
+空间复杂度：O(amount)。
