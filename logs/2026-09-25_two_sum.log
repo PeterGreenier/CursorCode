@@ -1,0 +1,10 @@
+date: 2026-09-25
+problem: two_sum
+model: default
+source: automation
+status: finished
+
+解题说明：
+哈希表存 value→index，遍历时查 target-num 是否已在表中，有则返回两下标。
+
+复杂度：时间 O(n)，空间 O(n)。
