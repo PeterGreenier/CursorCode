@@ -1,0 +1,10 @@
+date: 2026-09-25
+problem: quick_sort
+model: default
+source: automation
+status: finished
+
+解题说明：
+选取 pivot（如末元素），partition 将数组分为小于/大于 pivot 两部分，递归排序左右子数组。
+
+复杂度：平均时间 O(n log n)，最坏 O(n²)；递归栈 O(log n)，partition 原地 O(1) 额外空间。
