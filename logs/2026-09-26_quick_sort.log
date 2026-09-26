@@ -1,0 +1,18 @@
+date: 2026-09-26
+problem: quick_sort
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+采用经典 Lomuto 分区 + 递归：以区间末尾为枢轴，双指针将数组划分为「≤ 枢轴」与「> 枢轴」两段，再对左右子区间递归排序。`quick_sort_inplace` 作为整数组入口。
+
+## 复杂度
+
+- 时间：平均 O(n log n)，最坏 O(n²)（已有序且枢轴选末尾时可通过随机枢轴缓解）
+- 空间：O(log n) 递归栈深度
+
+## 验证
+
+`solutions/quick_sort.py` 内置固定用例、边界与随机数组测试，全部通过。

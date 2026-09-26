@@ -1,0 +1,18 @@
+date: 2026-09-26
+problem: palindrome_linked_list
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+快慢指针找到中点，反转后半段链表，再与前半段逐节点比较是否相等。比较后可选择恢复链表（本题测试不要求）。
+
+## 复杂度
+
+- 时间：O(n)
+- 空间：O(1) 额外空间
+
+## 验证
+
+奇偶长度、单节点、回文与非回文用例通过。

@@ -1,0 +1,18 @@
+date: 2026-09-26
+problem: lru_cache
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+使用 `collections.OrderedDict`：`get`/`put` 时将键 `move_to_end` 标记为最近使用；容量超限时 `popitem(last=False)` 淘汰最久未访问项。
+
+## 复杂度
+
+- 时间：get、put 均为 O(1)
+- 空间：O(capacity)
+
+## 验证
+
+LeetCode 146 示例及容量为 1、更新已存在键等边界测试通过。

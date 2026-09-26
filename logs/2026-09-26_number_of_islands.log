@@ -1,0 +1,18 @@
+date: 2026-09-26
+problem: number_of_islands
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+遍历网格，遇陆地 `'1'` 时岛屿计数 +1，并用 DFS（或 BFS）将相连陆地标记为已访问（置 `'0'`），避免重复计数。
+
+## 复杂度
+
+- 时间：O(m × n)
+- 空间：O(m × n) 最坏递归栈
+
+## 验证
+
+LeetCode 200 示例及空网格、全水、单格等测试通过。

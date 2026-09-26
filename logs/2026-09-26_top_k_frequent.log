@@ -1,0 +1,18 @@
+date: 2026-09-26
+problem: top_k_frequent
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+`Counter` 统计频率后建桶：`buckets[i]` 存放出现 i 次的所有元素，从高频率桶向低频率桶收集直至凑满 k 个。另提供最小堆备选实现。
+
+## 复杂度
+
+- 时间：O(n)（n 为数组长度）
+- 空间：O(n)
+
+## 验证
+
+示例 [1,1,1,2,2,3] k=2 及单元素用例通过。

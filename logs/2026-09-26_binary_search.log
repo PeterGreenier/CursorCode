@@ -1,0 +1,18 @@
+date: 2026-09-26
+problem: binary_search
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+标准二分：维护 `left`、`right`，取中点比较 `nums[mid]` 与 `target`，缩小半边区间直至找到或区间为空返回 -1。
+
+## 复杂度
+
+- 时间：O(log n)
+- 空间：O(1)
+
+## 验证
+
+命中、未命中、单元素及边界下标测试通过。
