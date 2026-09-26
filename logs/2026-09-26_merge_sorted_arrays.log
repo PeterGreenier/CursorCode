@@ -1,0 +1,18 @@
+date: 2026-09-26
+problem: merge_sorted_arrays
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+从 `nums1` 有效末尾与 `nums2` 末尾双指针逆向填入较大元素，实现原地合并到 `nums1`（LeetCode 88）。
+
+## 复杂度
+
+- 时间：O(m + n)
+- 空间：O(1)
+
+## 验证
+
+示例及一方为空、全合并等用例通过。
