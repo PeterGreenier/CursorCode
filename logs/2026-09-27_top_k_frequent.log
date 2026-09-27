@@ -1,0 +1,10 @@
+date: 2026-09-27
+problem: top_k_frequent
+model: default
+source: automation
+status: finished
+
+解题说明：
+先统计各元素频次，再用最小堆维护大小为 k 的「当前前 k 大」；堆顶为第 k 大频次，新元素若更大则替换堆顶。
+
+复杂度：O(n log k) 时间；空间 O(n)。

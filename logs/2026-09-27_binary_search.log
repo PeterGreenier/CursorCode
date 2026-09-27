@@ -1,0 +1,10 @@
+date: 2026-09-27
+problem: binary_search
+model: default
+source: automation
+status: finished
+
+解题说明：
+维护 [left, right]，取 mid 与 target 比较，缩小半边区间。
+
+复杂度：O(log n) 时间，O(1) 空间。

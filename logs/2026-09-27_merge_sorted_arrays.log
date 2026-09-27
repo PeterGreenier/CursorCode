@@ -1,0 +1,10 @@
+date: 2026-09-27
+problem: merge_sorted_arrays
+model: default
+source: automation
+status: finished
+
+解题说明：
+从 nums1 末尾双指针填入较大值，原地从后往前合并。
+
+复杂度：O(m+n) 时间，O(1) 额外空间。
