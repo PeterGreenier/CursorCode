@@ -1,0 +1,9 @@
+date: 2026-09-28
+problem: two_sum
+model: default
+source: automation
+status: finished
+
+解法：哈希表存储已遍历元素及其下标，对每个 nums[i] 查找 target - nums[i]。
+时间复杂度 O(n)，空间复杂度 O(n)。
+本地测试通过。
