@@ -1,0 +1,9 @@
+date: 2026-09-28
+problem: top_k_frequent
+model: default
+source: automation
+status: finished
+
+解法：Counter 统计频率，按频率建桶，从高到低桶中收集 k 个元素。
+时间复杂度 O(n)，空间复杂度 O(n)。
+本地测试通过。

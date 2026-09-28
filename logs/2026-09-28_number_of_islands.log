@@ -1,0 +1,9 @@
+date: 2026-09-28
+problem: number_of_islands
+model: default
+source: automation
+status: finished
+
+解法：遍历网格，遇陆地则 DFS 淹没整块连通区域并计数 +1。
+时间复杂度 O(m×n)，空间复杂度 O(m×n)（递归栈最坏情况）。
+本地测试通过。
