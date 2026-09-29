@@ -1,0 +1,8 @@
+date: 2026-09-29
+problem: two_sum
+model: default
+source: automation
+status: finished
+
+解题：哈希表存已遍历值→下标，遍历时查补数 target - nums[i]。
+时间复杂度 O(n)，空间复杂度 O(n)。

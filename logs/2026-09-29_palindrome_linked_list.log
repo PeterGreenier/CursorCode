@@ -1,0 +1,8 @@
+date: 2026-09-29
+problem: palindrome_linked_list
+model: default
+source: automation
+status: finished
+
+解题：快慢指针找中点，反转后半段，头尾同步比较；结束后恢复链表。
+时间复杂度 O(n)，空间复杂度 O(1)。

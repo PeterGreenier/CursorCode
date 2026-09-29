@@ -1,0 +1,8 @@
+date: 2026-09-29
+problem: merge_sorted_arrays
+model: default
+source: automation
+status: finished
+
+解题：从 nums1 尾部向前双指针合并，避免覆盖未处理元素。
+时间复杂度 O(m+n)，空间复杂度 O(1)。

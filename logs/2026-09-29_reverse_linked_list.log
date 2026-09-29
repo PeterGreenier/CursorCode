@@ -1,0 +1,8 @@
+date: 2026-09-29
+problem: reverse_linked_list
+model: default
+source: automation
+status: finished
+
+解题：迭代三指针 prev/curr/next，逐节点反转 next 指向。
+时间复杂度 O(n)，空间复杂度 O(1)。

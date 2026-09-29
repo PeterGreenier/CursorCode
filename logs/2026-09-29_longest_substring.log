@@ -1,0 +1,8 @@
+date: 2026-09-29
+problem: longest_substring
+model: default
+source: automation
+status: finished
+
+解题：滑动窗口 + 哈希表记录字符最近下标，重复则移动 left。
+时间复杂度 O(n)，空间复杂度 O(min(n, 字符集大小))。
