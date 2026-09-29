@@ -1,0 +1,8 @@
+date: 2026-09-29
+problem: binary_search
+model: default
+source: automation
+status: finished
+
+解题：闭区间 [left, right] 二分，mid 与 target 比较收缩边界。
+时间复杂度 O(log n)，空间复杂度 O(1)。
