@@ -1,0 +1,8 @@
+date: 2026-09-30
+problem: climbing_stairs
+model: default
+source: automation
+status: finished
+
+解法：DP/fib，dp[i]=dp[i-1]+dp[i-2]，可滚动变量优化。
+时间复杂度 O(n)，空间复杂度 O(1)。
