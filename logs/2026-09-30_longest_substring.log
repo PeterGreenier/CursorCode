@@ -1,0 +1,8 @@
+date: 2026-09-30
+problem: longest_substring
+model: default
+source: automation
+status: finished
+
+解法：滑动窗口 + 集合/下标表，右扩左缩保证窗口内无重复。
+时间复杂度 O(n)，空间复杂度 O(min(n,字符集))。

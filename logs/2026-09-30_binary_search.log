@@ -1,0 +1,8 @@
+date: 2026-09-30
+problem: binary_search
+model: default
+source: automation
+status: finished
+
+解法：经典二分，维护 [lo, hi] 闭区间，中点比较后缩半。
+时间复杂度 O(log n)，空间复杂度 O(1)。
