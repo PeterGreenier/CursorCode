@@ -1,0 +1,9 @@
+date: 2026-10-02
+problem: merge_sorted_arrays
+model: default
+source: automation
+status: finished
+
+解题说明：从 nums1 尾部向前填充，比较 nums1[i] 与 nums2[j] 较大者写入 k 位置，避免覆盖未处理元素。
+时间复杂度 O(m+n)，空间复杂度 O(1)。
+本地测试：solutions/merge_sorted_arrays.py 全部通过。

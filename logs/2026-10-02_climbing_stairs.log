@@ -1,0 +1,9 @@
+date: 2026-10-02
+problem: climbing_stairs
+model: default
+source: automation
+status: finished
+
+解题说明：dp[i] = dp[i-1] + dp[i-2]，等价斐波那契，表示到达第 i 阶的方法数。
+时间复杂度 O(n)，空间复杂度 O(n)（可优化为 O(1)）。
+本地测试：solutions/climbing_stairs.py 全部通过。
