@@ -1,0 +1,9 @@
+date: 2026-10-02
+problem: level_order_traversal
+model: default
+source: automation
+status: finished
+
+解题说明：BFS 队列，每轮按当前 queue 长度处理一层，子节点入队。
+时间复杂度 O(n)，空间复杂度 O(n)。
+本地测试：solutions/level_order_traversal.py 全部通过。
