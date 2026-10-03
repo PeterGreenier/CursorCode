@@ -1,0 +1,18 @@
+date: 2026-10-03
+problem: valid_parentheses
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+使用栈维护尚未匹配的左括号。遍历字符串：右括号时检查栈顶是否为对应左括号并弹出；左括号则入栈。遍历结束栈为空则有效。
+
+## 复杂度
+
+- 时间复杂度：O(n)，n 为字符串长度，每个字符处理一次。
+- 空间复杂度：O(n)，最坏情况下栈中保存全部左括号。
+
+## 验证
+
+运行 `python3 solutions/valid_parentheses.py`，全部断言通过。

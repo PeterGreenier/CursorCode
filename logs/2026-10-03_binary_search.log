@@ -1,0 +1,18 @@
+date: 2026-10-03
+problem: binary_search
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+在有序数组上使用闭区间二分：维护 [left, right]，取 mid 与 target 比较，缩小一半搜索范围，直到找到或区间为空返回 -1。
+
+## 复杂度
+
+- 时间复杂度：O(log n)，每次将搜索区间减半。
+- 空间复杂度：O(1)，仅使用常数个指针变量。
+
+## 验证
+
+运行 `python3 solutions/binary_search.py`，含空数组、单元素、首尾边界等测试均通过。
