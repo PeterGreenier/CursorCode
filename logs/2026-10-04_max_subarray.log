@@ -1,0 +1,8 @@
+date: 2026-10-04
+problem: max_subarray
+model: default
+source: automation
+status: finished
+
+Kadane 算法：维护以当前元素结尾的最大子数组和 current_sum，与单独以当前元素开始取 max，并更新全局 max_sum。
+时间复杂度 O(n)，空间复杂度 O(1)。解答见 solutions/max_subarray.py，本地测试通过。

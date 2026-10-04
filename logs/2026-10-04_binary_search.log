@@ -1,0 +1,8 @@
+date: 2026-10-04
+problem: binary_search
+model: default
+source: automation
+status: finished
+
+在有序数组上使用闭区间二分查找 [left, right]，每次取 mid 与 target 比较并收缩边界。
+时间复杂度 O(log n)，空间复杂度 O(1)。解答见 solutions/binary_search.py，本地测试通过。

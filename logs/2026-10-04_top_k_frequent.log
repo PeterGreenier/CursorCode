@@ -1,0 +1,8 @@
+date: 2026-10-04
+problem: top_k_frequent
+model: default
+source: automation
+status: finished
+
+Counter 统计频率后建桶 buckets[count]，从高频率向低频率收集直到 k 个元素；另含最小堆备选实现。
+时间复杂度 O(n)，空间复杂度 O(n)。解答见 solutions/top_k_frequent.py，本地测试通过。
