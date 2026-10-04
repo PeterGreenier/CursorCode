@@ -1,0 +1,8 @@
+date: 2026-10-04
+problem: level_order_traversal
+model: default
+source: automation
+status: finished
+
+BFS 层序遍历：队列按层处理，每轮先记录 queue 长度为当前层大小，依次出队并将孩子入队。
+时间复杂度 O(n)，空间复杂度 O(n)。解答见 solutions/level_order_traversal.py，本地测试通过。

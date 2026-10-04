@@ -1,0 +1,8 @@
+date: 2026-10-04
+problem: longest_substring
+model: default
+source: automation
+status: finished
+
+滑动窗口 + 哈希表记录字符最近下标；遇重复且落在窗口内时将 left 跳到重复位置+1，并更新最长长度。
+时间复杂度 O(n)，空间复杂度 O(min(n, 字符集大小))。解答见 solutions/longest_substring.py，本地测试通过。
