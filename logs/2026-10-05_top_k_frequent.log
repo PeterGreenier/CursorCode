@@ -1,0 +1,9 @@
+date: 2026-10-05
+problem: top_k_frequent
+model: default
+source: automation
+status: finished
+
+解题思路：Counter 统计频次，用最小堆维护 size k 的高频元素（或桶排序）。
+时间复杂度：O(n log k)
+空间复杂度：O(n)

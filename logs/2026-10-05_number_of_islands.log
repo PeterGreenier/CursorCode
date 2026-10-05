@@ -1,0 +1,9 @@
+date: 2026-10-05
+problem: number_of_islands
+model: default
+source: automation
+status: finished
+
+解题思路：遍历网格，遇 '1' 则 DFS/BFS 沉岛（标记已访问），岛屿计数 +1。
+时间复杂度：O(m × n)
+空间复杂度：O(m × n) 递归/队列最坏

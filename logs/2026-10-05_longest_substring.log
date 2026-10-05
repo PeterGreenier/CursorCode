@@ -1,0 +1,9 @@
+date: 2026-10-05
+problem: longest_substring
+model: default
+source: automation
+status: finished
+
+解题思路：滑动窗口，用集合记录窗口内字符；右扩时若重复则左缩直至无重复，更新最大长度。
+时间复杂度：O(n)
+空间复杂度：O(min(字符集大小, n))
