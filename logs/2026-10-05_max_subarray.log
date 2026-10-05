@@ -1,0 +1,9 @@
+date: 2026-10-05
+problem: max_subarray
+model: default
+source: automation
+status: finished
+
+解题思路：Kadane 算法，维护当前子数组和 cur 与全局最大 max_sum；cur 为负则归零重新累加。
+时间复杂度：O(n)
+空间复杂度：O(1)

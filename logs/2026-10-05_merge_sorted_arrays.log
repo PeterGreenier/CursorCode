@@ -1,0 +1,9 @@
+date: 2026-10-05
+problem: merge_sorted_arrays
+model: default
+source: automation
+status: finished
+
+解题思路：双指针从 nums1、nums2 尾部向 nums1 合并区尾部填充，避免覆盖未处理的 nums1 元素；nums2 剩余时拷贝到 nums1 前部。
+时间复杂度：O(m + n)
+空间复杂度：O(1) 原地

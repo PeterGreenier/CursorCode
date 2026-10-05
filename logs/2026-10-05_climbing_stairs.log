@@ -1,0 +1,9 @@
+date: 2026-10-05
+problem: climbing_stairs
+model: default
+source: automation
+status: finished
+
+解题思路：动态规划，到达第 i 阶的方法数 = dp[i-1] + dp[i-2]，可滚动变量优化空间。
+时间复杂度：O(n)
+空间复杂度：O(1)

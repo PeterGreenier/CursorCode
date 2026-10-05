@@ -1,0 +1,9 @@
+date: 2026-10-05
+problem: coin_change
+model: default
+source: automation
+status: finished
+
+解题思路：完全背包 DP，dp[a] 表示凑齐金额 a 的最少硬币数，对每个硬币正向遍历金额。
+时间复杂度：O(amount × len(coins))
+空间复杂度：O(amount)
