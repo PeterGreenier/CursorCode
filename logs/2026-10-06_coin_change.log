@@ -1,0 +1,9 @@
+date: 2026-10-06
+problem: coin_change
+model: default
+source: automation
+status: finished
+
+解题：完全背包 DP。dp[i] 为凑成金额 i 的最少硬币数，对每个金额尝试每种硬币：dp[i] = min(dp[i], dp[i-coin]+1)。无法凑成时返回 -1。
+
+时间复杂度 O(amount × len(coins))，空间复杂度 O(amount)。
