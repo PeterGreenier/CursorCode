@@ -1,0 +1,8 @@
+date: 2026-10-07
+problem: palindrome_linked_list
+model: default
+source: automation
+status: finished
+
+解题说明：验证已有 solutions/palindrome_linked_list.py，运行 __main__ 测试全部通过。
+复杂度：快慢指针找中点、反转后半、比较，时间 O(n)，额外空间 O(1)。

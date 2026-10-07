@@ -1,0 +1,8 @@
+date: 2026-10-07
+problem: lru_cache
+model: default
+source: automation
+status: finished
+
+解题说明：验证已有 solutions/lru_cache.py，运行 __main__ 测试全部通过。
+复杂度：OrderedDict 或双向链表+哈希，get/put 均摊 O(1)。
