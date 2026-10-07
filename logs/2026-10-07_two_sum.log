@@ -1,0 +1,8 @@
+date: 2026-10-07
+problem: two_sum
+model: default
+source: automation
+status: finished
+
+解题说明：验证已有 solutions/two_sum.py，运行 __main__ 测试全部通过。
+复杂度：哈希表存值→下标，一遍扫描，时间 O(n)，空间 O(n)。

@@ -1,0 +1,8 @@
+date: 2026-10-07
+problem: top_k_frequent
+model: default
+source: automation
+status: finished
+
+解题说明：验证已有 solutions/top_k_frequent.py，运行 __main__ 测试全部通过。
+复杂度：Counter + 最小堆维护前 K，时间 O(n log k)，空间 O(n)。
