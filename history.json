@@ -1,0 +1,37 @@
+{
+  "runs": [
+    {
+      "date": "2026-10-08",
+      "problem_id": "longest_substring",
+      "title": "无重复字符的最长子串",
+      "model": "default",
+      "source": "automation",
+      "status": "finished",
+      "started_at": "2026-10-08T10:02:30+00:00",
+      "finished_at": "2026-10-08T10:02:45+00:00",
+      "log_file": "logs/2026-10-08_longest_substring.log"
+    },
+    {
+      "date": "2026-10-08",
+      "problem_id": "level_order_traversal",
+      "title": "二叉树的层序遍历",
+      "model": "default",
+      "source": "automation",
+      "status": "finished",
+      "started_at": "2026-10-08T10:02:46+00:00",
+      "finished_at": "2026-10-08T10:02:52+00:00",
+      "log_file": "logs/2026-10-08_level_order_traversal.log"
+    },
+    {
+      "date": "2026-10-08",
+      "problem_id": "coin_change",
+      "title": "零钱兑换",
+      "model": "default",
+      "source": "automation",
+      "status": "finished",
+      "started_at": "2026-10-08T10:02:53+00:00",
+      "finished_at": "2026-10-08T10:02:59+00:00",
+      "log_file": "logs/2026-10-08_coin_change.log"
+    }
+  ]
+}

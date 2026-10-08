@@ -1,0 +1,15 @@
+date: 2026-10-08
+problem: level_order_traversal
+model: default
+source: automation
+status: finished
+
+题目：LeetCode 102 二叉树的层序遍历（medium）
+
+解法：BFS。用 deque 作队列，每轮先记录当前层节点数 level_size，
+依次出队访问并将孩子入队，将本层值收集为一行，直到队列为空。
+
+时间复杂度：O(n)，每个节点入队出队各一次。
+空间复杂度：O(n)，队列在最宽一层可能存放约 n/2 个节点。
+
+测试：标准三层树、单节点、空树均通过。

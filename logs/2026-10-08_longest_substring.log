@@ -1,0 +1,16 @@
+date: 2026-10-08
+problem: longest_substring
+model: default
+source: automation
+status: finished
+
+题目：LeetCode 3 无重复字符的最长子串（medium）
+
+解法：滑动窗口 + 哈希表记录每个字符最近一次出现的下标。
+右指针扩展窗口；若当前字符在窗口内重复，将左指针移到该字符上次位置的下一位。
+每步更新窗口长度并取最大值。
+
+时间复杂度：O(n)，每个字符最多被左右指针各访问一次。
+空间复杂度：O(min(n, |字符集|))，哈希表存储窗口内字符。
+
+测试：examples、空串、单字符、abba 等边界均通过。
