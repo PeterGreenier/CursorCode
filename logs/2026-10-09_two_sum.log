@@ -1,0 +1,11 @@
+date: 2026-10-09
+problem: two_sum
+model: default
+source: automation
+status: finished
+
+解题说明：
+哈希表存已见值与下标，遍历时查 complement = target - num。
+
+时间复杂度：O(n)。
+空间复杂度：O(n)。

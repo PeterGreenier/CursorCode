@@ -1,0 +1,11 @@
+date: 2026-10-09
+problem: number_of_islands
+model: default
+source: automation
+status: finished
+
+解题说明：
+网格 DFS：遇 '1' 计数 +1 并将连通陆地淹为 '0'。
+
+时间复杂度：O(m*n)。
+空间复杂度：O(m*n) 递归栈最坏。

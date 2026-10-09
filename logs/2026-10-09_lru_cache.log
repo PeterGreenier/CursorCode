@@ -1,0 +1,11 @@
+date: 2026-10-09
+problem: lru_cache
+model: default
+source: automation
+status: finished
+
+解题说明：
+OrderedDict 维护访问顺序：get/put 时 move_to_end；超容 popitem(last=False) 淘汰 LRU。
+
+get/put 均为 O(1) 均摊。
+空间复杂度：O(capacity)。

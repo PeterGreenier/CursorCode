@@ -1,0 +1,11 @@
+date: 2026-10-09
+problem: level_order_traversal
+model: default
+source: automation
+status: finished
+
+解题说明：
+BFS 层序遍历：队列初始放入根节点；每轮按当前队列长度处理一整层，将子节点入队。
+
+时间复杂度：O(n)，每个节点入队出队各一次。
+空间复杂度：O(n)，队列最多存放约一层节点（最坏满二叉树最后一层约 n/2）。
