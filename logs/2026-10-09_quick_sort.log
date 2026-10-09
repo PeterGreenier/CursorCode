@@ -1,0 +1,11 @@
+date: 2026-10-09
+problem: quick_sort
+model: default
+source: automation
+status: finished
+
+解题说明：
+Lomuto 分区以末尾为枢轴，递归排序左右子区间；含随机数组多重验证。
+
+平均时间复杂度：O(n log n)；最坏 O(n^2)。
+空间复杂度：O(log n) 递归栈（平均）。
