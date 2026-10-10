@@ -1,0 +1,10 @@
+date: 2026-10-10
+problem: binary_search
+model: default
+source: automation
+status: finished
+
+解题说明：
+经典二分：维护 [left, right]，取 mid，若 nums[mid]==target 返回 mid，否则缩小区间；区间为空返回 -1。测试覆盖空数组、单元素、边界与不存在。
+
+复杂度：时间 O(log n)，空间 O(1)。

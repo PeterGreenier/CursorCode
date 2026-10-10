@@ -1,0 +1,10 @@
+date: 2026-10-10
+problem: quick_sort
+model: default
+source: automation
+status: finished
+
+解题说明：
+原地快速排序：partition 选取最右元素为 pivot，双指针将小于 pivot 的放左侧，最后交换 pivot 到正确位置；对左右子区间递归排序。
+
+复杂度：平均时间 O(n log n)，最坏 O(n²)；递归栈空间 O(log n)（平均）。
