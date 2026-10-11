@@ -1,0 +1,10 @@
+date: 2026-10-11
+problem: binary_search
+model: default
+source: automation
+status: finished
+
+解题思路：有序数组左右边界夹逼 mid。时间 O(log n)，空间 O(1)。
+
+实现文件：solutions/binary_search.py
+本地测试：python3 solutions/binary_search.py — 全部通过。

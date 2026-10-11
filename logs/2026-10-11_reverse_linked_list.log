@@ -1,0 +1,10 @@
+date: 2026-10-11
+problem: reverse_linked_list
+model: default
+source: automation
+status: finished
+
+解题思路：迭代三指针 prev/curr/next 原地反转。时间 O(n)，空间 O(1)。
+
+实现文件：solutions/reverse_linked_list.py
+本地测试：python3 solutions/reverse_linked_list.py — 全部通过。
