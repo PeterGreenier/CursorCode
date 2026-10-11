@@ -1,0 +1,10 @@
+date: 2026-10-11
+problem: lru_cache
+model: default
+source: automation
+status: finished
+
+解题思路：OrderedDict 维护访问顺序：get/put 时 move_to_end，超容量 popitem(last=False)。get/put 均摊 O(1)。
+
+实现文件：solutions/lru_cache.py
+本地测试：python3 solutions/lru_cache.py — 全部通过。

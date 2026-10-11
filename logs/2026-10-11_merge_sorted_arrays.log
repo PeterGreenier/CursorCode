@@ -1,0 +1,10 @@
+date: 2026-10-11
+problem: merge_sorted_arrays
+model: default
+source: automation
+status: finished
+
+解题思路：从 nums1 末尾双指针填入较大元素，再填 nums2 剩余。时间 O(m+n)，空间 O(1)。
+
+实现文件：solutions/merge_sorted_arrays.py
+本地测试：python3 solutions/merge_sorted_arrays.py — 全部通过。

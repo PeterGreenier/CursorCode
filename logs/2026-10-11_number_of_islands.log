@@ -1,0 +1,10 @@
+date: 2026-10-11
+problem: number_of_islands
+model: default
+source: automation
+status: finished
+
+解题思路：网格 DFS/BFS：遇 '1' 则计数并淹没连通块。时间 O(mn)，空间 O(mn) 最坏递归栈。
+
+实现文件：solutions/number_of_islands.py
+本地测试：python3 solutions/number_of_islands.py — 全部通过。
