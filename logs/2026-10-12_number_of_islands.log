@@ -1,0 +1,7 @@
+date: 2026-10-12
+problem: number_of_islands
+model: default
+source: automation
+status: finished
+
+遍历网格，遇陆地且未访问则 DFS 标记整块岛屿。时间 O(m*n)，空间 O(m*n) 递归栈最坏。

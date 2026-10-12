@@ -1,0 +1,7 @@
+date: 2026-10-12
+problem: two_sum
+model: default
+source: automation
+status: finished
+
+哈希表存值到下标，遍历时查 target-num。时间 O(n)，空间 O(n)。

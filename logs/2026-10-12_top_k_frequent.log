@@ -1,0 +1,7 @@
+date: 2026-10-12
+problem: top_k_frequent
+model: default
+source: automation
+status: finished
+
+Counter 统计频次，用最小堆维护 size=k 的堆。时间 O(n log k)，空间 O(n)。

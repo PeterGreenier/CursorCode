@@ -1,0 +1,7 @@
+date: 2026-10-12
+problem: merge_sorted_arrays
+model: default
+source: automation
+status: finished
+
+从 nums1 末尾双指针填入较大元素。时间 O(m+n)，空间 O(1)。

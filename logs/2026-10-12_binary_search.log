@@ -1,0 +1,7 @@
+date: 2026-10-12
+problem: binary_search
+model: default
+source: automation
+status: finished
+
+左右边界收缩，mid 比较 target。时间 O(log n)，空间 O(1)。
