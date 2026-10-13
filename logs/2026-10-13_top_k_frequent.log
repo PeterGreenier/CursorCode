@@ -1,0 +1,9 @@
+date: 2026-10-13
+problem: top_k_frequent
+model: default
+source: automation
+status: finished
+
+解法：Counter 统计频率，桶排序按频率从高到低收集前 k 个元素。
+时间复杂度 O(n)，空间复杂度 O(n)。
+测试：python3 solutions/top_k_frequent.py 全部通过。

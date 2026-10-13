@@ -1,0 +1,9 @@
+date: 2026-10-13
+problem: climbing_stairs
+model: default
+source: automation
+status: finished
+
+解法：DP，dp[i]=dp[i-1]+dp[i-2]，可压缩为两个变量。
+时间复杂度 O(n)，空间复杂度 O(1)。
+测试：python3 solutions/climbing_stairs.py 全部通过。

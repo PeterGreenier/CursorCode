@@ -1,0 +1,9 @@
+date: 2026-10-13
+problem: number_of_islands
+model: default
+source: automation
+status: finished
+
+解法：遍历网格，遇 '1' 时用 DFS 淹没相连陆地并计数岛屿。
+时间复杂度 O(m×n)，空间复杂度 O(m×n) 递归栈。
+测试：python3 solutions/number_of_islands.py 全部通过。
