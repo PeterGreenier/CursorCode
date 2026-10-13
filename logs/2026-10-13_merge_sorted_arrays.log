@@ -1,0 +1,9 @@
+date: 2026-10-13
+problem: merge_sorted_arrays
+model: default
+source: automation
+status: finished
+
+解法：从 nums1 末尾双指针合并 nums2，避免覆盖未处理元素。
+时间复杂度 O(m+n)，空间复杂度 O(1)。
+测试：python3 solutions/merge_sorted_arrays.py 全部通过。

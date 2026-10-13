@@ -1,0 +1,9 @@
+date: 2026-10-13
+problem: palindrome_linked_list
+model: default
+source: automation
+status: finished
+
+解法：快慢指针找中点，反转后半段，逐节点比较是否回文。
+时间复杂度 O(n)，空间复杂度 O(1)。
+测试：python3 solutions/palindrome_linked_list.py 全部通过。
