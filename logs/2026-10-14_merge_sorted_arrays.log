@@ -1,0 +1,14 @@
+date: 2026-10-14
+problem: merge_sorted_arrays
+model: default
+source: automation
+status: finished
+
+解题说明：
+从 nums1 尾部向前填充合并结果，比较 nums1[i] 与 nums2[j] 较大者写入 k 位置，避免覆盖 nums1 未处理元素；nums2 剩余则拷贝到前部。
+
+复杂度：
+- 时间 O(m + n)
+- 空间 O(1) 原地
+
+测试：全部通过。

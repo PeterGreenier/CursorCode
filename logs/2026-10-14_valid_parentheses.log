@@ -1,0 +1,14 @@
+date: 2026-10-14
+problem: valid_parentheses
+model: default
+source: automation
+status: finished
+
+解题说明：
+栈匹配：左括号入栈；右括号时检查栈顶是否为对应左括号，不匹配或栈空则 false；结束时栈须为空。
+
+复杂度：
+- 时间 O(n)
+- 空间 O(n) 栈深度
+
+测试：全部通过。

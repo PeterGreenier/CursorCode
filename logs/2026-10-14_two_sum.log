@@ -1,0 +1,14 @@
+date: 2026-10-14
+problem: two_sum
+model: default
+source: automation
+status: finished
+
+解题说明：
+一次遍历数组，哈希表存储「值 → 下标」。对每个元素计算 complement = target - num，若 complement 已在表中则返回两个下标，否则将当前值入表。
+
+复杂度：
+- 时间 O(n)
+- 空间 O(n) 哈希表
+
+测试：全部通过。

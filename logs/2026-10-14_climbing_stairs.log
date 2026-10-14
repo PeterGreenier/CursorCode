@@ -1,0 +1,14 @@
+date: 2026-10-14
+problem: climbing_stairs
+model: default
+source: automation
+status: finished
+
+解题说明：
+DP：dp[i] = dp[i-1] + dp[i-2]，表示到达第 i 阶的方法数（斐波那契）。边界 dp[1]=1, dp[2]=2。
+
+复杂度：
+- 时间 O(n)
+- 空间 O(n)（可优化为 O(1) 滚动变量）
+
+测试：全部通过。
