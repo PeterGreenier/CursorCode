@@ -1,0 +1,14 @@
+date: 2026-10-14
+problem: palindrome_linked_list
+model: default
+source: automation
+status: finished
+
+解题说明：
+快慢指针定位链表后半段起点，反转后半段后与前半段逐节点比较值；比较结束后反转后半段以恢复链表结构。
+
+复杂度：
+- 时间 O(n)
+- 空间 O(1) 额外空间（仅指针）
+
+测试：全部通过。

@@ -1,0 +1,114 @@
+{
+  "runs": [
+    {
+      "date": "2026-10-14",
+      "problem_id": "number_of_islands",
+      "title": "岛屿数量",
+      "model": "default",
+      "source": "automation",
+      "status": "finished",
+      "started_at": "2026-10-14T10:03:57+00:00",
+      "finished_at": "2026-10-14T10:04:22+00:00",
+      "log_file": "logs/2026-10-14_number_of_islands.log"
+    },
+    {
+      "date": "2026-10-14",
+      "problem_id": "palindrome_linked_list",
+      "title": "回文链表",
+      "model": "default",
+      "source": "automation",
+      "status": "finished",
+      "started_at": "2026-10-14T10:04:27+00:00",
+      "finished_at": "2026-10-14T10:04:52+00:00",
+      "log_file": "logs/2026-10-14_palindrome_linked_list.log"
+    },
+    {
+      "date": "2026-10-14",
+      "problem_id": "two_sum",
+      "title": "两数之和",
+      "model": "default",
+      "source": "automation",
+      "status": "finished",
+      "started_at": "2026-10-14T10:04:57+00:00",
+      "finished_at": "2026-10-14T10:05:22+00:00",
+      "log_file": "logs/2026-10-14_two_sum.log"
+    },
+    {
+      "date": "2026-10-14",
+      "problem_id": "reverse_linked_list",
+      "title": "反转链表",
+      "model": "default",
+      "source": "automation",
+      "status": "finished",
+      "started_at": "2026-10-14T10:05:27+00:00",
+      "finished_at": "2026-10-14T10:05:52+00:00",
+      "log_file": "logs/2026-10-14_reverse_linked_list.log"
+    },
+    {
+      "date": "2026-10-14",
+      "problem_id": "valid_parentheses",
+      "title": "有效的括号",
+      "model": "default",
+      "source": "automation",
+      "status": "finished",
+      "started_at": "2026-10-14T10:05:57+00:00",
+      "finished_at": "2026-10-14T10:06:22+00:00",
+      "log_file": "logs/2026-10-14_valid_parentheses.log"
+    },
+    {
+      "date": "2026-10-14",
+      "problem_id": "binary_search",
+      "title": "二分查找",
+      "model": "default",
+      "source": "automation",
+      "status": "finished",
+      "started_at": "2026-10-14T10:06:27+00:00",
+      "finished_at": "2026-10-14T10:06:52+00:00",
+      "log_file": "logs/2026-10-14_binary_search.log"
+    },
+    {
+      "date": "2026-10-14",
+      "problem_id": "merge_sorted_arrays",
+      "title": "合并两个有序数组",
+      "model": "default",
+      "source": "automation",
+      "status": "finished",
+      "started_at": "2026-10-14T10:06:57+00:00",
+      "finished_at": "2026-10-14T10:07:22+00:00",
+      "log_file": "logs/2026-10-14_merge_sorted_arrays.log"
+    },
+    {
+      "date": "2026-10-14",
+      "problem_id": "max_subarray",
+      "title": "最大子数组和",
+      "model": "default",
+      "source": "automation",
+      "status": "finished",
+      "started_at": "2026-10-14T10:07:27+00:00",
+      "finished_at": "2026-10-14T10:07:52+00:00",
+      "log_file": "logs/2026-10-14_max_subarray.log"
+    },
+    {
+      "date": "2026-10-14",
+      "problem_id": "climbing_stairs",
+      "title": "爬楼梯",
+      "model": "default",
+      "source": "automation",
+      "status": "finished",
+      "started_at": "2026-10-14T10:07:57+00:00",
+      "finished_at": "2026-10-14T10:08:22+00:00",
+      "log_file": "logs/2026-10-14_climbing_stairs.log"
+    },
+    {
+      "date": "2026-10-14",
+      "problem_id": "longest_substring",
+      "title": "无重复字符的最长子串",
+      "model": "default",
+      "source": "automation",
+      "status": "finished",
+      "started_at": "2026-10-14T10:08:27+00:00",
+      "finished_at": "2026-10-14T10:08:52+00:00",
+      "log_file": "logs/2026-10-14_longest_substring.log"
+    }
+  ]
+}
