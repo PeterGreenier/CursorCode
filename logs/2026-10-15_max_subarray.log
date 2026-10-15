@@ -1,0 +1,11 @@
+date: 2026-10-15
+problem: max_subarray
+model: default
+source: automation
+status: finished
+
+解法：Kadane 算法，cur 为以当前元素结尾的最大子数组和，全局取 max。
+
+时间复杂度 O(n)，空间复杂度 O(1)。
+
+本地 `python3 solutions/max_subarray.py` 全部测试通过。

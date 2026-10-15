@@ -1,0 +1,11 @@
+date: 2026-10-15
+problem: palindrome_linked_list
+model: default
+source: automation
+status: finished
+
+解法：快慢指针找到链表后半段起点，反转后半段，与前半段逐节点比较；比较后恢复链表结构。
+
+时间复杂度 O(n)，空间复杂度 O(1)（仅指针，不计递归栈）。
+
+本地 `python3 solutions/palindrome_linked_list.py` 全部测试通过。

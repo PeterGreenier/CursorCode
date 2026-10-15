@@ -1,0 +1,11 @@
+date: 2026-10-15
+problem: level_order_traversal
+model: default
+source: automation
+status: finished
+
+解法：BFS 队列，每层先记录 level_size，再弹出固定数量节点组成一层结果。
+
+时间复杂度 O(n)，空间复杂度 O(n)（队列与结果）。
+
+本地 `python3 solutions/level_order_traversal.py` 全部测试通过。
