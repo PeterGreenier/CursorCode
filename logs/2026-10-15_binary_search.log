@@ -1,0 +1,11 @@
+date: 2026-10-15
+problem: binary_search
+model: default
+source: automation
+status: finished
+
+解法：经典二分，维护 [left, right] 闭区间，mid 比较后收缩半边。
+
+时间复杂度 O(log n)，空间复杂度 O(1)。
+
+本地 `python3 solutions/binary_search.py` 全部测试通过。

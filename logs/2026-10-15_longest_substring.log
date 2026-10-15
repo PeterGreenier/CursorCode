@@ -1,0 +1,11 @@
+date: 2026-10-15
+problem: longest_substring
+model: default
+source: automation
+status: finished
+
+解法：滑动窗口 + 字符最近下标哈希；重复字符在窗口内时左边界跳到重复位置之后。
+
+时间复杂度 O(n)，空间复杂度 O(min(n, 字符集大小))。
+
+本地 `python3 solutions/longest_substring.py` 全部测试通过。

@@ -1,0 +1,11 @@
+date: 2026-10-15
+problem: merge_sorted_arrays
+model: default
+source: automation
+status: finished
+
+解法：从 nums1 有效段与 nums2 尾部向前比较，较大值写入 nums1 尾部，避免覆盖未处理元素。
+
+时间复杂度 O(m+n)，空间复杂度 O(1)。
+
+本地 `python3 solutions/merge_sorted_arrays.py` 全部测试通过。
