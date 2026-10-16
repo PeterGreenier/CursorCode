@@ -1,0 +1,9 @@
+date: 2026-10-16
+problem: longest_substring
+model: default
+source: automation
+status: finished
+
+题目：无重复字符的最长子串
+解法说明：滑动窗口+哈希，O(n) 时间 O(min(n,字符集)) 空间。
+验证：已运行 solutions/longest_substring.py 中 __main__ 测试，全部通过。

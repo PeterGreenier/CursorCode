@@ -1,0 +1,9 @@
+date: 2026-10-16
+problem: two_sum
+model: default
+source: automation
+status: finished
+
+题目：两数之和
+解法说明：哈希表一次遍历，O(n) 时间 O(n) 空间。
+验证：已运行 solutions/two_sum.py 中 __main__ 测试，全部通过。
