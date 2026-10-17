@@ -1,0 +1,9 @@
+date: 2026-10-17
+problem: level_order_traversal
+model: default
+source: automation
+status: finished
+
+解法：BFS 队列；每轮按当前队列长度处理一层，子节点入队，结果按层收集。
+
+时间复杂度 O(n)，空间复杂度 O(n)。

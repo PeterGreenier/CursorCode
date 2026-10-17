@@ -1,0 +1,9 @@
+date: 2026-10-17
+problem: binary_search
+model: default
+source: automation
+status: finished
+
+解法：闭区间 [left, right] 二分，mid = left + (right-left)//2，按与 target 比较收缩边界。
+
+时间复杂度 O(log n)，空间复杂度 O(1)。

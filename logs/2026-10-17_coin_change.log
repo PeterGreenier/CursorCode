@@ -1,0 +1,9 @@
+date: 2026-10-17
+problem: coin_change
+model: default
+source: automation
+status: finished
+
+解法：完全背包 DP，dp[i] 为凑金额 i 的最少硬币数，枚举硬币转移 dp[i]=min(dp[i], dp[i-coin]+1)。
+
+时间复杂度 O(amount * len(coins))，空间复杂度 O(amount)。

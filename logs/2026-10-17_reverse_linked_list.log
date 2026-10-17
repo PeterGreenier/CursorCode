@@ -1,0 +1,9 @@
+date: 2026-10-17
+problem: reverse_linked_list
+model: default
+source: automation
+status: finished
+
+解法：迭代三指针（prev / curr / next）原地反转链表，每次将 curr.next 指向 prev 后前移。
+
+时间复杂度 O(n)，空间复杂度 O(1)。
