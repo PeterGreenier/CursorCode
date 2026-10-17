@@ -1,0 +1,9 @@
+date: 2026-10-17
+problem: climbing_stairs
+model: default
+source: automation
+status: finished
+
+解法：DP，dp[i] = dp[i-1] + dp[i-2]（斐波那契），边界 dp[1]=1、dp[2]=2。
+
+时间复杂度 O(n)，空间复杂度 O(n)（可压成 O(1) 两个变量）。
