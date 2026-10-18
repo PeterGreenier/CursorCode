@@ -1,0 +1,9 @@
+date: 2026-10-18
+problem: longest_substring
+model: default
+source: automation
+status: finished
+
+滑动窗口+哈希记录字符最后位置，重复时收缩左边界。时间 O(n)，空间 O(字符集)。
+
+已运行 solutions/longest_substring.py，全部测试通过。

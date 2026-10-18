@@ -1,0 +1,9 @@
+date: 2026-10-18
+problem: binary_search
+model: default
+source: automation
+status: finished
+
+左右指针在有序数组上收缩，比较中点与 target。时间 O(log n)，空间 O(1)。
+
+已运行 solutions/binary_search.py，全部测试通过。

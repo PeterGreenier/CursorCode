@@ -1,0 +1,9 @@
+date: 2026-10-18
+problem: quick_sort
+model: default
+source: automation
+status: finished
+
+partition 选基准，递归左右子数组。平均 O(n log n)，最坏 O(n²)；空间 O(log n) 栈。
+
+已运行 solutions/quick_sort.py，全部测试通过。

@@ -1,0 +1,9 @@
+date: 2026-10-18
+problem: lru_cache
+model: default
+source: automation
+status: finished
+
+OrderedDict 或双向链表+哈希实现 get/put O(1)。时间 O(1) 均摊，空间 O(capacity)。
+
+已运行 solutions/lru_cache.py，全部测试通过。
