@@ -1,0 +1,7 @@
+date: 2026-10-19
+problem: two_sum
+model: default
+source: automation
+status: finished
+
+哈希表一次遍历：对每个元素 x，检查 target-x 是否已在 map 中；否则将 x 的下标存入 map。时间 O(n)，空间 O(n)。
