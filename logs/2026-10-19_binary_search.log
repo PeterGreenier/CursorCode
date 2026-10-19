@@ -1,0 +1,14 @@
+date: 2026-10-19
+problem: binary_search
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+在有序数组上使用闭区间二分查找 `[left, right]`：取中点与 `target` 比较，相等则返回下标；`target` 更大则 `left = mid + 1`，更小则 `right = mid - 1`；区间为空返回 -1。中点用 `left + (right - left) // 2` 避免加法溢出。
+
+## 复杂度
+
+- 时间：O(log n)，每次将搜索区间减半
+- 空间：O(1)，仅使用常数个指针

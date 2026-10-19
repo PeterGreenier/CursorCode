@@ -1,0 +1,7 @@
+date: 2026-10-19
+problem: climbing_stairs
+model: default
+source: automation
+status: finished
+
+斐波那契 DP：dp[i]=dp[i-1]+dp[i-2]，可压缩为两个变量。时间 O(n)，空间 O(1)。

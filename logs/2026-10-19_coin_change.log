@@ -1,0 +1,7 @@
+date: 2026-10-19
+problem: coin_change
+model: default
+source: automation
+status: finished
+
+完全背包 DP：dp[amount]=min(dp[amount-coin]+1)。时间 O(amount×硬币数)，空间 O(amount)。
