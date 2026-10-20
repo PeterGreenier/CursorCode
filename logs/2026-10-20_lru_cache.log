@@ -1,0 +1,10 @@
+date: 2026-10-20
+problem: lru_cache
+model: default
+source: automation
+status: finished
+
+OrderedDict：get 时 move_to_end，满时 popitem(last=False)。get/put 均摊 O(1)。
+
+解答文件: solutions/lru_cache.py
+本地测试: python3 solutions/lru_cache.py 通过。

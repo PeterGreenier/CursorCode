@@ -1,0 +1,10 @@
+date: 2026-10-20
+problem: max_subarray
+model: default
+source: automation
+status: finished
+
+Kadane：维护当前子数组和与全局最大值。时间 O(n)，空间 O(1)。
+
+解答文件: solutions/max_subarray.py
+本地测试: python3 solutions/max_subarray.py 通过。

@@ -1,0 +1,10 @@
+date: 2026-10-20
+problem: top_k_frequent
+model: default
+source: automation
+status: finished
+
+Counter 统计频次，nlargest 或堆取前 k。时间 O(n log k)，空间 O(n)。
+
+解答文件: solutions/top_k_frequent.py
+本地测试: python3 solutions/top_k_frequent.py 通过。
