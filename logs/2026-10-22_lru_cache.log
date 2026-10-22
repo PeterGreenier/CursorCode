@@ -1,0 +1,10 @@
+date: 2026-10-22
+problem: lru_cache
+model: default
+source: automation
+status: finished
+
+OrderedDict：get 时将键移到末尾表示最近使用；put 时写入并移动末尾，超容量时 popitem(last=False) 淘汰最久未用。
+
+get/put 均摊时间复杂度：O(1)
+空间复杂度：O(capacity)

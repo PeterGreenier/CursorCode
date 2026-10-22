@@ -1,0 +1,10 @@
+date: 2026-10-22
+problem: longest_substring
+model: default
+source: automation
+status: finished
+
+滑动窗口：右指针扩展窗口，用哈希表记录字符最后出现位置；遇重复时将左边界跳到重复字符下一位置，维护窗口内无重复时的最大长度。
+
+时间复杂度：O(n)
+空间复杂度：O(min(n, 字符集大小))
