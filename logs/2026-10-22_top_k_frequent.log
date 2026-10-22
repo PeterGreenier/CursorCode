@@ -1,0 +1,10 @@
+date: 2026-10-22
+problem: top_k_frequent
+model: default
+source: automation
+status: finished
+
+先统计频次，再用大小为 k 的最小堆维护当前 top k 高频元素（或桶排序按频次下标收集）。
+
+时间复杂度：O(n log k)（堆方案）
+空间复杂度：O(n)

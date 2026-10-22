@@ -1,0 +1,10 @@
+date: 2026-10-22
+problem: level_order_traversal
+model: default
+source: automation
+status: finished
+
+BFS 层序遍历：队列按层入队出队，每轮处理当前层节点数，将非空子节点入队并收集值。
+
+时间复杂度：O(n)，n 为节点数
+空间复杂度：O(n)，队列最坏情况
