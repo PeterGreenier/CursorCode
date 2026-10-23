@@ -1,0 +1,10 @@
+date: 2026-10-23
+problem: number_of_islands
+model: default
+source: automation
+status: finished
+
+遍历网格，遇陆地 '1' 时 DFS/BFS 沉岛（标记为已访问），每启动一次搜索岛屿数加一。
+
+时间复杂度 O(m×n)，空间复杂度 O(m×n)（递归/队列）。
+本地测试：All tests passed.

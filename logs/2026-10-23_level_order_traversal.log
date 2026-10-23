@@ -1,0 +1,10 @@
+date: 2026-10-23
+problem: level_order_traversal
+model: default
+source: automation
+status: finished
+
+BFS 用队列按层收集节点：每层先记录当前层大小，再依次出队子节点入队，直到队列为空。
+
+时间复杂度 O(n)，空间复杂度 O(n)（队列最坏情况）。
+本地测试：All tests passed.

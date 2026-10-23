@@ -1,0 +1,10 @@
+date: 2026-10-23
+problem: reverse_linked_list
+model: default
+source: automation
+status: finished
+
+迭代三指针（prev/curr/next）：逐个将 curr.next 指向前驱，完成链表原地反转。
+
+时间复杂度 O(n)，空间复杂度 O(1)。
+本地测试：All tests passed.

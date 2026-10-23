@@ -1,0 +1,10 @@
+date: 2026-10-23
+problem: top_k_frequent
+model: default
+source: automation
+status: finished
+
+先统计频次，再用大小为 k 的最小堆维护当前 top-k；堆满时若新元素频次更大则替换堆顶。
+
+时间复杂度 O(n log k)，空间复杂度 O(n)。
+本地测试：All tests passed.
