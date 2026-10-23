@@ -1,0 +1,10 @@
+date: 2026-10-23
+problem: two_sum
+model: default
+source: automation
+status: finished
+
+一次遍历，哈希表存储已见元素下标；对每个 nums[i] 查 target-nums[i] 是否在表中。
+
+时间复杂度 O(n)，空间复杂度 O(n)。
+本地测试：All tests passed.

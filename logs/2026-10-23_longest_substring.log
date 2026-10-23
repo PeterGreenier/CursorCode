@@ -1,0 +1,10 @@
+date: 2026-10-23
+problem: longest_substring
+model: default
+source: automation
+status: finished
+
+滑动窗口维护无重复子串区间，哈希表记录各字符最近下标；右指针扩展时若字符已在窗口内则左指针跳到重复位置之后。
+
+时间复杂度 O(n)，空间复杂度 O(min(n, 字符集大小))。
+本地测试：All tests passed.
