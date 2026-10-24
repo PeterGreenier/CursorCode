@@ -1,0 +1,11 @@
+date: 2026-10-24
+problem: number_of_islands
+model: default
+source: automation
+status: finished
+
+解法：遍历网格，遇陆地 '1' 则 DFS/BFS 沉岛（标记为已访问），岛屿计数加一。
+
+时间复杂度 O(m*n)，空间复杂度 O(m*n) 最坏递归/队列。
+
+自动化验证：python3 solutions/number_of_islands.py — All tests passed.

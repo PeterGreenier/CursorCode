@@ -1,0 +1,11 @@
+date: 2026-10-24
+problem: two_sum
+model: default
+source: automation
+status: finished
+
+解法：哈希表一次遍历，对每个 nums[i] 查 target - nums[i] 是否已出现，记录下标。
+
+时间复杂度 O(n)，空间复杂度 O(n)。
+
+自动化验证：python3 solutions/two_sum.py — All tests passed.

@@ -1,0 +1,11 @@
+date: 2026-10-24
+problem: level_order_traversal
+model: default
+source: automation
+status: finished
+
+解法：BFS 层序遍历。用队列存放待访问节点，每轮按当前队列长度处理一层，依次出队记录值并将子节点入队。
+
+时间复杂度 O(n)，空间复杂度 O(n)（队列最多容纳约一层节点）。
+
+自动化验证：python3 solutions/level_order_traversal.py — All tests passed.
