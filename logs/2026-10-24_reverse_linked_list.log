@@ -1,0 +1,11 @@
+date: 2026-10-24
+problem: reverse_linked_list
+model: default
+source: automation
+status: finished
+
+解法：迭代三指针（prev/curr/next）原地反转链表；或递归反转后继并拼接。
+
+时间复杂度 O(n)，空间复杂度 O(1) 迭代 / O(n) 递归栈。
+
+自动化验证：python3 solutions/reverse_linked_list.py — All tests passed.
