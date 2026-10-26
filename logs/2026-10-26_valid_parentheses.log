@@ -1,0 +1,11 @@
+date: 2026-10-26
+problem: valid_parentheses
+model: default
+source: automation
+status: finished
+
+栈匹配：左括号入栈，右括号与栈顶配对弹出；最终栈空则有效。
+
+时间复杂度：O(n)；空间复杂度：O(n)。
+
+已通过匹配/不匹配、嵌套、空串等测试。

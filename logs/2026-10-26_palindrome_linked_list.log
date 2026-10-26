@@ -1,0 +1,11 @@
+date: 2026-10-26
+problem: palindrome_linked_list
+model: default
+source: automation
+status: finished
+
+快慢指针找中点，反转后半段，与前半段逐节点比较；比较后将后半段再反转以恢复链表。空链表与单节点直接为真。
+
+时间复杂度：O(n)；空间复杂度：O(1) 额外空间。
+
+已通过偶数/奇数回文与非回文、空链表、单节点测试。
