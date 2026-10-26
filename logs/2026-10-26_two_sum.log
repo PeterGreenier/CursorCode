@@ -1,0 +1,11 @@
+date: 2026-10-26
+problem: two_sum
+model: default
+source: automation
+status: finished
+
+一次遍历 + 哈希表：对每个 nums[i]，若 target - nums[i] 已在表中则返回两下标，否则将 i -> nums[i] 存入表。
+
+时间复杂度：O(n)；空间复杂度：O(n)。
+
+已通过 LeetCode 典型用例测试。

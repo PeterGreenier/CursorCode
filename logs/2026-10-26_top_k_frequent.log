@@ -1,0 +1,11 @@
+date: 2026-10-26
+problem: top_k_frequent
+model: default
+source: automation
+status: finished
+
+桶排序：先用 Counter 统计频率，再建下标为频率的桶列表，从高频率向低频率收集元素直至凑满 k 个。另提供最小堆备选实现 O(n log k)。
+
+主解法时间 O(n)，空间 O(n)；堆解法时间 O(n log k)，空间 O(k)。
+
+已通过示例及 k=1 边界测试。

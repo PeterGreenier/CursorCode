@@ -1,0 +1,11 @@
+date: 2026-10-26
+problem: binary_search
+model: default
+source: automation
+status: finished
+
+经典二分：维护 [left, right] 闭区间，mid 与 target 比较缩小区间，不存在返回 -1。
+
+时间复杂度：O(log n)；空间复杂度：O(1)。
+
+已通过命中、未命中、单元素、空数组等边界测试。

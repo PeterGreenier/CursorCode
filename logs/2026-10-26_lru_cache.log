@@ -1,0 +1,11 @@
+date: 2026-10-26
+problem: lru_cache
+model: default
+source: automation
+status: finished
+
+使用 `collections.OrderedDict` 实现 LRU：哈希表 O(1) 查找，`move_to_end` 标记最近使用，`popitem(last=False)` 在超容时淘汰最久未用项。get 未命中返回 -1；put 更新已存在键时不增加条目数。
+
+时间复杂度：get/put 均为 O(1)；空间复杂度：O(capacity)。
+
+已通过 LeetCode 示例、容量为 1、更新已有键、连续 get 等测试。

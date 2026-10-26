@@ -1,0 +1,11 @@
+date: 2026-10-26
+problem: reverse_linked_list
+model: default
+source: automation
+status: finished
+
+迭代三指针（prev/curr/next）原地反转链表，逐个将 curr.next 指向前驱。
+
+时间复杂度：O(n)；空间复杂度：O(1)。
+
+已通过多节点、空链表、单节点测试。
