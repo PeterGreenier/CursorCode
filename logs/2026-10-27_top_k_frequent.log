@@ -1,0 +1,12 @@
+date: 2026-10-27
+problem: top_k_frequent
+model: default
+source: automation
+status: finished
+
+题目标题：前 K 个高频元素
+
+解题说明：
+Counter 统计频率后，用最小堆维护 top-k 或桶排序。堆解法 O(n log k)，空间 O(n+k)。
+
+已通过 solutions/top_k_frequent.py 中 __main__ 自测。

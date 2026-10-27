@@ -1,0 +1,12 @@
+date: 2026-10-27
+problem: palindrome_linked_list
+model: default
+source: automation
+status: finished
+
+题目标题：回文链表
+
+解题说明：
+快慢指针找中点，反转后半段，逐节点比较。时间 O(n)，额外空间 O(1)。
+
+已通过 solutions/palindrome_linked_list.py 中 __main__ 自测。
