@@ -1,0 +1,12 @@
+date: 2026-10-27
+problem: two_sum
+model: default
+source: automation
+status: finished
+
+题目标题：两数之和
+
+解题说明：
+哈希表存值->下标，遍历时查 target-nums[i]。时间 O(n)，空间 O(n)。
+
+已通过 solutions/two_sum.py 中 __main__ 自测。

@@ -1,0 +1,12 @@
+date: 2026-10-27
+problem: merge_sorted_arrays
+model: default
+source: automation
+status: finished
+
+题目标题：合并两个有序数组
+
+解题说明：
+从 nums1 末尾双指针合并，避免覆盖未读元素。时间 O(m+n)，空间 O(1)。
+
+已通过 solutions/merge_sorted_arrays.py 中 __main__ 自测。
