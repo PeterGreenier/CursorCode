@@ -1,0 +1,18 @@
+date: 2026-10-29
+problem: two_sum
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+单次遍历数组，维护哈希表 `seen`：键为数值、值为下标。对每个 `nums[i]`，计算补数 `target - nums[i]`；若补数已在表中，返回 `[seen[complement], i]`；否则将当前值及下标写入表。
+
+## 复杂度
+
+- 时间：O(n)，一次遍历，哈希查找均摊 O(1)。
+- 空间：O(n)，最坏情况下哈希表存储 n 个元素。
+
+## 验证
+
+运行 `python3 solutions/two_sum.py`，全部断言通过。

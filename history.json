@@ -1,0 +1,37 @@
+{
+  "runs": [
+    {
+      "date": "2026-10-29",
+      "problem_id": "number_of_islands",
+      "title": "岛屿数量",
+      "model": "default",
+      "source": "automation",
+      "status": "finished",
+      "started_at": "2026-10-29T10:03:52+00:00",
+      "finished_at": "2026-10-29T10:04:10+00:00",
+      "log_file": "logs/2026-10-29_number_of_islands.log"
+    },
+    {
+      "date": "2026-10-29",
+      "problem_id": "palindrome_linked_list",
+      "title": "回文链表",
+      "model": "default",
+      "source": "automation",
+      "status": "finished",
+      "started_at": "2026-10-29T10:04:11+00:00",
+      "finished_at": "2026-10-29T10:04:28+00:00",
+      "log_file": "logs/2026-10-29_palindrome_linked_list.log"
+    },
+    {
+      "date": "2026-10-29",
+      "problem_id": "two_sum",
+      "title": "两数之和",
+      "model": "default",
+      "source": "automation",
+      "status": "finished",
+      "started_at": "2026-10-29T10:04:29+00:00",
+      "finished_at": "2026-10-29T10:04:45+00:00",
+      "log_file": "logs/2026-10-29_two_sum.log"
+    }
+  ]
+}

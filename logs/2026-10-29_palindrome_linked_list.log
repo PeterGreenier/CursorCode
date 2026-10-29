@@ -1,0 +1,18 @@
+date: 2026-10-29
+problem: palindrome_linked_list
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+快慢指针定位链表后半段起点：快指针每次走两步、慢指针走一步；快指针到末尾时，慢指针位于前半段末尾。反转后半段链表，从头节点与反转后的后半段头逐节点比较值。比较结束后将后半段再次反转，恢复链表原结构。
+
+## 复杂度
+
+- 时间：O(n)，一次快慢扫描 + 一次比较 + 反转均为线性。
+- 空间：O(1)，仅使用常数个指针。
+
+## 验证
+
+运行 `python3 solutions/palindrome_linked_list.py`，全部断言通过。
