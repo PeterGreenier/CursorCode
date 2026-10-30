@@ -1,0 +1,18 @@
+date: 2026-10-30
+problem: reverse_linked_list
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+LeetCode 206 反转链表。迭代维护 prev、curr、next 三指针：每次把 curr.next 指向 prev，然后三指针同步前移，直到 curr 为空，返回 prev 作为新头节点。
+
+## 复杂度
+
+- 时间：O(n)，每个节点处理一次。
+- 空间：O(1)，仅使用常数额外指针。
+
+## 验证
+
+运行 `python3 solutions/reverse_linked_list.py`，全部断言通过。

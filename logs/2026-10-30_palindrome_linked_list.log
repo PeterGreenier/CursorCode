@@ -1,0 +1,18 @@
+date: 2026-10-30
+problem: palindrome_linked_list
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+LeetCode 234 回文链表。使用快慢指针找到链表中点，反转后半段，再与前半段逐节点比较值是否相等；比较结束后将后半段再次反转以恢复链表结构。
+
+## 复杂度
+
+- 时间：O(n)，快慢指针与中点比较各线性扫描一次。
+- 空间：O(1)，仅使用常数个指针，原地反转不额外分配链表节点。
+
+## 验证
+
+运行 `python3 solutions/palindrome_linked_list.py`，全部断言通过。
