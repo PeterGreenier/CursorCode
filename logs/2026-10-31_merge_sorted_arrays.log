@@ -1,0 +1,12 @@
+date: 2026-10-31
+problem: merge_sorted_arrays
+model: default
+source: automation
+status: finished
+
+解题说明：
+从 nums1 尾部向前双指针合并 nums1 与 nums2，避免覆盖未处理元素；nums2 剩余再拷贝。
+
+复杂度：时间 O(m+n)，空间 O(1)（原地）。
+
+测试：solutions/merge_sorted_arrays.py 全部通过。

@@ -1,0 +1,12 @@
+date: 2026-10-31
+problem: max_subarray
+model: default
+source: automation
+status: finished
+
+解题说明：
+Kadane 算法：维护当前子数组和 cur 与全局最大 max_sum，cur = max(num, cur+num)。
+
+复杂度：时间 O(n)，空间 O(1)。
+
+测试：solutions/max_subarray.py 全部通过。

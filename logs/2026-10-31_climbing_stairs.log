@@ -1,0 +1,12 @@
+date: 2026-10-31
+problem: climbing_stairs
+model: default
+source: automation
+status: finished
+
+解题说明：
+DP：dp[i] = dp[i-1] + dp[i-2]，可滚动为两个变量；dp[1]=1, dp[2]=2 为基例。
+
+复杂度：时间 O(n)，空间 O(1)。
+
+测试：solutions/climbing_stairs.py 全部通过。
