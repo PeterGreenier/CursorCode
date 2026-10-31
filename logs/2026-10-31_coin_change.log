@@ -1,0 +1,12 @@
+date: 2026-10-31
+problem: coin_change
+model: default
+source: automation
+status: finished
+
+解题说明：
+完全背包 DP：dp[0]=0，对每个金额 i 遍历硬币，dp[i]=min(dp[i], dp[i-coin]+1)；不可达为 inf。
+
+复杂度：时间 O(amount * len(coins))，空间 O(amount)。
+
+测试：solutions/coin_change.py 全部通过。

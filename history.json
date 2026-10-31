@@ -1,0 +1,114 @@
+{
+  "runs": [
+    {
+      "date": "2026-10-31",
+      "problem_id": "two_sum",
+      "title": "两数之和",
+      "model": "default",
+      "source": "automation",
+      "status": "finished",
+      "started_at": "2026-10-31T10:02:00+00:00",
+      "finished_at": "2026-10-31T10:03:30+00:00",
+      "log_file": "logs/2026-10-31_two_sum.log"
+    },
+    {
+      "date": "2026-10-31",
+      "problem_id": "reverse_linked_list",
+      "title": "反转链表",
+      "model": "default",
+      "source": "automation",
+      "status": "finished",
+      "started_at": "2026-10-31T10:04:00+00:00",
+      "finished_at": "2026-10-31T10:05:30+00:00",
+      "log_file": "logs/2026-10-31_reverse_linked_list.log"
+    },
+    {
+      "date": "2026-10-31",
+      "problem_id": "valid_parentheses",
+      "title": "有效的括号",
+      "model": "default",
+      "source": "automation",
+      "status": "finished",
+      "started_at": "2026-10-31T10:06:00+00:00",
+      "finished_at": "2026-10-31T10:07:30+00:00",
+      "log_file": "logs/2026-10-31_valid_parentheses.log"
+    },
+    {
+      "date": "2026-10-31",
+      "problem_id": "binary_search",
+      "title": "二分查找",
+      "model": "default",
+      "source": "automation",
+      "status": "finished",
+      "started_at": "2026-10-31T10:08:00+00:00",
+      "finished_at": "2026-10-31T10:09:30+00:00",
+      "log_file": "logs/2026-10-31_binary_search.log"
+    },
+    {
+      "date": "2026-10-31",
+      "problem_id": "merge_sorted_arrays",
+      "title": "合并两个有序数组",
+      "model": "default",
+      "source": "automation",
+      "status": "finished",
+      "started_at": "2026-10-31T10:10:00+00:00",
+      "finished_at": "2026-10-31T10:11:30+00:00",
+      "log_file": "logs/2026-10-31_merge_sorted_arrays.log"
+    },
+    {
+      "date": "2026-10-31",
+      "problem_id": "max_subarray",
+      "title": "最大子数组和",
+      "model": "default",
+      "source": "automation",
+      "status": "finished",
+      "started_at": "2026-10-31T10:12:00+00:00",
+      "finished_at": "2026-10-31T10:13:30+00:00",
+      "log_file": "logs/2026-10-31_max_subarray.log"
+    },
+    {
+      "date": "2026-10-31",
+      "problem_id": "climbing_stairs",
+      "title": "爬楼梯",
+      "model": "default",
+      "source": "automation",
+      "status": "finished",
+      "started_at": "2026-10-31T10:14:00+00:00",
+      "finished_at": "2026-10-31T10:15:30+00:00",
+      "log_file": "logs/2026-10-31_climbing_stairs.log"
+    },
+    {
+      "date": "2026-10-31",
+      "problem_id": "longest_substring",
+      "title": "无重复字符的最长子串",
+      "model": "default",
+      "source": "automation",
+      "status": "finished",
+      "started_at": "2026-10-31T10:16:00+00:00",
+      "finished_at": "2026-10-31T10:17:30+00:00",
+      "log_file": "logs/2026-10-31_longest_substring.log"
+    },
+    {
+      "date": "2026-10-31",
+      "problem_id": "level_order_traversal",
+      "title": "二叉树的层序遍历",
+      "model": "default",
+      "source": "automation",
+      "status": "finished",
+      "started_at": "2026-10-31T10:18:00+00:00",
+      "finished_at": "2026-10-31T10:19:30+00:00",
+      "log_file": "logs/2026-10-31_level_order_traversal.log"
+    },
+    {
+      "date": "2026-10-31",
+      "problem_id": "coin_change",
+      "title": "零钱兑换",
+      "model": "default",
+      "source": "automation",
+      "status": "finished",
+      "started_at": "2026-10-31T10:20:00+00:00",
+      "finished_at": "2026-10-31T10:21:30+00:00",
+      "log_file": "logs/2026-10-31_coin_change.log"
+    }
+  ]
+}
