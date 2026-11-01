@@ -1,0 +1,7 @@
+date: 2026-11-01
+problem: max_subarray
+model: default
+source: automation
+status: finished
+
+Kadane 动态规划。时间 O(n)，空间 O(1)。正负混合测试通过。
