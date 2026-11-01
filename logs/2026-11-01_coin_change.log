@@ -1,0 +1,7 @@
+date: 2026-11-01
+problem: coin_change
+model: default
+source: automation
+status: finished
+
+完全背包 DP 求最少硬币。时间 O(amount*len(coins))，空间 O(amount)。测试通过。

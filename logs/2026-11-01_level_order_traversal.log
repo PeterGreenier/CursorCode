@@ -1,0 +1,7 @@
+date: 2026-11-01
+problem: level_order_traversal
+model: default
+source: automation
+status: finished
+
+BFS 按层收集节点。时间 O(n)，空间 O(n)。测试通过。
