@@ -1,0 +1,10 @@
+date: 2026-11-02
+problem: binary_search
+model: default
+source: automation
+status: finished
+
+经典二分：维护 [lo, hi]，比较 mid 与 target 缩小区间。时间 O(log n)，空间 O(1)。
+
+solution: solutions/binary_search.py
+本地测试: python3 solutions/binary_search.py — 全部通过。

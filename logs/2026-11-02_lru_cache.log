@@ -1,0 +1,10 @@
+date: 2026-11-02
+problem: lru_cache
+model: default
+source: automation
+status: finished
+
+OrderedDict 或双向链表+哈希：get/put 时移到 MRU，超容量删 LRU。均摊 O(1)。
+
+solution: solutions/lru_cache.py
+本地测试: python3 solutions/lru_cache.py — 全部通过。

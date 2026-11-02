@@ -1,0 +1,10 @@
+date: 2026-11-02
+problem: quick_sort
+model: default
+source: automation
+status: finished
+
+随机/末尾 pivot partition 后递归左右子数组。平均 O(n log n)，最坏 O(n²)，空间 O(log n) 栈。
+
+solution: solutions/quick_sort.py
+本地测试: python3 solutions/quick_sort.py — 全部通过。
