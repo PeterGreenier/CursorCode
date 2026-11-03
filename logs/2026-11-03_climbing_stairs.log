@@ -1,0 +1,14 @@
+date: 2026-11-03
+problem: climbing_stairs
+model: default
+source: automation
+status: finished
+
+解题说明：
+到达第 n 阶的方法数等于到达 n-1 与 n-2 的方法数之和（斐波那契）。用滚动变量保存前两阶，避免 O(n) 数组。
+
+复杂度：
+- 时间 O(n)
+- 空间 O(1)
+
+验证：solutions/climbing_stairs.py 测试全部通过。

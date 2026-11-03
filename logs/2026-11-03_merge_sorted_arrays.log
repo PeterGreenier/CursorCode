@@ -1,0 +1,14 @@
+date: 2026-11-03
+problem: merge_sorted_arrays
+model: default
+source: automation
+status: finished
+
+解题说明：
+从 nums1 尾部向前填充（三指针 i/j/k）。比较 nums1[i] 与 nums2[j] 的较大者写入 k，避免覆盖 nums1 尚未合并的有效元素；nums2 剩余元素再拷贝到前部。
+
+复杂度：
+- 时间 O(m + n)
+- 空间 O(1)，原地修改 nums1
+
+验证：solutions/merge_sorted_arrays.py 示例与边界测试全部通过。

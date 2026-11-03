@@ -1,0 +1,14 @@
+date: 2026-11-03
+problem: top_k_frequent
+model: default
+source: automation
+status: finished
+
+解题说明：
+先 Counter 统计频次，再用大小为 k 的最小堆维护前 k 高频元素（堆顶为 k 个中频次最小者）；或桶排序按频次分桶。实现采用堆解法。
+
+复杂度：
+- 时间 O(n log k)，n 为数组长度
+- 空间 O(n)
+
+验证：solutions/top_k_frequent.py 测试全部通过。

@@ -1,0 +1,13 @@
+date: 2026-11-03
+problem: lru_cache
+model: default
+source: automation
+status: finished
+
+解题说明：
+OrderedDict 实现 LRU：get/put 命中时将键移到末尾表示最近使用；put 超容量时 popitem(last=False) 淘汰最久未使用项。
+
+复杂度：
+- get/put 均摊 O(1)
+
+验证：solutions/lru_cache.py get/put 序列测试全部通过。
