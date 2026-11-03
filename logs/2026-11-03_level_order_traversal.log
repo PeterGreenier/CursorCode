@@ -1,0 +1,14 @@
+date: 2026-11-03
+problem: level_order_traversal
+model: default
+source: automation
+status: finished
+
+解题说明：
+BFS 层序遍历。队列按层入队子节点；每层循环前记录当前层大小，依次出队并收集值，将非空左右子节点入队。
+
+复杂度：
+- 时间 O(n)
+- 空间 O(n)，队列最坏存一层节点
+
+验证：solutions/level_order_traversal.py 测试全部通过。
