@@ -1,0 +1,16 @@
+date: 2026-11-05
+problem: longest_substring
+model: default
+source: automation
+status: finished
+
+解题说明：
+滑动窗口 [left, right] 配合哈希表 last_seen 记录各字符最近下标。
+右指针扩展窗口；若当前字符在窗口内重复，将 left 移至重复字符上次位置 +1。
+每步更新 max_len = max(max_len, right - left + 1)。
+
+复杂度：
+- 时间 O(n)，每个字符最多被 left/right 各访问常数次。
+- 空间 O(min(n, |字符集|))，哈希表规模。
+
+测试：LeetCode 示例、空串、abba 等用例均已通过。
