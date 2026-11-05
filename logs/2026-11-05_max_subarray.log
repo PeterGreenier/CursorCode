@@ -1,0 +1,16 @@
+date: 2026-11-05
+problem: max_subarray
+model: default
+source: automation
+status: finished
+
+解题说明：
+使用 Kadane 算法（动态规划）维护「以当前元素结尾的最大子数组和」current_sum。
+每步比较：单独以 nums[i] 为新子数组，或接在前面的 current_sum 之后，取较大者。
+同时用 max_sum 记录全局最大值。
+
+复杂度：
+- 时间 O(n)，单次遍历数组。
+- 空间 O(1)，仅常数额外变量。
+
+测试：正负混合、全负、全正等用例均已通过 solutions/max_subarray.py 内断言。

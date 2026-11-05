@@ -1,0 +1,13 @@
+date: 2026-11-05
+problem: level_order_traversal
+model: default
+source: automation
+status: finished
+
+解题说明：
+BFS 层序遍历：队列按层推进，每层先记录 size 再弹出 size 个节点，将子节点入队。
+每层收集的值组成一个子列表，最终返回二维列表。
+
+复杂度：时间 O(n)，空间 O(n)（队列与结果）。
+
+测试通过。

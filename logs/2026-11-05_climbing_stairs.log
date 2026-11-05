@@ -1,0 +1,16 @@
+date: 2026-11-05
+problem: climbing_stairs
+model: default
+source: automation
+status: finished
+
+解题说明：
+动态规划：dp[i] 表示到达第 i 阶的方法数。
+到达第 i 阶可从 i-1 爬 1 步或从 i-2 爬 2 步，故 dp[i] = dp[i-1] + dp[i-2]。
+边界 dp[1]=1，dp[2]=2，与斐波那契数列一致。
+
+复杂度：
+- 时间 O(n)，填充 dp[1..n]。
+- 空间 O(n)（数组版；可优化为 O(1) 滚动变量）。
+
+测试：n=1..10 等边界与示例均已通过。
