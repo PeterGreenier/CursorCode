@@ -1,0 +1,12 @@
+date: 2026-11-06
+problem: two_sum
+model: default
+source: automation
+status: finished
+
+解题说明：一次遍历，哈希表存「值→下标」，对当前元素查找补数是否已出现。
+
+时间复杂度：O(n)。
+空间复杂度：O(n)。
+
+本地运行：`python3 solutions/two_sum.py`，全部 assert 通过。

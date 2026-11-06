@@ -1,0 +1,12 @@
+date: 2026-11-06
+problem: quick_sort
+model: default
+source: automation
+status: finished
+
+解题说明：Lomuto 原地 partition，枢轴置于正确位置后递归排序左右子区间。
+
+时间复杂度：平均 O(n log n)，最坏 O(n^2)（取决于划分）。
+空间复杂度：递归栈平均 O(log n)，最坏 O(n)。
+
+本地运行：`python3 solutions/quick_sort.py`，含随机数组与边界用例，全部 assert 通过。

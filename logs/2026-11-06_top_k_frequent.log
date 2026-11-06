@@ -1,0 +1,12 @@
+date: 2026-11-06
+problem: top_k_frequent
+model: default
+source: automation
+status: finished
+
+解题说明：Counter 统计频率后建桶 buckets[count]，从高频向低频收集 k 个元素；日志对应主函数使用的桶排序实现。
+
+时间复杂度：O(n)，n 为数组长度（桶下标范围 0..n）。
+空间复杂度：O(n)。
+
+本地运行：`python3 solutions/top_k_frequent.py`，全部 assert 通过。
