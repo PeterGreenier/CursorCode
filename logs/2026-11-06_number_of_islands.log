@@ -1,0 +1,12 @@
+date: 2026-11-06
+problem: number_of_islands
+model: default
+source: automation
+status: finished
+
+解题说明：遍历网格，遇陆地 DFS 四向淹没（标记为已访问），每发现一块新陆地计数 +1。
+
+时间复杂度：O(m*n)，m、n 为网格行列数。
+空间复杂度：递归栈最坏 O(m*n)（极端长蛇形陆地）。
+
+本地运行：`python3 solutions/number_of_islands.py`，全部 assert 通过。

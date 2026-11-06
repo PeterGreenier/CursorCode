@@ -1,0 +1,12 @@
+date: 2026-11-06
+problem: coin_change
+model: default
+source: automation
+status: finished
+
+解题说明：完全背包 DP，dp[i] 表示凑成金额 i 的最少硬币数，枚举硬币转移。
+
+时间复杂度：O(amount * len(coins))。
+空间复杂度：O(amount)。
+
+本地运行：`python3 solutions/coin_change.py`，全部 assert 通过。

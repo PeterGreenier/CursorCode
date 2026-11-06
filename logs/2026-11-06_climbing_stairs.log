@@ -1,0 +1,12 @@
+date: 2026-11-06
+problem: climbing_stairs
+model: default
+source: automation
+status: finished
+
+解题说明：使用斐波那契式递推 dp[i]=dp[i-1]+dp[i-2]，表示到达第 i 阶的方法数。
+
+时间复杂度：O(n)，n 为楼梯阶数。
+空间复杂度：O(n)（实现为数组；可滚动为 O(1) 额外空间）。
+
+本地运行：`python3 solutions/climbing_stairs.py`，全部 assert 通过。

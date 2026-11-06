@@ -1,0 +1,12 @@
+date: 2026-11-06
+problem: longest_substring
+model: default
+source: automation
+status: finished
+
+解题说明：滑动窗口 + 哈希表记录字符最近一次下标；遇到窗口内重复则左边界跳到重复位置之后。
+
+时间复杂度：O(n)，n 为字符串长度。
+空间复杂度：O(min(n, |字母表|))，哈希表规模受字符种类限制。
+
+本地运行：`python3 solutions/longest_substring.py`，全部 assert 通过。
