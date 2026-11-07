@@ -1,0 +1,9 @@
+date: 2026-11-07
+problem: lru_cache
+model: default
+source: automation
+status: finished
+
+已验证 solutions/lru_cache.py 本地测试全部通过。
+
+OrderedDict：get/move_to_end，put 满时 popitem(last=False)。get/put 均摊 O(1)。

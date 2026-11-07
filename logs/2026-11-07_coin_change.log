@@ -1,0 +1,9 @@
+date: 2026-11-07
+problem: coin_change
+model: default
+source: automation
+status: finished
+
+已验证 solutions/coin_change.py 本地测试全部通过。
+
+完全背包 DP：dp[a] 为凑出金额 a 的最少硬币数。时间 O(amount×|coins|)，空间 O(amount)。

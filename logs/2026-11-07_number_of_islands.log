@@ -1,0 +1,9 @@
+date: 2026-11-07
+problem: number_of_islands
+model: default
+source: automation
+status: finished
+
+已验证 solutions/number_of_islands.py 本地测试全部通过。
+
+网格 DFS 沉岛（'1'→'0'）计数连通块。时间 O(m×n)，空间 O(m×n) 递归栈最坏。

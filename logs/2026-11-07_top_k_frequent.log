@@ -1,0 +1,9 @@
+date: 2026-11-07
+problem: top_k_frequent
+model: default
+source: automation
+status: finished
+
+已验证 solutions/top_k_frequent.py 本地测试全部通过。
+
+频次统计后桶排序：下标为频次，从高处取 k 个。时间 O(n)，空间 O(n)。

@@ -1,0 +1,9 @@
+date: 2026-11-07
+problem: reverse_linked_list
+model: default
+source: automation
+status: finished
+
+已验证 solutions/reverse_linked_list.py 本地测试全部通过。
+
+迭代三指针 prev/curr/next 就地反转。时间 O(n)，空间 O(1)。
