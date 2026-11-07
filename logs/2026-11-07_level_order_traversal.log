@@ -1,0 +1,9 @@
+date: 2026-11-07
+problem: level_order_traversal
+model: default
+source: automation
+status: finished
+
+已验证 solutions/level_order_traversal.py 本地测试全部通过。
+
+BFS 队列按层收集节点值。时间 O(n)，空间 O(n)（队列最宽一层）。
