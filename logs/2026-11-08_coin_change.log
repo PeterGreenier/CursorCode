@@ -1,0 +1,16 @@
+date: 2026-11-08
+problem: coin_change
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+完全背包求最小硬币数：定义 `dp[i]` 为凑成金额 `i` 所需的最少枚数。初始化 `dp[0]=0`，其余为 `inf`。对金额从 1 到 `amount` 枚举，内层遍历每种硬币 `coin`，若 `coin <= i` 则转移 `dp[i] = min(dp[i], dp[i-coin]+1)`。无法达到时 `dp[amount]` 仍为 `inf`，返回 -1。
+
+`amount == 0` 时直接返回 0。
+
+## 复杂度
+
+- 时间复杂度：O(amount × |coins|)。
+- 空间复杂度：O(amount)，一维 dp 数组。
