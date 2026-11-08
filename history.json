@@ -1,0 +1,37 @@
+{
+  "runs": [
+    {
+      "date": "2026-11-08",
+      "problem_id": "level_order_traversal",
+      "title": "二叉树的层序遍历",
+      "model": "default",
+      "source": "automation",
+      "status": "finished",
+      "started_at": "2026-11-08T10:01:40+00:00",
+      "finished_at": "2026-11-08T10:02:05+00:00",
+      "log_file": "logs/2026-11-08_level_order_traversal.log"
+    },
+    {
+      "date": "2026-11-08",
+      "problem_id": "coin_change",
+      "title": "零钱兑换",
+      "model": "default",
+      "source": "automation",
+      "status": "finished",
+      "started_at": "2026-11-08T10:02:06+00:00",
+      "finished_at": "2026-11-08T10:02:25+00:00",
+      "log_file": "logs/2026-11-08_coin_change.log"
+    },
+    {
+      "date": "2026-11-08",
+      "problem_id": "quick_sort",
+      "title": "快速排序",
+      "model": "default",
+      "source": "automation",
+      "status": "finished",
+      "started_at": "2026-11-08T10:02:26+00:00",
+      "finished_at": "2026-11-08T10:02:50+00:00",
+      "log_file": "logs/2026-11-08_quick_sort.log"
+    }
+  ]
+}

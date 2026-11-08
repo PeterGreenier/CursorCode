@@ -1,0 +1,16 @@
+date: 2026-11-08
+problem: level_order_traversal
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+二叉树层序遍历采用 BFS：用 `deque` 维护待访问节点队列。每一轮循环开始时记录当前队列长度 `level_size`，只处理这一轮入队的节点，将它们按序收集为一层，并把非空子节点继续入队，直到队列为空。
+
+空树直接返回 `[]`。
+
+## 复杂度
+
+- 时间复杂度：O(n)，每个节点恰好入队、出队各一次。
+- 空间复杂度：O(n)，最坏情况下队列中存放约 n/2 个叶子节点（满二叉树最后一层）。
