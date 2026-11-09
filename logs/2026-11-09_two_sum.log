@@ -1,0 +1,7 @@
+date: 2026-11-09
+problem: two_sum
+model: default
+source: automation
+status: finished
+
+Hash map stores value→index; for each x check if target-x seen. O(n) time, O(n) space.

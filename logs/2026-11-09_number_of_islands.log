@@ -1,0 +1,7 @@
+date: 2026-11-09
+problem: number_of_islands
+model: default
+source: automation
+status: finished
+
+DFS/BFS flood-fill on '1' cells, mark visited. Each cell once: O(m×n) time, O(m×n) stack/recursion worst case.

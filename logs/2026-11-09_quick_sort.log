@@ -1,0 +1,7 @@
+date: 2026-11-09
+problem: quick_sort
+model: default
+source: automation
+status: finished
+
+Lomuto/Hoare partition: pick pivot, partition in-place, recurse on subarrays. Expected O(n log n) time, O(log n) stack; worst O(n²). Space O(1) extra besides recursion.

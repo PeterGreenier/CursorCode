@@ -1,0 +1,7 @@
+date: 2026-11-09
+problem: top_k_frequent
+model: default
+source: automation
+status: finished
+
+Count with Counter, nlargest k by frequency (heap). Time O(n log k), space O(n).

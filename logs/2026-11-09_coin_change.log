@@ -1,0 +1,7 @@
+date: 2026-11-09
+problem: coin_change
+model: default
+source: automation
+status: finished
+
+Bottom-up DP: dp[a]=min coins for amount a. Iterate amounts 1..target, try each coin. Time O(amount×len(coins)), space O(amount).

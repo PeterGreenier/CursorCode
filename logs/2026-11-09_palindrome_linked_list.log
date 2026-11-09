@@ -1,0 +1,7 @@
+date: 2026-11-09
+problem: palindrome_linked_list
+model: default
+source: automation
+status: finished
+
+Fast/slow find middle, reverse second half, compare. O(n) time, O(1) extra space.
