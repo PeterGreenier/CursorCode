@@ -1,0 +1,7 @@
+date: 2026-11-09
+problem: lru_cache
+model: default
+source: automation
+status: finished
+
+OrderedDict: get moves key to end; put evicts oldest (first) when over capacity. get/put amortized O(1), space O(capacity).

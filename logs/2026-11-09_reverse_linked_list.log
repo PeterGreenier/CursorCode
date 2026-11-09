@@ -1,0 +1,7 @@
+date: 2026-11-09
+problem: reverse_linked_list
+model: default
+source: automation
+status: finished
+
+Iterative three-pointer (prev, curr, next). O(n) time, O(1) space.

@@ -1,0 +1,7 @@
+date: 2026-11-09
+problem: valid_parentheses
+model: default
+source: automation
+status: finished
+
+Stack: push open brackets, pop on close if matches. O(n) time, O(n) space.

@@ -1,0 +1,7 @@
+date: 2026-11-09
+problem: binary_search
+model: default
+source: automation
+status: finished
+
+Standard binary search on sorted array with lo/hi. O(log n) time, O(1) space.
