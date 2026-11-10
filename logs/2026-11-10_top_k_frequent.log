@@ -1,0 +1,24 @@
+date: 2026-11-10
+problem: top_k_frequent
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+LeetCode 347 前 K 个高频元素。主实现为桶排序：
+
+1. `Counter` 统计各元素频率；
+2. 建立长度为 n+1 的桶数组，`buckets[count]` 存放出现 `count` 次的所有元素；
+3. 从高频率桶向低频率扫描，依次收集直到得到 k 个元素。
+
+另提供 `top_k_frequent_heap` 最小堆备选：维护大小 k 的最小堆，复杂度 O(n log k)。
+
+## 复杂度
+
+- 桶排序：时间 O(n)，空间 O(n)。
+- 堆解法：时间 O(n log k)，空间 O(n)。
+
+## 测试
+
+LeetCode 示例及 k=1 边界；主解法与堆解法结果集合一致。

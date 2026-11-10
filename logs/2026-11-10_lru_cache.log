@@ -1,0 +1,23 @@
+date: 2026-11-10
+problem: lru_cache
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+LeetCode 146 LRU 缓存：在固定容量下支持 O(1) 的 `get` / `put`，满容量时淘汰最久未使用的键。
+
+使用 `collections.OrderedDict` 同时充当哈希表与双向链表：
+
+- `get(key)`：不存在返回 -1；存在则 `move_to_end(key)` 标记为最近使用并返回值。
+- `put(key, value)`：若键已存在先 `move_to_end`；写入后若 `len > capacity`，则 `popitem(last=False)` 淘汰头部（LRU）。
+
+## 复杂度
+
+- 时间：`get` / `put` 均为 O(1) 均摊。
+- 空间：O(capacity) 存储键值对。
+
+## 测试
+
+覆盖 LeetCode 示例、容量为 1、更新已有键不改变条目数但更新 LRU 顺序、连续 get 等边界情况。
