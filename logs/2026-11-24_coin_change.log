@@ -1,0 +1,22 @@
+date: 2026-11-24
+problem: coin_change
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+采用一维动态规划（完全背包求最小硬币数）。定义 `dp[i]` 为凑成金额 `i` 所需的最少硬币枚数；`dp[0]=0`，其余初始化为正无穷。
+
+对每个金额 `i` 从 1 到 `amount`，枚举每种硬币 `c`：若 `c <= i`，则状态转移 `dp[i] = min(dp[i], dp[i - c] + 1)`。答案为 `dp[amount]`，若仍为无穷大则返回 -1。
+
+边界：`amount == 0` 直接返回 0。
+
+## 复杂度
+
+- 时间复杂度：O(amount × len(coins))，双重循环遍历金额与硬币面额。
+- 空间复杂度：O(amount)，一维 DP 数组。
+
+## 验证
+
+已运行 `solutions/coin_change.py`，全部断言通过。

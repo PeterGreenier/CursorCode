@@ -1,0 +1,21 @@
+date: 2026-11-24
+problem: quick_sort
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+实现原地快速排序：使用 Lomuto 分区方案，`partition` 以区间末尾元素为枢轴，将 `[low, high]` 划分为「≤ 枢轴」与「> 枢轴」两段，返回枢轴最终下标；`quick_sort` 对枢轴左右子区间递归调用。
+
+对外提供 `quick_sort_inplace(arr)` 对整段数组排序。测试包含固定用例、空/单元素、已有序、逆序、全相同，以及随机种子下的多种规模随机数组。
+
+## 复杂度
+
+- 平均时间复杂度：O(n log n)。
+- 最坏时间复杂度：O(n²)（枢轴长期偏向端点；可改用随机枢轴或三数取中优化，本实现为经典 Lomuto）。
+- 空间复杂度：O(log n) 递归栈（平均），最坏 O(n)。
+
+## 验证
+
+已运行 `solutions/quick_sort.py`，全部断言通过。

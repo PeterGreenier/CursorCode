@@ -1,0 +1,23 @@
+date: 2026-11-24
+problem: lru_cache
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+使用 `collections.OrderedDict` 实现 LeetCode 146 LRU 缓存：
+
+- `get(key)`：不存在返回 -1；存在则 `move_to_end(key)` 标记为最近使用并返回值。
+- `put(key, value)`：写入或更新；若 key 已存在先 `move_to_end`；容量超限时 `popitem(last=False)` 淘汰最久未用（头部）项。
+
+OrderedDict 内部维护哈希表 + 双向链表，满足 get/put 均 O(1)。
+
+## 复杂度
+
+- `get`、`put` 时间复杂度：O(1)。
+- 空间复杂度：O(capacity)，最多保存 capacity 个键值对。
+
+## 验证
+
+已运行 `solutions/lru_cache.py`，覆盖 LeetCode 示例与容量为 1、更新已存在键、连续 get 等边界，全部断言通过。
