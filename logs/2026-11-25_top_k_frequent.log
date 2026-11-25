@@ -1,0 +1,17 @@
+date: 2026-11-25
+problem: top_k_frequent
+model: default
+source: automation
+status: finished
+
+解题说明：
+1. Counter 统计各元素频率；
+2. 建立下标为频率的桶列表 buckets，将元素放入对应频率桶；
+3. 从高频率向低频率遍历桶，收集元素直至凑满 k 个。
+
+另提供最小堆备选实现 top_k_frequent_heap，维护大小为 k 的堆。
+
+时间复杂度：桶排序主解法 O(n)；堆解法 O(n log k)。
+空间复杂度：O(n) 用于频率表与桶。
+
+自测验证示例用例及两种实现结果一致。

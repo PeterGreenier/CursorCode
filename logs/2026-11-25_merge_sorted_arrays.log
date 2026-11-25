@@ -1,0 +1,8 @@
+date: 2026-11-25
+problem: merge_sorted_arrays
+model: default
+source: automation
+status: finished
+
+从尾部双指针合并，较大者写入 nums1 末尾，避免覆盖未处理元素。
+时间 O(m+n)，空间 O(1)。

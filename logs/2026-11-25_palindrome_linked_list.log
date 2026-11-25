@@ -1,0 +1,8 @@
+date: 2026-11-25
+problem: palindrome_linked_list
+model: default
+source: automation
+status: finished
+
+快慢指针找中点，反转后半段，双指针比较前后半是否对称。
+时间 O(n)，额外空间 O(1)。

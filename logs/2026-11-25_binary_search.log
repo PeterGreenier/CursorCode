@@ -1,0 +1,8 @@
+date: 2026-11-25
+problem: binary_search
+model: default
+source: automation
+status: finished
+
+经典二分：闭区间 [left, right]，中点比较后缩小区间。
+时间 O(log n)，空间 O(1)。
