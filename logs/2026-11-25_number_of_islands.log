@@ -1,0 +1,8 @@
+date: 2026-11-25
+problem: number_of_islands
+model: default
+source: automation
+status: finished
+
+DFS/BFS 遍历网格，遇 '1' 即发起一次搜索并将相连陆地标记访问，岛屿计数加一。
+时间 O(m*n)，空间 O(m*n)（最坏递归/队列）。

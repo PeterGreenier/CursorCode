@@ -1,0 +1,15 @@
+date: 2026-11-25
+problem: quick_sort
+model: default
+source: automation
+status: finished
+
+解题说明：
+采用 Lomuto 分区 + 递归的经典快速排序。partition 以区间末尾元素为枢轴，
+双指针扫描将小于等于枢轴的元素集中到左侧，最后把枢轴放到分界位置。
+quick_sort_inplace 对整段数组调用 quick_sort(arr, 0, len-1)。
+
+时间复杂度：平均 O(n log n)，最坏 O(n²)（已有序且每次选最差枢轴时）。
+空间复杂度：O(log n) 递归栈深度；原地排序，不计输入数组。
+
+自测包含固定用例、边界（空/单元素/有序/逆序/全相同）及随机数组验证。

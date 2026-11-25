@@ -1,0 +1,16 @@
+date: 2026-11-25
+problem: lru_cache
+model: default
+source: automation
+status: finished
+
+解题说明：
+使用 collections.OrderedDict 实现 O(1) 的 get/put。
+- get：键不存在返回 -1；存在则 move_to_end 标记最近使用并返回值。
+- put：写入后 move_to_end（更新或新建）；若 len > capacity，popitem(last=False)
+  淘汰最久未访问项（链表头部）。
+
+时间复杂度：get、put 均为 O(1) 平均。
+空间复杂度：O(capacity) 存储键值对。
+
+自测覆盖 LeetCode 示例、容量为 1、更新已存在键的淘汰顺序、连续 get。
