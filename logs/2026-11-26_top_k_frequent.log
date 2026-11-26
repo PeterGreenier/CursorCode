@@ -1,0 +1,11 @@
+date: 2026-11-26
+problem: top_k_frequent
+model: default
+source: automation
+status: finished
+
+解题说明：
+实现 LeetCode 347. 前 K 个高频元素。
+实现位于 solutions/top_k_frequent.py，附 __main__ 自测，本次自动化运行全部通过。
+
+复杂度：Counter + 最小堆取前 k，时间 O(n log k)，空间 O(n)。
