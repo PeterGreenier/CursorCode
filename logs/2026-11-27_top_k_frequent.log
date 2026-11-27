@@ -1,0 +1,10 @@
+date: 2026-11-27
+problem: top_k_frequent
+model: default
+source: automation
+status: finished
+
+桶排序：Counter 统计频率，按频率分桶后从高到低取 k 个。时间 O(n)，空间 O(n)。
+
+解答路径: solutions/top_k_frequent.py
+本地测试: python3 solutions/top_k_frequent.py — 全部通过。
