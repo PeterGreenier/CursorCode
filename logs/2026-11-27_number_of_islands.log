@@ -1,0 +1,10 @@
+date: 2026-11-27
+problem: number_of_islands
+model: default
+source: automation
+status: finished
+
+DFS 遍历网格，遇 '1' 则沉岛并递归相邻陆地。时间 O(m×n)，空间 O(m×n) 递归栈。
+
+解答路径: solutions/number_of_islands.py
+本地测试: python3 solutions/number_of_islands.py — 全部通过。
