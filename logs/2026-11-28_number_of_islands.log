@@ -1,0 +1,18 @@
+date: 2026-11-28
+problem: number_of_islands
+model: default
+source: automation
+status: finished
+
+## 解题说明
+
+使用 DFS 遍历二维网格。外层双重循环扫描每个格子；遇到陆地 `'1'` 时岛屿计数加一，并从该格出发 DFS，将四向连通的陆地全部淹没为 `'0'`，避免使用额外 visited 数组。
+
+## 复杂度
+
+- 时间复杂度：O(m × n)，每个格子最多访问一次。
+- 空间复杂度：O(m × n)，最坏情况下递归栈深度（蛇形陆地）。
+
+## 测试
+
+`python solutions/number_of_islands.py` 全部通过。
